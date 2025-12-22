@@ -5,7 +5,6 @@ from pathlib import Path
 
 from research_agent.config import load_config
 from research_agent.db.schema import apply_migrations
-from research_agent.runner import run
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -34,6 +33,8 @@ def main() -> None:
         return
 
     if args.command == "run":
+        from research_agent.runner import run
+
         output = run(args.question, config)
         print(f"Run complete: {output.run_id}")
         print(f"Report: {output.report_path}")

@@ -6,7 +6,7 @@ from pathlib import Path
 import hashlib
 import uuid
 
-from research_agent.config import AppConfig
+from research_agent.config import AppConfig, SearchConfig
 from research_agent.evidence.reduce import reduce_evidence
 from research_agent.evidence.store import EvidenceStore
 from research_agent.fetch.fetcher import fetch_url
@@ -81,7 +81,7 @@ def run(question: str, config: AppConfig) -> RunOutput:
 
 def _run_native(question: str, config: AppConfig, store: EvidenceStore) -> list[ClaimGroup]:
     broker = SearchBroker.from_config(config.search)
-    queries = build_queries(question, config.search.topk_per_engine)
+    queries = build_queries(question, config.search)
     results: list[SearchResult] = []
     for query in queries:
         results.extend(broker.search(query))
@@ -106,8 +106,15 @@ def _run_heavy(question: str, config: AppConfig, store: EvidenceStore) -> list[C
     return _run_native(question, config, store)
 
 
-def build_queries(question: str, topk: int) -> list[SearchQuery]:
-    return [SearchQuery(q=question, topk=topk)]
+def build_queries(question: str, search_config: SearchConfig) -> list[SearchQuery]:
+    return [
+        SearchQuery(
+            q=question,
+            topk=search_config.topk_per_engine,
+            safe_mode=search_config.safe_mode,
+            freshness_days=search_config.freshness_days,
+        )
+    ]
 
 
 def _fetch_and_parse(result: SearchResult, store: EvidenceStore) -> str:

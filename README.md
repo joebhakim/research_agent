@@ -23,6 +23,7 @@ Configuration
 
 - Copy and edit `agent.example.yaml` to `agent.yaml`.
 - Secrets (e.g., model API base) are read from environment variables.
+- Google PSE provider uses `GOOGLE_PSE_API_KEY` and `GOOGLE_PSE_CX` environment variables.
 
 Type checking (ty)
 

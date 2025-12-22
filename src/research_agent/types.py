@@ -63,9 +63,11 @@ class SearchQuery:
     q: str
     site_filters: list[str] = field(default_factory=list)
     time_range: str | None = None
+    freshness_days: int | None = None
     region: str | None = None
     engine: str | None = None
     topk: int | None = None
+    safe_mode: str | None = None
 
 
 @dataclass
