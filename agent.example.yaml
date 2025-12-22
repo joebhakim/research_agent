@@ -1,0 +1,25 @@
+agent:
+  mode: native
+  thinking:
+    extent: medium
+    max_react_steps: 8
+    beams: 2
+    critique_passes: 1
+    summarization_ratio: 0.2
+
+search:
+  providers: [brave, google_pse, tavily, serper]
+  topk_per_engine: 8
+  freshness_days: 365
+  safe_mode: standard
+  api_budget_usd: 0.5
+
+storage:
+  sqlite_path: "./data/agent.db"
+  warc_dir: "./warc"
+  runs_dir: "./runs"
+
+model:
+  api_base: "http://localhost:8000/v1"
+  model_name: "flashresearch-4b-thinking"
+  timeout_s: 60
