@@ -8,10 +8,12 @@ from research_agent.types import ChatMessage
 
 
 @dataclass
-class VLLMClient:
+class OpenAICompatClient:
     api_base: str
     model_name: str
     timeout_s: int = 60
+    api_key: str | None = None
+    extra_headers: dict[str, str] | None = None
 
     def chat(
         self,
@@ -26,14 +28,15 @@ class VLLMClient:
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
+        headers = self._build_headers()
         try:
             with httpx.Client(timeout=self.timeout_s) as client:
-                response = client.post(url, json=payload)
+                response = client.post(url, json=payload, headers=headers)
                 response.raise_for_status()
         except httpx.RequestError as exc:
-            raise RuntimeError(f"vLLM endpoint unreachable: {exc}") from exc
+            raise RuntimeError(f"LLM endpoint unreachable: {exc}") from exc
         except httpx.HTTPStatusError as exc:
-            raise RuntimeError(f"vLLM HTTP error: {exc.response.status_code}") from exc
+            raise RuntimeError(f"LLM HTTP error: {exc.response.status_code}") from exc
 
         data = response.json()
         choices = data.get("choices", [])
@@ -42,5 +45,16 @@ class VLLMClient:
         message = choices[0].get("message", {})
         content = message.get("content")
         if not isinstance(content, str):
-            raise RuntimeError("vLLM response missing content.")
+            raise RuntimeError("LLM response missing content.")
         return content
+
+    def _build_headers(self) -> dict[str, str]:
+        headers: dict[str, str] = {}
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
+        if self.extra_headers:
+            headers.update(self.extra_headers)
+        return headers
+
+
+VLLMClient = OpenAICompatClient

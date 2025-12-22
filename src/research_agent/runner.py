@@ -24,7 +24,7 @@ class RunOutput:
     claim_groups: list[ClaimGroup]
 
 
-def run(question: str, config: AppConfig) -> RunOutput:
+def run(question: str, config: AppConfig, model_override: str | None = None) -> RunOutput:
     run_id = _make_run_id()
     run_dir = Path(config.storage.runs_dir) / run_id
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -33,6 +33,7 @@ def run(question: str, config: AppConfig) -> RunOutput:
     store.init()
 
     created_at = datetime.utcnow()
+    run_meta = {"model_override": model_override} if model_override else {}
     store.record_run(
         run_id=run_id,
         question=question,
@@ -41,6 +42,7 @@ def run(question: str, config: AppConfig) -> RunOutput:
         thinking_extent=config.agent.thinking.extent,
         report_path=None,
         status="running",
+        meta=run_meta,
     )
 
     try:
@@ -61,6 +63,7 @@ def run(question: str, config: AppConfig) -> RunOutput:
             thinking_extent=config.agent.thinking.extent,
             report_path=str(report_path),
             status="completed",
+            meta=run_meta,
         )
     except Exception:
         store.record_run(
@@ -71,6 +74,7 @@ def run(question: str, config: AppConfig) -> RunOutput:
             thinking_extent=config.agent.thinking.extent,
             report_path=None,
             status="failed",
+            meta=run_meta,
         )
         store.close()
         raise

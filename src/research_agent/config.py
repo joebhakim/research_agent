@@ -40,10 +40,22 @@ class StorageConfig:
 
 
 @dataclass
-class ModelConfig:
+class ModelEndpointConfig:
     api_base: str
     model_name: str
     timeout_s: int
+
+
+@dataclass
+class ModelsConfig:
+    default: str
+    local: ModelEndpointConfig
+    openrouter: ModelEndpointConfig
+
+
+@dataclass
+class RoutingConfig:
+    heavy_uses_openrouter: bool
 
 
 @dataclass
@@ -51,7 +63,8 @@ class AppConfig:
     agent: AgentConfig
     search: SearchConfig
     storage: StorageConfig
-    model: ModelConfig
+    models: ModelsConfig
+    routing: RoutingConfig
 
 
 def load_config(path: Path) -> AppConfig:
@@ -72,7 +85,9 @@ def _from_dict(data: dict[str, Any]) -> AppConfig:
     thinking_data = _get_map(agent_data, "thinking")
     search_data = _get_map(data, "search")
     storage_data = _get_map(data, "storage")
+    models_data = _get_map(data, "models")
     model_data = _get_map(data, "model")
+    routing_data = _get_map(data, "routing")
 
     thinking = ThinkingConfig(
         extent=str(thinking_data.get("extent", "medium")),
@@ -103,29 +118,85 @@ def _from_dict(data: dict[str, Any]) -> AppConfig:
         runs_dir=Path(storage_data.get("runs_dir", "./runs")),
     )
 
-    model = ModelConfig(
-        api_base=str(model_data.get("api_base", "http://localhost:8000/v1")),
-        model_name=str(model_data.get("model_name", "flashresearch-4b-thinking")),
-        timeout_s=int(model_data.get("timeout_s", 60)),
+    models = _load_models_config(models_data, model_data)
+    routing = RoutingConfig(
+        heavy_uses_openrouter=_to_bool(routing_data.get("heavy_uses_openrouter"), default=True),
     )
 
-    return AppConfig(agent=agent, search=search, storage=storage, model=model)
+    return AppConfig(agent=agent, search=search, storage=storage, models=models, routing=routing)
 
 
 def _apply_env_overrides(config: AppConfig) -> None:
     api_base = os.getenv("MODEL_API_BASE")
     model_name = os.getenv("MODEL_NAME")
     timeout_s = os.getenv("MODEL_TIMEOUT_S")
+    openrouter_base = os.getenv("OPENROUTER_API_BASE")
+    openrouter_model = os.getenv("OPENROUTER_MODEL")
+    openrouter_timeout = os.getenv("OPENROUTER_TIMEOUT_S")
 
     if api_base:
-        config.model.api_base = api_base
+        config.models.local.api_base = api_base
     if model_name:
-        config.model.model_name = model_name
+        config.models.local.model_name = model_name
     if timeout_s:
         try:
-            config.model.timeout_s = int(timeout_s)
+            config.models.local.timeout_s = int(timeout_s)
         except ValueError:
             raise ValueError("MODEL_TIMEOUT_S must be an integer.")
+    if openrouter_base:
+        config.models.openrouter.api_base = openrouter_base
+    if openrouter_model:
+        config.models.openrouter.model_name = openrouter_model
+    if openrouter_timeout:
+        try:
+            config.models.openrouter.timeout_s = int(openrouter_timeout)
+        except ValueError:
+            raise ValueError("OPENROUTER_TIMEOUT_S must be an integer.")
+
+
+def _load_models_config(models_data: dict[str, Any], model_data: dict[str, Any]) -> ModelsConfig:
+    if models_data:
+        local_data = _get_map(models_data, "local")
+        openrouter_data = _get_map(models_data, "openrouter")
+        default = str(models_data.get("default", "local"))
+        return ModelsConfig(
+            default=default,
+            local=_endpoint_from(
+                local_data,
+                default_base="http://localhost:8000/v1",
+                default_name="flashresearch-4b-thinking",
+            ),
+            openrouter=_endpoint_from(
+                openrouter_data,
+                default_base="https://openrouter.ai/api/v1",
+                default_name="alibaba/tongyi-deepresearch-30b-a3b:free",
+            ),
+        )
+
+    local = _endpoint_from(
+        model_data,
+        default_base="http://localhost:8000/v1",
+        default_name="flashresearch-4b-thinking",
+    )
+    openrouter = ModelEndpointConfig(
+        api_base="https://openrouter.ai/api/v1",
+        model_name="alibaba/tongyi-deepresearch-30b-a3b:free",
+        timeout_s=60,
+    )
+    return ModelsConfig(default="local", local=local, openrouter=openrouter)
+
+
+def _endpoint_from(
+    data: dict[str, Any],
+    default_base: str,
+    default_name: str,
+    default_timeout: int = 60,
+) -> ModelEndpointConfig:
+    return ModelEndpointConfig(
+        api_base=str(data.get("api_base", default_base)),
+        model_name=str(data.get("model_name", default_name)),
+        timeout_s=int(data.get("timeout_s", default_timeout)),
+    )
 
 
 def _get_map(data: dict[str, Any], key: str) -> dict[str, Any]:
@@ -133,3 +204,13 @@ def _get_map(data: dict[str, Any], key: str) -> dict[str, Any]:
     if isinstance(value, dict):
         return value
     return {}
+
+
+def _to_bool(value: Any, default: bool = False) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value != 0
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "on"}
+    return default

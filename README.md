@@ -19,11 +19,16 @@ Usage
 - Run a query (stubbed search/providers):
   research-agent run --config agent.yaml "Your question here"
 
+- Test model connectivity:
+  research-agent llm-test --config agent.yaml --model local
+
 Configuration
 
 - Copy and edit `agent.example.yaml` to `agent.yaml`.
 - Secrets (e.g., model API base) are read from environment variables.
 - Google PSE provider uses `GOOGLE_PSE_API_KEY` and `GOOGLE_PSE_CX` environment variables.
+- Local model overrides: `MODEL_API_BASE`, `MODEL_NAME`, `MODEL_TIMEOUT_S`.
+- OpenRouter auth and overrides: `OPENROUTER_API_KEY`, `OPENROUTER_APP_NAME`, `OPENROUTER_APP_URL`, `OPENROUTER_API_BASE`, `OPENROUTER_MODEL`, `OPENROUTER_TIMEOUT_S`.
 
 Type checking (ty)
 

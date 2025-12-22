@@ -8,7 +8,7 @@ agent:
     summarization_ratio: 0.2
 
 search:
-  providers: [brave, google_pse, tavily, serper]
+  providers: [google_pse]
   topk_per_engine: 8
   freshness_days: 365
   safe_mode: standard
@@ -19,7 +19,16 @@ storage:
   warc_dir: "./warc"
   runs_dir: "./runs"
 
-model:
-  api_base: "http://localhost:8000/v1"
-  model_name: "flashresearch-4b-thinking"
-  timeout_s: 60
+models:
+  default: local
+  local:
+    api_base: "http://localhost:8000/v1"
+    model_name: "flashresearch-4b-thinking"
+    timeout_s: 60
+  openrouter:
+    api_base: "https://openrouter.ai/api/v1"
+    model_name: "alibaba/tongyi-deepresearch-30b-a3b:free"
+    timeout_s: 60
+
+routing:
+  heavy_uses_openrouter: true
