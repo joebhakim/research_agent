@@ -96,6 +96,9 @@ def _run_native(question: str, config: AppConfig, store: EvidenceStore) -> list[
         if doc_text:
             docs.append(doc_text)
 
+    # TODO: later we'll be much more concious about how and when we reduce evidence
+    # Essentially, we'll make this a totally separated operation from fetching and parsing
+    # and keep the separate evidence bits either in a reduced state or joined, exposed to the user (me)
     reduce_result = reduce_evidence(docs)
     for claim in reduce_result.claim_groups:
         store.upsert_claim_group(claim)

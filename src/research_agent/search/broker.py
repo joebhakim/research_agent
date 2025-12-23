@@ -47,6 +47,9 @@ class SearchBroker:
 
 
 def rrf_rank(results: list[SearchResult], k: int = 60) -> list[SearchResult]:
+    """
+    Reciprocal rank fusion ranking: https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking
+    """
     if not results:
         return []
     scores: dict[str, float] = {}
