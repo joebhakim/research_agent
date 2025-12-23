@@ -6,7 +6,7 @@ from pathlib import Path
 import sqlite3
 
 
-MIGRATIONS = ["0001_init.sql"]
+MIGRATIONS = ["0001_init.sql", "0002_claim_text_and_run_sources.sql"]
 
 
 @dataclass

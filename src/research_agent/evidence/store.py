@@ -110,9 +110,10 @@ class EvidenceStore:
         with conn:
             conn.execute(
                 """
-                INSERT INTO claim_groups (signature, domain, propositions_json, merge_json, stance, rationale)
-                VALUES (?, ?, ?, ?, ?, ?)
+                INSERT INTO claim_groups (signature, claim_text, domain, propositions_json, merge_json, stance, rationale)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(signature) DO UPDATE SET
+                    claim_text=excluded.claim_text,
                     domain=excluded.domain,
                     propositions_json=excluded.propositions_json,
                     merge_json=excluded.merge_json,
@@ -121,11 +122,78 @@ class EvidenceStore:
                 """,
                 (
                     claim.signature,
+                    claim.claim_text,
                     claim.domain,
                     _json_dumps(claim.propositions),
                     _json_dumps(claim.merge) if claim.merge else None,
                     claim.stance,
                     claim.rationale,
+                ),
+            )
+
+    def insert_run_source(
+        self,
+        run_id: str,
+        doc_id: str,
+        url: str,
+        engine: str | None,
+        rank: int | None,
+        query: str,
+        retrieved_at: datetime,
+        title: str,
+        snippet: str,
+        content_type: str,
+        content_hash: str,
+        raw_path: str,
+        text_path: str,
+    ) -> None:
+        conn = self.connect()
+        with conn:
+            conn.execute(
+                """
+                INSERT INTO run_sources (
+                    run_id,
+                    doc_id,
+                    url,
+                    engine,
+                    rank,
+                    query,
+                    retrieved_at,
+                    title,
+                    snippet,
+                    content_type,
+                    content_hash,
+                    raw_path,
+                    text_path
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(run_id, doc_id) DO UPDATE SET
+                    url=excluded.url,
+                    engine=excluded.engine,
+                    rank=excluded.rank,
+                    query=excluded.query,
+                    retrieved_at=excluded.retrieved_at,
+                    title=excluded.title,
+                    snippet=excluded.snippet,
+                    content_type=excluded.content_type,
+                    content_hash=excluded.content_hash,
+                    raw_path=excluded.raw_path,
+                    text_path=excluded.text_path
+                """,
+                (
+                    run_id,
+                    doc_id,
+                    url,
+                    engine,
+                    rank,
+                    query,
+                    retrieved_at.isoformat(),
+                    title,
+                    snippet,
+                    content_type,
+                    content_hash,
+                    raw_path,
+                    text_path,
                 ),
             )
 

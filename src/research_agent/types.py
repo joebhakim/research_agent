@@ -38,6 +38,20 @@ class SourceDoc:
 
 
 @dataclass
+class DocumentText:
+    doc_id: str
+    url: str
+    title: str
+    snippet: str
+    text: str
+    content_hash: str
+    content_type: str
+    retrieved_at: datetime
+    engine: str | None = None
+    rank: int | None = None
+
+
+@dataclass
 class Proposition:
     id: str
     type: Literal["Effect", "Presence", "Fact"]
@@ -51,6 +65,7 @@ class Proposition:
 @dataclass
 class ClaimGroup:
     signature: str
+    claim_text: str
     domain: Literal["clinical", "flavor", "general"]
     propositions: list[str]
     merge: dict[str, Any] | None

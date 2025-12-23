@@ -31,4 +31,4 @@ models:
     timeout_s: 60
 
 routing:
-  heavy_uses_openrouter: true
+  heavy_uses_openrouter: false
