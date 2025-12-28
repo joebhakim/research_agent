@@ -19,6 +19,9 @@ Usage
 - Run a query:
   research-agent run --config agent.yaml "Your question here"
 
+- Run offline with local sources:
+  research-agent run --config agent.yaml --input-dir offline_sources "Your question here"
+
 - Test model connectivity:
   research-agent llm-test --config agent.yaml --model local
 
@@ -39,6 +42,10 @@ Evaluation
 - Eval suites live under `evals/suites/` and use fixtures in `evals/fixtures/` and `tests/fixtures/`.
 - Eval outputs are written to `eval_runs/<suite_id>/<timestamp>/summary.json` and per-case trial artifacts.
 - See `docs/evals.md` for harness details and YAML schema.
+
+Offline MVP
+
+- See `docs/mvp_runbook.md` for an offline-first end-to-end runbook.
 
 Type checking (ty)
 

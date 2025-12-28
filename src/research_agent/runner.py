@@ -6,6 +6,7 @@ from pathlib import Path
 import hashlib
 import json
 import uuid
+from urllib.parse import urlparse, unquote
 
 from research_agent.config import AppConfig, SearchConfig
 from research_agent.evidence.reduce import reduce_evidence
@@ -40,7 +41,13 @@ class PipelineResult:
     claim_groups: list[ClaimGroup]
 
 
-def run(question: str, config: AppConfig, model_override: str | None = None) -> RunOutput:
+def run(
+    question: str,
+    config: AppConfig,
+    model_override: str | None = None,
+    sources_path: Path | None = None,
+    input_dir: Path | None = None,
+) -> RunOutput:
     run_id = _make_run_id()
     run_dir = Path(config.storage.runs_dir) / run_id
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -73,7 +80,18 @@ def run(question: str, config: AppConfig, model_override: str | None = None) -> 
     )
 
     try:
-        if config.agent.mode == "heavy":
+        if sources_path or input_dir:
+            pipeline = _run_offline(
+                question,
+                config,
+                store,
+                routed.client,
+                run_id,
+                run_dir,
+                sources_path,
+                input_dir,
+            )
+        elif config.agent.mode == "heavy":
             pipeline = _run_heavy(question, config, store, routed.client, run_id, run_dir)
         else:
             pipeline = _run_native(question, config, store, routed.client, run_id, run_dir)
@@ -172,6 +190,41 @@ def _run_heavy(
     return _run_native(question, config, store, llm_client, run_id, run_dir)
 
 
+def _run_offline(
+    question: str,
+    config: AppConfig,
+    store: EvidenceStore,
+    llm_client,
+    run_id: str,
+    run_dir: Path,
+    sources_path: Path | None,
+    input_dir: Path | None,
+) -> PipelineResult:
+    sources_dir = run_dir / "sources"
+    sources_dir.mkdir(parents=True, exist_ok=True)
+    files = _collect_offline_sources(sources_path, input_dir)
+    if not files:
+        raise ValueError("No offline sources found. Provide --sources or --input-dir with files.")
+
+    documents: list[DocumentText] = []
+    seen_doc_ids: set[str] = set()
+    for rank, path in enumerate(files, start=1):
+        doc = _ingest_local_source(path, run_id, sources_dir, store, rank)
+        if not doc or not doc.text:
+            continue
+        if doc.doc_id in seen_doc_ids:
+            continue
+        seen_doc_ids.add(doc.doc_id)
+        documents.append(doc)
+
+    reduce_result = reduce_evidence(documents, llm_client, config.agent.thinking.extent)
+    return PipelineResult(
+        documents=documents,
+        propositions=reduce_result.propositions,
+        claim_groups=reduce_result.claim_groups,
+    )
+
+
 def build_queries(question: str, search_config: SearchConfig) -> list[SearchQuery]:
     return [
         SearchQuery(
@@ -256,6 +309,138 @@ def _is_pdf(content_type: str, url: str) -> bool:
     if "pdf" in content_type.lower():
         return True
     return url.lower().endswith(".pdf")
+
+
+def _collect_offline_sources(sources_path: Path | None, input_dir: Path | None) -> list[Path]:
+    collected: list[Path] = []
+    seen: set[Path] = set()
+
+    if sources_path:
+        base_dir = sources_path.parent
+        for line in sources_path.read_text().splitlines():
+            path = _parse_source_line(line, base_dir)
+            if path is None:
+                continue
+            resolved = path.resolve()
+            if resolved in seen:
+                continue
+            if not resolved.exists():
+                raise FileNotFoundError(f"Offline source not found: {resolved}")
+            seen.add(resolved)
+            collected.append(resolved)
+
+    if input_dir:
+        resolved_dir = input_dir.resolve()
+        if not resolved_dir.exists():
+            raise FileNotFoundError(f"Offline input directory not found: {resolved_dir}")
+        for path in sorted(resolved_dir.rglob("*")):
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in {".html", ".htm", ".pdf", ".txt"}:
+                continue
+            resolved = path.resolve()
+            if resolved in seen:
+                continue
+            seen.add(resolved)
+            collected.append(resolved)
+
+    return collected
+
+
+def _parse_source_line(line: str, base_dir: Path) -> Path | None:
+    cleaned = line.strip()
+    if not cleaned or cleaned.startswith("#"):
+        return None
+    if cleaned.startswith("http://") or cleaned.startswith("https://"):
+        raise ValueError("Offline sources must be local file paths or file:// URLs.")
+    if cleaned.startswith("file://"):
+        parsed = urlparse(cleaned)
+        return Path(unquote(parsed.path))
+    path = Path(cleaned)
+    if not path.is_absolute():
+        path = (base_dir / path).resolve()
+    return path
+
+
+def _ingest_local_source(
+    path: Path,
+    run_id: str,
+    sources_dir: Path,
+    store: EvidenceStore,
+    rank: int,
+) -> DocumentText | None:
+    try:
+        raw = path.read_bytes()
+    except OSError:
+        return None
+
+    content_type = _guess_content_type(path)
+    content_hash = hashlib.sha256(raw).hexdigest()
+    doc_id = f"src_{content_hash[:12]}"
+
+    raw_path = sources_dir / f"{doc_id}.bin"
+    raw_path.write_bytes(raw)
+
+    if content_type == "application/pdf":
+        text = extract_pdf_text(raw)
+    elif content_type == "text/html":
+        text = extract_html_text(raw.decode("utf-8", errors="replace"))
+    else:
+        text = raw.decode("utf-8", errors="replace")
+
+    text_path = sources_dir / f"{doc_id}.text.txt"
+    text_path.write_text(text)
+
+    url = path.resolve().as_uri()
+    retrieved_at = datetime.utcnow()
+    source_doc = SourceDoc(
+        id=doc_id,
+        url=url,
+        retrieved_at=retrieved_at,
+        content_hash=f"sha256:{content_hash}",
+        warc_path=None,
+        mime=content_type,
+        engine="local",
+        meta={"title": path.name},
+    )
+    store.upsert_source(source_doc)
+    store.insert_run_source(
+        run_id=run_id,
+        doc_id=doc_id,
+        url=url,
+        engine="local",
+        rank=rank,
+        query="offline",
+        retrieved_at=retrieved_at,
+        title=path.name,
+        snippet="",
+        content_type=content_type,
+        content_hash=content_hash,
+        raw_path=str(raw_path),
+        text_path=str(text_path),
+    )
+
+    return DocumentText(
+        doc_id=doc_id,
+        url=url,
+        title=path.name,
+        snippet="",
+        text=text,
+        content_hash=content_hash,
+        content_type=content_type,
+        retrieved_at=retrieved_at,
+        engine="local",
+        rank=rank,
+    )
+
+
+def _guess_content_type(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix == ".pdf":
+        return "application/pdf"
+    if suffix in {".html", ".htm"}:
+        return "text/html"
+    return "text/plain"
 
 
 def _write_provenance(

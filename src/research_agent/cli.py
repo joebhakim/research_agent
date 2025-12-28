@@ -20,6 +20,16 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Override model routing selection",
     )
+    run_parser.add_argument(
+        "--sources",
+        default=None,
+        help="Path to a newline-delimited list of local files (offline mode).",
+    )
+    run_parser.add_argument(
+        "--input-dir",
+        default=None,
+        help="Directory of local HTML/PDF/TXT files to ingest (offline mode).",
+    )
 
     db_parser = subparsers.add_parser("db-init", help="Initialize the SQLite database")
     db_parser.add_argument("--config", required=True, help="Path to YAML config")
@@ -73,7 +83,15 @@ def main() -> None:
     if args.command == "run":
         from research_agent.runner import run
 
-        output = run(args.question, config, model_override=args.model)
+        sources_path = Path(args.sources) if args.sources else None
+        input_dir = Path(args.input_dir) if args.input_dir else None
+        output = run(
+            args.question,
+            config,
+            model_override=args.model,
+            sources_path=sources_path,
+            input_dir=input_dir,
+        )
         print(f"Run complete: {output.run_id}")
         print(f"Report: {output.report_path}")
         return
