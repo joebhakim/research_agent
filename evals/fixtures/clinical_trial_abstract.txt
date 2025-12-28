@@ -1,0 +1,6 @@
+Randomized, double-blind, multicenter phase 3 trial in 220 adults with type 2 diabetes.
+Participants received Drug A 500 mg twice daily or placebo for 12 weeks.
+Primary outcome was change in HbA1c at 12 weeks.
+HbA1c change was -0.9% (95% CI -1.2 to -0.6) versus placebo.
+Secondary outcomes included fasting glucose.
+NCT01234567.

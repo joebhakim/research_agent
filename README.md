@@ -22,6 +22,9 @@ Usage
 - Test model connectivity:
   research-agent llm-test --config agent.yaml --model local
 
+- Run eval suites (probabilistic, requires model endpoint):
+  research-agent eval --config agent.yaml --suite evals/suites/smoke.yaml --trials 10 --temperature 0.2
+
 Configuration
 
 - Copy and edit `agent.example.yaml` to `agent.yaml`.
@@ -29,7 +32,13 @@ Configuration
 - Google PSE provider uses `GOOGLE_PSE_API_KEY` and `GOOGLE_PSE_CX` environment variables.
 - Local model overrides: `MODEL_API_BASE`, `MODEL_NAME`, `MODEL_TIMEOUT_S`.
 - OpenRouter auth and overrides: `OPENROUTER_API_KEY`, `OPENROUTER_APP_NAME`, `OPENROUTER_APP_URL`, `OPENROUTER_API_BASE`, `OPENROUTER_MODEL`, `OPENROUTER_TIMEOUT_S`.
- - PDF extraction uses `pypdf` and may be incomplete depending on document structure.
+- PDF extraction uses `pypdf` and may be incomplete depending on document structure.
+
+Evaluation
+
+- Eval suites live under `evals/suites/` and use fixtures in `evals/fixtures/` and `tests/fixtures/`.
+- Eval outputs are written to `eval_runs/<suite_id>/<timestamp>/summary.json` and per-case trial artifacts.
+- See `docs/evals.md` for harness details and YAML schema.
 
 Type checking (ty)
 

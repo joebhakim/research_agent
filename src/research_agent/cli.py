@@ -38,6 +38,24 @@ def build_parser() -> argparse.ArgumentParser:
         help="Prompt to send to the model",
     )
 
+    eval_parser = subparsers.add_parser("eval", help="Run an evaluation suite")
+    eval_parser.add_argument("--config", required=True, help="Path to YAML config")
+    eval_parser.add_argument("--suite", required=True, help="Path to suite YAML")
+    eval_parser.add_argument("--trials", type=int, default=None, help="Override trial count")
+    eval_parser.add_argument(
+        "--model",
+        choices=["local", "openrouter"],
+        default=None,
+        help="Override model routing selection",
+    )
+    eval_parser.add_argument("--temperature", type=float, default=None, help="Override temperature")
+    eval_parser.add_argument("--output-dir", default=None, help="Output directory for eval runs")
+    eval_parser.add_argument(
+        "--enable-llm-judge",
+        action="store_true",
+        help="Enable optional LLM-as-judge validators",
+    )
+
     return parser
 
 
@@ -79,6 +97,22 @@ def main() -> None:
         )
         print(f"Model: {routed.name}")
         print(response)
+        return
+
+    if args.command == "eval":
+        from research_agent.evals.runner import run_suite
+
+        output_dir = Path(args.output_dir) if args.output_dir else None
+        run_dir = run_suite(
+            Path(args.suite),
+            config,
+            trials_override=args.trials,
+            model_override=args.model,
+            output_dir=output_dir,
+            temperature_override=args.temperature,
+            enable_llm_judge=args.enable_llm_judge,
+        )
+        print(f"Eval run complete: {run_dir}")
         return
 
 

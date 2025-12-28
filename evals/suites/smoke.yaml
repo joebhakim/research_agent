@@ -1,0 +1,120 @@
+suite_id: smoke
+description: "Smoke evals for extraction, adjudication, and clinical struct."
+trials: 5
+model: local
+temperature: 0.2
+scoring:
+  threshold: 0.7
+  p0: 0.7
+  alpha: 0.05
+  min_trials: 5
+
+cases:
+  - case_id: water_extract
+    stage: extract_propositions
+    inputs:
+      documents:
+        - doc_id: water1
+          title: Fixture 1
+          url: fixture://water_boiling_1
+          text_fixture: water_boiling_1.html
+        - doc_id: water2
+          title: Fixture 2
+          url: fixture://water_boiling_2
+          text_fixture: water_boiling_2.html
+    validators:
+      - kind: path_regex
+        params:
+          path: propositions[*].payload.claim_text
+          pattern: "boils at 100"
+          min_matches: 1
+      - kind: path_regex
+        params:
+          path: propositions[*].payload.claim_text
+          pattern: "boiling point decreases"
+          min_matches: 1
+    scoring:
+      threshold: 0.5
+      p0: 0.6
+      alpha: 0.1
+      min_trials: 5
+
+  - case_id: water_adjudicate_refute
+    stage: adjudicate_evidence
+    inputs:
+      claim_text: "Water boils at 50 C at sea level."
+      evidence:
+        - quote: "At sea level, water boils at 100 C (212 F)."
+          title: Fixture 1
+          url: fixture://water_boiling_1
+    validators:
+      - kind: path_equals
+        params:
+          path: labels[0]
+          value: refute
+    scoring:
+      threshold: 1.0
+      p0: 0.8
+      alpha: 0.05
+      min_trials: 5
+
+  - case_id: clinical_trial_struct
+    stage: extract_trial_struct
+    inputs:
+      documents:
+        - doc_id: trial1
+          title: Clinical Fixture
+          url: fixture://clinical_trial_abstract
+          text_fixture: clinical_trial_abstract.txt
+    validators:
+      - kind: required_paths
+        params:
+          paths:
+            - records[0].population
+            - records[0].intervention
+            - records[0].comparator
+            - records[0].outcomes[0].name
+            - records[0].outcomes[0].effect_estimates[0].estimate
+      - kind: path_regex
+        params:
+          path: records[0].population
+          pattern: "type 2 diabetes|T2DM"
+      - kind: path_regex
+        params:
+          path: records[0].intervention
+          pattern: "Drug A"
+      - kind: path_regex
+        params:
+          path: records[0].comparator
+          pattern: "placebo"
+      - kind: path_regex
+        params:
+          path: records[0].outcomes[0].name
+          pattern: "HbA1c"
+      - kind: path_abs_diff
+        params:
+          path: records[0].outcomes[0].effect_estimates[0].estimate
+          target: -0.9
+          tolerance: 0.3
+      - kind: path_abs_diff
+        params:
+          path: records[0].sample_size
+          target: 220
+          tolerance: 10
+      - kind: path_regex
+        params:
+          path: records[0].registry_id
+          pattern: "NCT01234567"
+      - kind: path_regex
+        params:
+          path: records[0].design.blinding
+          pattern: "double"
+      - kind: path_regex
+        params:
+          path: records[0].design.phase
+          pattern: "3"
+    scoring:
+      threshold: 0.7
+      p0: 0.7
+      alpha: 0.05
+      min_trials: 5
