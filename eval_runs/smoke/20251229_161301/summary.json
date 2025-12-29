@@ -1,0 +1,85 @@
+{
+  "suite_id": "smoke",
+  "description": "Smoke evals for extraction, adjudication, and clinical struct.",
+  "suite_trials": 5,
+  "trials_override": 1,
+  "temperature_override": null,
+  "generated_at": "2025-12-29T16:13:37.780516Z",
+  "cases": [
+    {
+      "case_id": "water_extract",
+      "stage": "extract_propositions",
+      "temperature": 0.2,
+      "passed": false,
+      "p_value": null,
+      "pass_rate": 0.0,
+      "k": 0,
+      "n": 1,
+      "skipped": 0,
+      "score_threshold": 0.5,
+      "p0": 0.6,
+      "alpha": 0.1,
+      "min_trials": 5,
+      "model_choice": "local",
+      "model_name": "flashresearch-4b-thinking",
+      "details": [
+        {
+          "trial": 1,
+          "score": 0.0,
+          "passed": false,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "case_id": "water_adjudicate_refute",
+      "stage": "adjudicate_evidence",
+      "temperature": 0.2,
+      "passed": false,
+      "p_value": null,
+      "pass_rate": 0.0,
+      "k": 0,
+      "n": 1,
+      "skipped": 0,
+      "score_threshold": 1.0,
+      "p0": 0.8,
+      "alpha": 0.05,
+      "min_trials": 5,
+      "model_choice": "local",
+      "model_name": "flashresearch-4b-thinking",
+      "details": [
+        {
+          "trial": 1,
+          "score": 0.0,
+          "passed": false,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "case_id": "clinical_trial_struct",
+      "stage": "extract_trial_struct",
+      "temperature": 0.2,
+      "passed": false,
+      "p_value": null,
+      "pass_rate": 0.0,
+      "k": 0,
+      "n": 1,
+      "skipped": 0,
+      "score_threshold": 0.7,
+      "p0": 0.7,
+      "alpha": 0.05,
+      "min_trials": 5,
+      "model_choice": "local",
+      "model_name": "flashresearch-4b-thinking",
+      "details": [
+        {
+          "trial": 1,
+          "score": 0.0,
+          "passed": false,
+          "skipped": false
+        }
+      ]
+    }
+  ]
+}

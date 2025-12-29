@@ -1,0 +1,552 @@
+{
+  "run_id": "20251229_163324_031186",
+  "question": "what is the approximate global burden of diabetes?",
+  "generated_at": "2025-12-29T16:34:56.055883Z",
+  "model": {
+    "choice": "local",
+    "api_base": "http://localhost:8000/v1",
+    "model_name": "mistral-7b-instruct-v0.3"
+  },
+  "documents": [
+    {
+      "doc_id": "src_e7183eba7872",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+      "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:24.499243",
+      "content_hash": "e7183eba7872e08d3507cbbe5d8b1809a1f4e9e418959fd7d25bbbbf6963bae3",
+      "content_type": "text/html",
+      "engine": "local",
+      "rank": 1,
+      "raw_path": "runs/20251229_163324_031186/sources/src_e7183eba7872.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_e7183eba7872.text.txt"
+    },
+    {
+      "doc_id": "src_9aa467baca4a",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+      "title": "Diabetes Statistics - NIDDK.html",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:24.515962",
+      "content_hash": "9aa467baca4aed4061fd994f2a61aca867173334282426e9956632e4a4171f22",
+      "content_type": "text/html",
+      "engine": "local",
+      "rank": 2,
+      "raw_path": "runs/20251229_163324_031186/sources/src_9aa467baca4a.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_9aa467baca4a.text.txt"
+    },
+    {
+      "doc_id": "src_11bdea78a858",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+      "title": "IPCC_AR6_WGI_SPM_final.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:28.229611",
+      "content_hash": "11bdea78a8589072d10dba518839f8d5c3d42c90fbeab859bd23cc915266f7b9",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 3,
+      "raw_path": "runs/20251229_163324_031186/sources/src_11bdea78a858.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_11bdea78a858.text.txt"
+    },
+    {
+      "doc_id": "src_190665b7dbe1",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/PMC7158298.pdf",
+      "title": "PMC7158298.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:29.778025",
+      "content_hash": "190665b7dbe11920f8405bc63db9806279650baf76257336fb6d1f4c476e57f7",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 4,
+      "raw_path": "runs/20251229_163324_031186/sources/src_190665b7dbe1.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_190665b7dbe1.text.txt"
+    },
+    {
+      "doc_id": "src_eff04f41f27f",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/comirnaty-epar-product-information_en.pdf",
+      "title": "comirnaty-epar-product-information_en.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:37.033166",
+      "content_hash": "eff04f41f27f2e94a643169652df4a564415a819cc13c98d62b6e85f26703f61",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 5,
+      "raw_path": "runs/20251229_163324_031186/sources/src_eff04f41f27f.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_eff04f41f27f.text.txt"
+    },
+    {
+      "doc_id": "src_6870f638c3c9",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/db472.pdf",
+      "title": "db472.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T16:33:37.145711",
+      "content_hash": "6870f638c3c949136830f3cb2444ae84ea4eec3a53aaff47ea9b6ac4602be0cc",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 6,
+      "raw_path": "runs/20251229_163324_031186/sources/src_6870f638c3c9.bin",
+      "text_path": "runs/20251229_163324_031186/sources/src_6870f638c3c9.text.txt"
+    }
+  ],
+  "claims": [
+    {
+      "signature": "3ce5ec9df2c280b4",
+      "claim_text": "A study was conducted by the Centers for Disease Control and Prevention (CDC) on COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "A study was conducted by the Centers for Disease Control and Prevention (CDC) on COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination."
+      }
+    },
+    {
+      "signature": "ca4df792dfb4dc97",
+      "claim_text": "The study was conducted across 24 U.S. Jurisdictions.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "24 U.S. Jurisdictions",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The study was conducted across 24 U.S. Jurisdictions."
+      }
+    },
+    {
+      "signature": "288319bb750f359c",
+      "claim_text": "The study focused on individuals aged 12 years and above.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "Persons Aged \u226512 Years",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The study focused on individuals aged 12 years and above."
+      }
+    },
+    {
+      "signature": "24bbade55a078758",
+      "claim_text": "The study was published in the Morbidity and Mortality Weekly Report (MMWR).",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "Morbidity and Mortality Weekly Report ( MMWR )",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The study was published in the Morbidity and Mortality Weekly Report (MMWR)."
+      }
+    },
+    {
+      "signature": "99b92379a70669f2",
+      "claim_text": "Bivalent booster recipients had slightly higher protection against infection.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "Bivalent booster recipients in 24 U.S. jurisdictions had slightly higher protection against infection and",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Bivalent booster recipients had slightly higher protection against infection."
+      }
+    },
+    {
+      "signature": "714140204fcd6f18",
+      "claim_text": "Bivalent booster recipients had significantly higher protection against death.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "Bivalent booster recipients in 24 U.S. jurisdictions had significantly higher protection against death than was observed for monovalent booster recipients",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Bivalent booster recipients had significantly higher protection against death."
+      }
+    },
+    {
+      "signature": "daefd52ce6c028dd",
+      "claim_text": "Bivalent booster doses protected against infection during BA.4/BA.5 circulation.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "Bivalent COVID-19 booster doses protected against infection and death during BA.4/BA.5 circulation.",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Bivalent booster doses protected against infection during BA.4/BA.5 circulation."
+      }
+    },
+    {
+      "signature": "197932e5ce45497c",
+      "claim_text": "All eligible persons should get 1 bivalent booster dose.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_e7183eba7872",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+            "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+            "quote": "All eligible persons should get 1 bivalent booster dose \u22652 months after their COVID-19 primary series or last monovalent booster dose.",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "All eligible persons should get 1 bivalent booster dose."
+      }
+    },
+    {
+      "signature": "fcb33605bd25f98c",
+      "claim_text": "There are three common types of diabetes: type 1, type 2, and gestational.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_9aa467baca4a",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+            "title": "Diabetes Statistics - NIDDK.html",
+            "quote": "The most common types of diabetes are type 1 , type 2 , and gestational.",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "There are three common types of diabetes: type 1, type 2, and gestational."
+      }
+    },
+    {
+      "signature": "c60434929ef95f4c",
+      "claim_text": "In 2021, the estimated prevalence of diabetes in the United States was 11.6% of the population.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_9aa467baca4a",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+            "title": "Diabetes Statistics - NIDDK.html",
+            "quote": "Total: 38.4 million people of all ages had diabetes (11.6% of the population) in 2021.",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "In 2021, the estimated prevalence of diabetes in the United States was 11.6% of the population."
+      }
+    },
+    {
+      "signature": "7768bacf14999db9",
+      "claim_text": "In 2021, 8.9% of the population in the United States had been diagnosed with diabetes.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_9aa467baca4a",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+            "title": "Diabetes Statistics - NIDDK.html",
+            "quote": "Diagnosed: 29.7 million people of all ages had been diagnosed with diabetes (8.9% of the population).",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "In 2021, 8.9% of the population in the United States had been diagnosed with diabetes."
+      }
+    },
+    {
+      "signature": "dbf3c0a94871ae75",
+      "claim_text": "Diabetes can cause health problems such as heart disease, nerve damage, eye problems, and kidney disease.",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_9aa467baca4a",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+            "title": "Diabetes Statistics - NIDDK.html",
+            "quote": "High blood glucose can cause other health problems over time, such as heart disease, nerve damage, eye problems, and kidney disease.",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Diabetes can cause health problems such as heart disease, nerve damage, eye problems, and kidney disease."
+      }
+    },
+    {
+      "signature": "0edf8b4e82e4a44c",
+      "claim_text": "The document is a contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Working Group I Contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The document is a contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change"
+      }
+    },
+    {
+      "signature": "e16296b82ccb7528",
+      "claim_text": "The document is edited by Val\u00e9rie Masson-Delmotte, Panmao Zhai, and others",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Edited by V al\u00e9rie Masson-Delmotte  P anmao Zhai",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The document is edited by Val\u00e9rie Masson-Delmotte, Panmao Zhai, and others"
+      }
+    },
+    {
+      "signature": "5103e3fd9f29efae",
+      "claim_text": "The document is a Summary for Policymakers",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Summary for Policymakers",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The document is a Summary for Policymakers"
+      }
+    },
+    {
+      "signature": "06ec806e39bb7a14",
+      "claim_text": "The document was printed in October 2021",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Printed October 2021",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "The document was printed in October 2021"
+      }
+    },
+    {
+      "signature": "98e17d8fca99119e",
+      "claim_text": "Guti\u00e9rrez is from Spain",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Guti\u00e9rrez (Spain)",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Guti\u00e9rrez is from Spain"
+      }
+    },
+    {
+      "signature": "b0c3f29b0745f569",
+      "claim_text": "Hamdi is from Belgium",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Rafiq Hamdi (Belgium)",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Hamdi is from Belgium"
+      }
+    },
+    {
+      "signature": "e8398f8348b80cad",
+      "claim_text": "Harold is from the United Kingdom",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Jordan Harold (United Kingdom)",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Harold is from the United Kingdom"
+      }
+    },
+    {
+      "signature": "d6e9065e2d97da58",
+      "claim_text": "Hauser is from Switzerland",
+      "stance": "supported",
+      "rationale": "support=1, refute=0, neutral=0 across 1 evidence items.",
+      "merge": {
+        "counts": {
+          "support": 1,
+          "refute": 0,
+          "neutral": 0
+        },
+        "evidence": [
+          {
+            "doc_id": "src_11bdea78a858",
+            "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+            "title": "IPCC_AR6_WGI_SPM_final.pdf",
+            "quote": "Mathias Hauser (Switzerland)",
+            "label": "support"
+          }
+        ],
+        "canonical_text": "Hauser is from Switzerland"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "clinical_trial_struct",
+  "trial": 1,
+  "stage": "extract_trial_struct",
+  "temperature": 0.2,
+  "payload": {
+    "records": []
+  },
+  "errors": [
+    "parse_failed:trial1"
+  ],
+  "validation": [
+    {
+      "kind": "required_paths",
+      "passed": false,
+      "weight": 1.0,
+      "message": "missing=['records[0].population', 'records[0].intervention', 'records[0].comparator', 'records[0].outcomes[0].name', 'records[0].outcomes[0].effect_estimates[0].estimate']",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].population pattern=type 2 diabetes|T2DM matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].intervention pattern=Drug A matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].comparator pattern=placebo matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].outcomes[0].name pattern=HbA1c matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_abs_diff",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].outcomes[0].effect_estimates[0].estimate",
+      "skipped": false
+    },
+    {
+      "kind": "path_abs_diff",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].sample_size",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].registry_id pattern=NCT01234567 matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].design.blinding pattern=double matches=0",
+      "skipped": false
+    },
+    {
+      "kind": "path_regex",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=records[0].design.phase pattern=3 matches=0",
+      "skipped": false
+    }
+  ],
+  "score": 0.0,
+  "passed": false,
+  "skipped": false,
+  "raw_calls": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You extract structured trial data."
+        },
+        {
+          "role": "user",
+          "content": "Extract a single clinical trial record as JSON. Use null for missing fields.\nReturn JSON object only with keys:\nstudy_id, title, population, intervention, comparator, sample_size, analysis_population, setting, registry_id, registry_url, notes,\ndesign: {randomized, blinding, phase, multicenter},\noutcomes: [\n  {name, type, measure, timepoint, effect_estimates: [\n    {measure_type, estimate, ci_low, ci_high, unit, p_value, direction, n}\n  ]}\n]\n\nTEXT:\nRandomized, double-blind, multicenter phase 3 trial in 220 adults with type 2 diabetes.\nParticipants received Drug A 500 mg twice daily or placebo for 12 weeks.\nPrimary outcome was change in HbA1c at 12 weeks.\nHbA1c change was -0.9% (95% CI -1.2 to -0.6) versus placebo.\nSecondary outcomes included fasting glucose.\nNCT01234567.\n"
+        }
+      ],
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "response": "We need to extract a single clinical trial record as JSON. Use null for missing fields. The keys are: study_id, title, population, intervention, comparator, sample_size, analysis_population, setting, registry_id, registry_url, notes, design: {randomized, blinding, phase, multicenter}, outcomes: [ {name, type, measure, timepoint, effect_estimates: [ {measure_type, estimate, ci_low, ci_high, unit, p_value, direction, n} ] } ].\n\nWe have a text: \"Randomized, double-blind, multicenter phase 3 trial in 220 adults with type 2 diabetes. Participants received Drug A 500 mg twice daily or placebo for 12 weeks. Primary outcome was change in HbA1c at 12 weeks. HbA1c change was -0.9% (95% CI -1.2 to -0.6) versus placebo. Secondary outcomes included fasting glucose. NCT01234567.\"\n\nWe need to parse this into JSON with appropriate fields.\n\nWe need to extract:\n\n- study_id: likely NCT01234567.\n- title: maybe \"Randomized, double-blind, multicenter phase 3 trial in adults with type 2 diabetes\" or similar.\n- population: adults with type 2 diabetes.\n- intervention: Drug A 500 mg twice daily.\n- comparator: placebo.\n- sample_size: 220 (total participants). Might be 220 total, but we need to see if there are numbers for each arm. It says \"Participants received Drug A 500 mg twice daily or placebo for 12 weeks.\" So likely 110 each? But not given. So we can put sample_size: 220.\n- analysis_population: maybe same as participants (all randomized). Could be \"All randomized participants (n=220)\".\n- setting: \"Phase 3 multicenter trial\".\n- registry_id: maybe \"NCT01234567\".\n- registry_url: maybe \"https://clinicaltrials.gov/ct2/show/NCT01234567\".\n- notes: maybe \"Primary outcome: change in HbA1c at 12 weeks; secondary outcome: fasting glucose\".\n- design: {randomized: true, blinding: \"double-blind\", phase: \"3\", multicenter: true}.\n- outcomes: primary outcome: change in HbA1c at 12 weeks. Secondary outcome: fasting glucose.\n\nWe need to structure outcomes as an array of outcome objects. Each outcome object has name, type, measure, timepoint, effect_estimates: array of effect estimates.\n\nFor primary outcome: name: \"HbA1c change\", type: \"continuous\", measure: \"change in HbA1c (%)\", timepoint: \"12 weeks\". effect_estimates: one estimate: measure_type: \"mean difference\", estimate: -0.9, ci_low: -1.2, ci_high: -0.6, unit: \"%\", p_value: maybe not given, so null, direction: \"decreased\", n: maybe 220? Or maybe 110? Not given. We can put null for p_value and n? The instruction says use null for missing fields. So we can set p_value: null, n: null.\n\nSecondary outcome: fasting glucose. Might be \"fasting plasma glucose (mmol/L)\" or \"fasting glucose (mg/dL)\". Not given. So we can put measure: \"fasting glucose\", timepoint: \"12 weeks\". effect_estimates: maybe not given. So we can have an empty array? Or we can include a placeholder with missing values.\n\nWe need to decide on the structure.\n\nWe need to produce JSON with keys: study_id, title, population, intervention, comparator, sample_size, analysis_population, setting, registry_id, registry_url, notes, design, outcomes.\n\nWe need to embed design as an object with keys: randomized, blinding, phase, multicenter. The values: randomized: true/false, blinding: \"double-blind\" or \"single-blind\", phase: \"3\", multicenter: true/false.\n\nWe need to embed outcomes as an array of objects. Each object has name, type, measure, timepoint, effect_estimates: array of objects.\n\nWe need to fill in the fields.\n\nWe need to use null for missing fields.\n\nWe need to produce a JSON object only.\n\nWe need to parse the text.\n\nWe have the text: \"Randomized, double-blind, multicenter phase 3 trial in 220 adults with type 2 diabetes. Participants received Drug A 500 mg twice daily or placebo for 12 weeks. Primary outcome was change in HbA1c at 12 weeks. HbA1c change was -0.9% (95% CI -1.2 to -0.6) versus placebo. Secondary outcomes included fasting glucose. NCT01234567.\"\n\nWe need to extract study_id: \"NCT01234567\".\n\ntitle: maybe \"Randomized, double-blind, multicenter phase 3 trial in adults with type 2 diabetes\".\n\npopulation: \"Adults with type 2 diabetes\".\n\nintervention: \"Drug A 500 mg twice daily\".\n\ncomparator: \"Placebo\".\n\nsample_size: 220.\n\nanalysis_population: \"All randomized participants (n=220)\".\n\nsetting: \"Multicenter phase 3 trial\".\n\nregistry_id: \"NCT01234567\".\n\n"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "water_adjudicate_refute",
+  "trial": 1,
+  "stage": "adjudicate_evidence",
+  "temperature": 0.2,
+  "payload": {
+    "labels": [
+      "neutral"
+    ],
+    "claim_text": "Water boils at 50 C at sea level.",
+    "evidence": [
+      {
+        "quote": "At sea level, water boils at 100 C (212 F).",
+        "title": "Fixture 1",
+        "url": "fixture://water_boiling_1"
+      }
+    ]
+  },
+  "errors": [],
+  "validation": [
+    {
+      "kind": "path_equals",
+      "passed": false,
+      "weight": 1.0,
+      "message": "path=labels[0] expected=refute",
+      "skipped": false
+    }
+  ],
+  "score": 0.0,
+  "passed": false,
+  "skipped": false,
+  "raw_calls": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You label evidence as support, refute, or neutral."
+        },
+        {
+          "role": "user",
+          "content": "Label each QUOTE as support, refute, or neutral for the CLAIM.\nReturn JSON array only: [{\"index\":0,\"label\":\"support\"}, ...]\nCLAIM:\nWater boils at 50 C at sea level.\n\nQUOTES:\n[0] At sea level, water boils at 100 C (212 F).\nSource: Fixture 1\nURL: fixture://water_boiling_1\n"
+        }
+      ],
+      "temperature": 0.2,
+      "max_tokens": 400,
+      "response": "We have a claim: \"Water boils at 50 C at sea level.\" The quote says: \"At sea level, water boils at 100 C (212 F).\" This directly contradicts the claim. So the quote refutes the claim. The label should be \"refute\". The index is 0. So answer: [{\"index\":0,\"label\":\"refute\"}].\n\n</think>\n[{\"index\":0,\"label\":\"refute\"}]"
+    }
+  ]
+}

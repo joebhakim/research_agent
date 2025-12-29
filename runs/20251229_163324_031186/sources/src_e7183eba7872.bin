@@ -1,0 +1,1696 @@
+
+<!DOCTYPE html>
+<html lang="en-us" class="cdc-2022 theme-indigo cdc-tp5" >
+<head>
+	<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#075290">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/TemplatePackage/4.0/assets/imgs/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/TemplatePackage/4.0/assets/imgs/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/TemplatePackage/4.0/assets/imgs/favicon/favicon-16x16.png">
+<link rel="mask-icon" href="/TemplatePackage/4.0/assets/imgs/favicon/safari-pinned-tab.svg" color="#0056b3">
+<meta name="msapplication-TileColor" content="#0056b3">
+<meta name="theme-color" content="#0056b3">
+
+<link rel="stylesheet prefetch" href="/TemplatePackage/contrib/libs/bootstrap/latest/css/bootstrap.min.css?_=36179" />
+<link rel="stylesheet prefetch" href="/TemplatePackage/4.0/assets/css/app.tp5.min.css?_=36179" />
+<link rel="stylesheet" media="print" href="/TemplatePackage/4.0/assets/css/print.min.css?_=36179" />
+
+<!-- @prismcss@ -->
+<script src="https://www.cdc.gov/JScript/dmat/cdc-dmat.min.js?account=cdcgov" async></script>
+	<title>COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged ≥12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination — 24 U.S. Jurisdictions, October 3, 2021–December 24, 2022  | MMWR</title>
+		<meta name="description" content="The Morbidity and Mortality Weekly Report (MMWR) Series is prepared by the Centers for Disease Control and Prevention (CDC)."/>						<meta property="og:title" content="COVID-19 Incidence and Death Rates Among Unvaccinated ...">
+		<meta property="og:description" content="This report describes higher protection against COVID-19 infection and death among people who received an updated booster than people who received a monovalent booster.">
+		<meta property="fb:app_id" content="205691699516606">
+		<meta property="og:url" content="https://www.cdc.gov/mmwr/volumes/72/wr/mm7206a3.htm">
+
+					<meta property="og:image" content="https://www.cdc.gov/mmwr/volumes/72/wr/social-media/mm7206a3_COVIDIncidenceBivalentBooster_IMAGE_10Feb2023_1200x675.jpg?_=67112">
+							<meta property="og:image:type" content="image/jpeg">
+						<meta property="article:published_time" content="2023-03-25">
+		<meta property="og:author" content="CDC">
+		<meta property="article:author" content="CDCMMWR">
+		<meta property="og:site_name" content="Centers for Disease Control and Prevention">
+		<meta property="og:type" content="article">
+		<meta name="twitter:card" content="summary_large_image">		<meta name="twitter:site" content="@CDCMMWR">
+		<meta name="twitter:creator" content="@CDCgov">
+		
+			<meta name="twitter:title" content="COVID-19 Incidence and Death Rates Among Unvaccinated ...">
+			<meta name="twitter:description" content="This report describes higher protection against COVID-19 infection and death among people who received an updated booster than people who received a monovalent booster.">
+							<meta name="twitter:domain" content="https://www.cdc.gov/mmwr/volumes/72/wr/mm7206a3.htm?s_cid=mm7206a3_w">
+									<meta name="twitter:image:src" content="https://www.cdc.gov/mmwr/volumes/72/wr/social-media/mm7206a3_COVIDIncidenceBivalentBooster_IMAGE_10Feb2023_1200x675.jpg?_=67112">
+						<meta name="robots" content="index, archive" />
+		
+		<meta property="cdc:template_version" content="4.0"/>	<meta property="cdc:first_published" content="February 9, 2023"/>
+	<meta property="cdc:last_updated" content="March 25, 2023, 01:00 PM"/>
+	<meta property="cdc:last_reviewed" content="March 25, 2023"/>
+	<meta property="cdc:content_source" content="DEPUTY DIRECTOR FOR PUBLIC HEALTH SCIENCE AND SURVEILLANCE"/>
+	<meta property="cdc:maintained_by" content="DEPUTY DIRECTOR FOR PUBLIC HEALTH SCIENCE AND SURVEILLANCE"/>
+	<meta property="cdc:content_id" content="102581" />
+	<meta property="cdc:build" content="5058" />
+	<meta property="cdc:version" content="4.25.5" />
+	<meta property="cdc:page_type" content="cdc_mmwr" />
+	<meta property="cdc:page_origin" content="wcms"/>
+	<meta name="citation_categories" content="Full Report"/><meta name="citation_title" content="COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged ≥12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination — 24 U.S. Jurisdictions, October 3, 2021–December 24, 2022"/><meta name="citation_author" content="Amelia G. Johnson"/><meta name="citation_publication_date" content="2023"/><meta name="citation_journal_title" content="MMWR. Morbidity and Mortality Weekly Report"/><meta name="citation_journal_abbrev" content="MMWR Morb Mortal Wkly Rep"/><meta name="citation_issn" content="0149-21951545-861X"/><meta name="citation_volume" content="72"/><meta name="citation_doi" content="10.15585/mmwr.mm7206a3"/><meta name="Description" content="The Morbidity and Mortality Weekly Report (MMWR) Series is prepared by the Centers for Disease Control and Prevention (CDC)."/>			<link rel="canonical" href="https://www.cdc.gov/mmwr/volumes/72/wr/mm7206a3.htm"/>
+	<meta property="cdc:wcms_build" content="4.25.5 - b.5058" />
+		<link rel="stylesheet" type="text/css" href="/mmwr/volumes/wcms-inc/local.css?v=3257"/>
+ 				<!-- CSS Added Dynamically Here -->		<meta name="DC.date" content="2025-07-14T03:21:31Z" />
+				<meta name="cdc:last_published" content="2025-07-14T15:23:49Z" />
+				
+</head>
+<body class="no-js cdc-mmwr">
+	<div id="skipmenu">
+		<a class="skippy sr-only-focusable" href="#content">Skip directly to site content</a>
+		<a class="skippy sr-only-focusable" href="#headerSearch">Skip directly to search</a>
+	</div>
+					<div class="header-language-bar container text-right pt-1 pb-1 fs0875">
+											<a href="/spanish/"><span lang="es-us">Español</span></a><span class="link-divider"> | </span>
+						<a href="https://wwwn.cdc.gov/pubs/other-languages/">Other Languages</a>
+										</div>
+				<script src="/TemplatePackage/5.0/js/modules/banner.js"></script>
+<div class="cdc-header-official-notice container noindex">
+	<div class="cdc-header-official-notice-header d-flex">
+		<img src="/TemplatePackage/4.0/assets/imgs/uswds/us_flag_small.png" width="16" height="11" alt="" aria-hidden="true" />
+		<small class="ml-2">An official website of the United States government <button class="cdc-header-official-notice-header-btn">Here's how you know <span class="cdc-header-official-notice-header-icon x12 fill-p cdc-icon-arrow-down"></span></button></small>
+	</div>
+
+	<div class="cdc-header-official-notice-body row" style="display: none;">
+		<figure class="col-lg-6 d-flex">
+			<img class="cdc-header-official-notice-body-img" src="/TemplatePackage/4.0/assets/imgs/uswds/icon-dot-gov.svg" alt="" aria-hidden="true" />
+			<figcaption class="cdc-header-official-notice-body-info ml-3">
+				<p class="cdc-header-official-notice-body-title mb-1"><strong>Official websites use .gov</strong></p>
+				<p>A .gov website belongs to an official government organization in the United States.</p>
+			</figcaption>
+		</figure>
+		<figure class="col-lg-6 d-flex">
+			<img class="cdc-header-official-notice-body-img" src="/TemplatePackage/4.0/assets/imgs/uswds/icon-https.svg" alt="" aria-hidden="true" />
+			<figcaption class="cdc-header-official-notice-body-info ml-3">
+				<p class="cdc-header-official-notice-body-title mb-1"><strong>Secure .gov websites use HTTPS</strong></p>
+				<p>A lock ( <span class="x16 fill-black cdc-icon-lock-alt-solid"></span> ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+			</figcaption>
+		</figure>
+	</div>
+</div>
+<header id="page_banner" role="banner" aria-label="Banner">			<div class="container-fluid header-wrapper">
+				<div class="container">
+					<div class="row py-2">
+						<div class="col cdc-logo">
+															<a href="https://www.cdc.gov/">
+	<span class="sr-only">Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People</span>
+	<img src="/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg" alt="CDC Logo" class="cdc-logo--desktop">
+	<img src="/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg" alt="CDC Logo" class="cdc-logo--mobile">
+</a>
+													</div>
+													<div class="col-2 col-md-3 col-xl-5 col-xxl-4 tp-search">
+								<div class="headerSearch cdc-header-search">
+	<form accept-charset="UTF-8" action="https://search.cdc.gov/search/" class="cdc-header-search-form" method="get" autocomplete="off">
+
+		<!-- fallback mobile search -->
+		<button class="btn btn-primary dropdown-toggle no-toggle search-button ssi d-xl-none"
+				type="button"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="search"><span>Search</span>
+			<i class="fi cdc-icon-magnify dropdown-menu-medium-search-icon x24" aria-hidden="true"></i>
+			<i class="fi cdc-icon-close dropdown-menu-medium-close-icon x24" aria-hidden="true"></i>
+		</button>
+
+		<div class="dropdown-menu dropdown-menu-right dropdown-menu-search dropdown-menu-medium-search">
+			<div class="input-group">
+				<input id="headerSearch" type="text" class="form-control" maxlength="300" placeholder="Search" aria-label="Search" name="query">
+				<span class="form-control-clear cdc-icon-close"></span>
+				<div class="input-group-append">
+					<button class="btn search-submit" type="button">
+						<span class="sr-only">Submit</span>
+						<i class="fi cdc-icon-magnify x24 search-submit" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<input type="hidden" name="affiliate" value="cdc-main">
+	</form>
+</div>
+
+							</div>
+												</div>
+				</div>
+			</div>
+					<div class="container-fluid site-title">
+				<div class="container">
+							<div class="row">
+		<div class="col">
+			<div class="display-6 text-white fw-500 pt-1 pb-1 site-title-inner ">
+				<a href="/mmwr/index.html"> Morbidity and Mortality Weekly Report (<em>MMWR</em>)</a>
+			</div>
+					</div>
+			</div>
+					</div>
+			</div>
+						<nav role="navigation" aria-label="Mobile Nav" id="mobilenav" class="sticky-top">
+							</nav>
+			
+		<!-- Global Above Feature -->
+
+		<div class="container-fluid feature-area">
+			<div class="container"></div>		</div>
+
+		</header>
+				<div class="container d-flex flex-wrap body-wrapper bg-white">
+						<main  class="col-12 order-lg-2"  role="main" aria-label="Main Content Area">
+									<div class="row visual-element">
+						<div class="col">
+																				</div>
+					</div>
+								<div class="section-nav-area">
+					<nav role="navigation" aria-label="Section Nav" class="w-100 sticky-top"></nav>
+				</div>
+
+				<div class="row">
+					<div  class="col content content-fullwidth">			<h1>COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged ≥12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination — 24 U.S. Jurisdictions, October 3, 2021–December 24, 2022</h1>
+							<div class="dateline">
+	<p><em>Weekly</em> / February 10, 2023 / 72(6);145–152	</p>
+</div>
+
+
+							<div class="title-bar">
+																<a href="#print" class="print-link" aria-label="print this page" onclick="window.print()">Print</a>
+							</div>
+																	<div class="mb-3 card tp-related-pages fourth-level-nav d-none">
+						<div class="card-header collapse-icon">
+							<a class="collapse-link float-right nav-minus fs0875" data-toggle="collapse" href="#collapse_10258168752105084f8" aria-expanded="false" aria-controls="collapse_10258168752105084f8">
+								<svg viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<title>Minus</title>
+									<path d="M19,13H5V11H19V13Z"></path>
+								</svg>
+							</a>
+							<div class="h4">Related Pages</div>
+						</div>
+						<div class="card-body collapse show" id="collapse_10258168752105084f8"></div>
+					</div>
+										<div class="syndicate">
+
+							<div class="d-flex flex-wrap d-md-block">
+	<div class="order-3 mb-3"><p>Amelia G. Johnson, DrPH<sup>1</sup>; Lauren Linde, MPH<sup>1</sup>; Akilah R. Ali, MPH<sup>1</sup>; Allison DeSantis<sup>2</sup>; Minchan Shi, MS<sup>1</sup>; Carolyn Adam, MPH<sup>3</sup><sup>,4</sup>; Brandy Armstrong<sup>5</sup>; Brett Armstrong<sup>5</sup>; Madison Asbell, MPH<sup>6</sup>; Steven Auche, MPH<sup>3</sup>; Nagla S. Bayoumi, DrPH<sup>7</sup>; Boudu Bingay, MPH<sup>8</sup>; Melisse Chasse, MPH<sup>9</sup>; Scott Christofferson<sup>10</sup>; Michael Cima, PhD<sup>11</sup>; Kevin Cueto, MS<sup>12</sup>; Spencer Cunningham, MPH<sup>8</sup>; Janelle Delgadillo<sup>10</sup>; Vajeera Dorabawila, PhD<sup>13</sup>; Cherie Drenzek, DVM<sup>14</sup>; Brandi Dupervil, DHSc<sup>2</sup>; Tonji Durant, PhD<sup>2</sup>; Aaron Fleischauer, PhD<sup>15</sup>; Ross Hamilton<sup>2</sup><sup>,16</sup>; Pauline Harrington, MPH<sup>17</sup>; Liam Hicks, MPH<sup>18</sup>; Jeffrey D. Hodis, MPH<sup>1</sup>; Dina Hoefer, PhD<sup>13</sup>; Sam Horrocks, MPH<sup>6</sup>; Mikhail Hoskins, MPH<sup>15</sup>; Sofia Husain, MPH<sup>19</sup>; L. Amanda Ingram, MPH<sup>20</sup>; Amanda Jara, DVM<sup>14</sup>; Amanda Jones, MPH<sup>21</sup>; FNU Kanishka, MPH<sup>12</sup>; Ramandeep Kaur, PhD<sup>20</sup>; Saadiah I. Khan, MPH<sup>7</sup>; Samantha Kirkendall, MS<sup>22</sup>; Priscilla Lauro, MPH<sup>18</sup>; Shelby Lyons, MPH<sup>23</sup>; Joshua Mansfield, MSPH<sup>23</sup>; Amanda Markelz, MPH<sup>24</sup>; John Masarik III, MPH<sup>25</sup>; Donald McCormick, MSHI<sup>11</sup>; Erica Mendoza, MAS<sup>26</sup>; Keeley J. Morris, MPH<sup>24</sup>; Enaholo Omoike, MD<sup>17</sup>; Komal Patel, MPH<sup>14</sup>; Melissa A. Pike, MPH<sup>27</sup>; Tamara Pilishvili, PhD<sup>1</sup>; Kevin Praetorius, MSc<sup>4</sup><sup>,28</sup>; Isaiah G. Reed, MSc<sup>19</sup>; Rachel L. Severson, MS<sup>27</sup>; Nekabari Sigalo, PhD<sup>2</sup><sup>,16</sup>; Emma Stanislawski, MPH<sup>28</sup>; Sarah Stich, MPH<sup>26</sup>; Buddhi P. Tilakaratne, PhD<sup>25</sup>; Kathryn A. Turner, PhD<sup>22</sup>; Caleb Wiedeman, MPH<sup>9</sup>; Allison Zaldivar, MPH<sup>29</sup>; Benjamin J. Silk, PhD<sup>1</sup>; Heather M. Scobie, PhD<sup>1</sup> (<a class="h6" style="font-weight: normal" href="#contribAff">View author affiliations</a>)</p>
+<a class="mb-md-3" href="#suggestedcitation">View suggested citation</a></div><div class="bg-gray-l2 col-md-9 float-left mb-3 order-0 "><h3><strong>Summary</strong></h3>
+<p><strong>What is already known about this topic?</strong></p>
+<p>COVID-19 vaccine effectiveness decreased with waning of vaccine-derived immunity and emerging Omicron sublineages. An updated (bivalent) booster dose enhances protection against infection and medically attended illness, but protection against death has not been evaluated.</p>
+<p><strong>What is added by this report?</strong></p>
+<p>Bivalent booster recipients in 24 U.S. jurisdictions had slightly higher protection against infection and significantly higher protection against death than was observed for monovalent booster recipients or unvaccinated persons, especially among older adults.</p>
+<p><strong>What are the implications for public health practice?</strong></p>
+<p>Bivalent COVID-19 booster doses protected against infection and death during BA.4/BA.5 circulation. All eligible persons should get 1 bivalent booster dose &ge;2 months after their COVID-19 primary series or last monovalent booster dose.</p>
+</div><div class="col-md-3 float-right order-12 mt-3 mt-md-0 no-syndicate "><!-- START METRICS BOX -->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<style type="text/css">
+.altmetric-embed.mt-2.mb-3 > div {
+display: flex;
+}
+</style>
+<div class="card mb-3" data-mmwr-metrics="article">
+  <div class="card-header h4 bg-primary">Article Metrics</div>
+    <div class="card-body bg-white">
+      <h5>Altmetric:</h5>
+      <div class="altmetric-embed mt-2 mb-3" data-badge-details="right" data-badge-type="donut" data-condensed="true" data-hide-no-mentions="true" data-link-target="_blank"></div>
+	<div class="text-right"></div>	
+		</div>
+    <div class="border-top mt-2 mb-3"></div>
+      <div class="ml-2">
+     <span class="__dimensions_badge_embed__" data-doi="10.15585/mmwr.mm7206a3" data-legend="always" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+   <br> 
+	</div>
+</div>
+
+<!-- END METRICS BOX --></div><div class="col-md-3 float-right d-none d-md-block cr mb-3"><div class="card theme-cyan bg-gray-l2"><div class="card-header"><strong>Figures</strong></div><div class="card-body"><p><a href="#F1_down">Figure 1</a></p><p><a href="#F2_down">Figure 2</a></p></div></div></div><div class="col-md-3 float-right d-none d-md-block cr mb-3"><div class="card theme-cyan bg-gray-l2"><div class="card-header"><a href="#T1_down"><strong>Table</strong></a></div></div></div><div class="col-md-3 float-right mb-3 cr order-1"><div class="card mb-3"><div class="card-header h4 bg-primary">Related Materials</div><div class="card-body"><ul class="mb-0 block-list"><li><a href="/mmwr/volumes/72/wr/pdfs/mm7206a3-H.pdf" target="_blank">Article PDF<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span></a></li><li><a href="/mmwr/volumes/72/wr/pdfs/mm7206-H.pdf" target="_blank">Full Issue PDF<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span></a></li></ul></div></div></div><div class="order-4 w-100"><div class="col-md-6"><div class="mb-3 video-container"><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/FpTKit6u9Wc?autohide=0&amp;enablejsapi=1&amp;playerapiid=102581&amp;modestbranding=1&amp;rel=0&amp;origin=https://www.cdc.gov//www.youtube-nocookie.com/embed/FpTKit6u9Wc?autohide=0&amp;enablejsapi=1&amp;playerapiid=102581&amp;modestbranding=1&amp;rel=0&amp;origin=https://www.cdc.gov&amp;wmode=opaque?enablejsapi=1" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" title="COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged &ge;12 Years"></iframe><noscript><div class="noscript"><a href="//www.youtube-nocookie.com/embed/FpTKit6u9Wc?autohide=0&amp;enablejsapi=1&amp;playerapiid=102581&amp;modestbranding=1&amp;rel=0&amp;origin=https://www.cdc.gov//www.youtube-nocookie.com/embed/FpTKit6u9Wc?autohide=0&amp;enablejsapi=1&amp;playerapiid=102581&amp;modestbranding=1&amp;rel=0&amp;origin=https://www.cdc.gov&amp;wmode=opaque?enablejsapi=1" target="_blank" rel="noopener noreferrer">COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged &ge;12 Years</a></div></noscript></div><div class="video-links mt-3"><div class="small video-transcript"><a class="nonHtml noDecoration" href="https://www.cdc.gov/wcms/video/low-res/mmwr/2023/4550455023March2023_mm7206a3_COVID_MMWR_1200x675.mp4" target="_blank"><span aria-label="media icon" class="sr-only" role="img"></span><span class="fi cdc-icon-media x16 ml-2 mr-2 fill-media" alt="" aria-hidden="true"></span>Low Resolution Video</a></div></div></div></div>
+<p>On September 1, 2022, CDC recommended an updated (bivalent) COVID-19 vaccine booster to help restore waning protection conferred by previous vaccination and broaden protection against emerging variants for persons aged &ge;12 years (subsequently extended to persons aged &ge;6 months).* To assess the impact of original (monovalent) COVID-19 vaccines and bivalent boosters, case and mortality rate ratios (RRs) were estimated comparing unvaccinated and vaccinated persons aged &ge;12 years by overall receipt of and by time since booster vaccination (monovalent or bivalent) during Delta variant and Omicron sublineage (BA.1, BA.2, early BA.4/BA.5, and late BA.4/BA.5) predominance.<sup>&dagger;</sup> During the late BA.4/BA.5 period, unvaccinated persons had higher COVID-19 mortality and infection rates than persons receiving bivalent doses (mortality RR = 14.1 and infection RR = 2.8) and to a lesser extent<b> </b>persons vaccinated with only monovalent doses (mortality RR = 5.4 and infection RR = 2.5). Among older adults, mortality rates among unvaccinated persons were significantly higher than among those who had received a bivalent booster (65&ndash;79 years; RR = 23.7 and &ge;80 years; 10.3) or a monovalent booster (65&ndash;79 years; 8.3 and &ge;80 years; 4.2). In a second analysis stratified by time since booster vaccination, there was a progressive decline from the Delta period (RR = 50.7) to the early BA.4/BA.5 period (7.4) in relative COVID-19 mortality rates among unvaccinated persons compared with persons receiving who had received a monovalent booster within 2 weeks&ndash;2 months. During the early BA.4/BA.5 period, declines in relative mortality rates were observed at 6&ndash;8 (RR = 4.6), 9&ndash;11 (4.5), and &ge;12 (2.5) months after receiving a monovalent booster. In contrast, bivalent boosters received during the preceding 2 weeks&ndash;2 months improved protection against death (RR = 15.2) during the late BA.4/BA.5 period. In both analyses, when compared with unvaccinated persons, persons who had received bivalent boosters were provided additional protection against death over monovalent doses or monovalent boosters. Restored protection was highest in older adults. All persons should stay up to date with COVID-19 vaccination, including receipt of a bivalent booster by eligible persons, to reduce the risk for severe COVID-19.</p>
+<p>Previous reports on COVID-19 vaccine impact indicated that protection against infection and, to a lesser degree, severe illness, declined with waning of vaccine-induced immunity and emergence of the SARS-CoV-2 Delta and Omicron variants<sup>&sect;</sup> (<i>1</i>&ndash;<i>4</i>). After Omicron (BA.1) became predominant in the United States in late December 2021, Omicron sublineages BA.2, BA.4, and BA.5 circulated at high prevalence; BA.4 and BA.5-related variants constituted 78% of circulating lineages by December 24, 2022. Food and Drug Administration (FDA)&ndash;authorized bivalent boosters, which include an additional Omicron BA.4/BA.5 spike component, have been shown to enhance protection against infection and medically attended illness (<i>5</i>&ndash;<i>7</i>).</p>
+<p>Weekly counts of COVID-19 cases (October 3, 2021&ndash;December 24, 2022) and associated deaths (October 3, 2021&ndash;December 3, 2022) by primary series vaccination and booster status, including bivalent boosters (the week starting September 18, 2022), were reported from 24 jurisdictions<sup>&para;</sup> that routinely link case surveillance data to immunization registries (vaccinations) and vital registration databases (deaths). Accounting for case and death reporting lags (2 weeks and 5 weeks, respectively) permitted more complete reporting, data linkage, and mortality ascertainment. Standardized definitions were used for COVID-19 cases** and COVID-19&ndash;associated deaths<sup>&dagger;&dagger;</sup> by vaccination status<sup>&sect;&sect;</sup> with specimen collection dates used as reference dates; vaccinated persons who did not complete a primary COVID-19 vaccination series were excluded. Analysis periods were determined based on U.S. variant proportion estimates. Rate denominators were calculated from vaccine administration data, with numbers of unvaccinated persons estimated by subtracting numbers of persons vaccinated with at least a primary series and persons with an incomplete primary series from 2019 U.S. intercensal population estimates.<sup>&para;&para;</sup> A continuity correction assumed that &ge;5% of each age group and jurisdiction would always be unvaccinated (i.e., &le;95% vaccination coverage).*** Average weekly incidence and mortality were calculated during each period and stratified by age group (12&ndash;17, 18&ndash;49, 50&ndash;64, 65&ndash;79 and &ge;80 years) and vaccination status; overall rates were age-standardized using the 2000 U.S. Census Bureau standard population.<sup>&dagger;&dagger;&dagger;</sup> Two sets of analyses of incidence and mortality rates overall (24 jurisdictions) and by time since last monovalent or bivalent booster vaccination (23 jurisdictions) were conducted. Overall and strata-specific RRs were calculated by dividing rates among unvaccinated persons by rates among vaccinated persons; after detrending the underlying linear changes in rates, 95% CIs were calculated from the remaining variation in observed weekly rates<sup>&sect;&sect;&sect;</sup> (<i>8</i>,<i>9</i>). SAS (version 9.4; SAS Institute) and R (version 4.1.2; R Foundation) were used to conduct all analyses. This activity was reviewed by CDC and was conducted consistent with applicable federal law and CDC policy.<sup>&para;&para;&para;</sup></p>
+<p>Among persons aged &ge;12 years, a total of 21,296,326 COVID-19 cases and 115,078 associated deaths were reported during October 3, 2021&ndash;December 24, 2022, and October 3, 2021&ndash;December 3, 2022, respectively, from 24 U.S. jurisdictions (<a id="T1_up"></a><a href="#T1_down">Table</a>). Average weekly age-standardized incidence and mortality (cases and deaths per 100,000 population aged &ge;12 years) increased substantially during the Omicron BA.1 period and to a lesser extent during the early BA.4/BA.5 period (<a id="F1_up"></a><a href="#F1_down">Figure 1</a>). During all periods, average weekly age-standardized incidence and mortality were consistently higher among unvaccinated persons (ranges&nbsp;=&nbsp;216.1&ndash;1,256.0 and 1.6&ndash;15.8, respectively) than among monovalent-only vaccine recipients (ranges&nbsp;=&nbsp;86.4&ndash;487.7 and 0.3&ndash;1.4, respectively); average weekly incidence and mortality during the late BA.4/BA.5 period were lowest among bivalent booster recipients (78.5 and 0.1, respectively).</p>
+<p>Overall, age-standardized case RRs (unvaccinated persons compared with monovalent-only vaccine recipients) declined from 4.0 during the Delta period to 2.6 during the Omicron BA.1 and 1.8 during the Omicron BA.2 periods, before increasing to 2.7 in the early BA.4/BA.5 period. Overall case RRs (unvaccinated persons compared with bivalent booster recipients) were slightly higher (2.8) than were those for monovalent-only vaccine recipients (2.5) during the late BA.4/BA.5 period. Average, age-standardized mortality RRs in monovalent-only vaccine recipients decreased from the Delta (16.2) to BA.1 (11.5) period, then stabilized during the BA.2 (5.3), early BA.4/BA.5 (5.3), and late BA.4/BA.5 (5.4) periods. Overall mortality rates among unvaccinated persons were 14.1 times the rates among bivalent vaccine recipients; mortality rates among monovalent-only vaccine recipients were 2.6 times the rates among bivalent vaccine recipients during the late BA.4/BA.5 period. Compared with unvaccinated persons, protection among bivalent booster recipients aged 65&ndash;79 years (RR = 23.7), and &ge;80 years (10.3) was significantly higher than was protection among monovalent booster recipients aged 65&ndash;79 years (8.3) and &ge;80 years (4.2).</p>
+<p>In stratified comparisons of unvaccinated persons and vaccinated persons who had received a monovalent booster dose 2 weeks&ndash;2 months earlier, progressive declines in case RRs were more pronounced between the Delta (7.0) and BA.1 (3.4), BA.2 (2.4), early BA.4/BA.5 (2.8), and late BA.4/BA.5 (2.8) periods; the case RR at 2 weeks&ndash;2 months after a bivalent booster (2.8) was the same during the late BA.4/BA.5 period (<a id="F2_up"></a><a href="#F2_down">Figure 2</a>) (Supplementary Table, <a href="https://stacks.cdc.gov/view/cdc/124201">https://stacks.cdc.gov/view/cdc/124201</a>).**** A similar reduction in the case RR was observed for both the monovalent booster at 3&ndash;5 months (2.0) and the bivalent booster at 3 months (1.7) after vaccination during the late BA.4/BA.5 period. Mortality RRs for unvaccinated persons compared with persons who received a monovalent booster dose 2 weeks&ndash;2 months earlier declined from 50.7 during the Delta period to 21.4 during the BA.1 period, 7.9 during the BA.2 period, and 7.4 during the early BA.4/BA.5 period, representing a reduction in crude vaccine effectiveness (VE) from 98% (Delta) to 87% (BA.4/BA.5).<sup>&dagger;&dagger;&dagger;&dagger;</sup> During the early BA.4/BA.5 period, mortality RRs remained stable 3&ndash;5 months after receiving a monovalent booster dose (7.2) but declined to 4.6 at 6&ndash;8 months, 4.5 at 9&ndash;11 months, and 2.5 at &ge;12 months. In contrast, bivalent boosters received in the preceding 2 weeks&ndash;2 months during the late BA.4/BA.5 period provided enhanced protection against death (mortality RR&nbsp;=&nbsp;15.2 in unvaccinated persons versus bivalent booster recipients), representing a crude VE of 93%. A subset analysis of the Omicron BA.5, BA.4, and BA.2-related variant period (November 6&ndash;December 24, 2022) yielded similar results.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><div>
+<h2><a id="discussion" class="onThisPageAnchor" title="Discussion"></a>Discussion</h2>
+<p>This multijurisdictional report of COVID-19 case and mortality rates included two sets of analyses with different comparisons by vaccination status. In the first, overall rates among unvaccinated persons were compared to rates in persons with only monovalent doses or bivalent boosters.&nbsp;Receipt of bivalent booster added protection against infection and death for circulating Omicron BA.4/BA.5 sublineages. When stratifying by time since vaccination for the second analysis, comparisons during the late BA.4/BA.5 period of monovalent and bivalent boosters found that bivalent boosters restored protection against mortality and provided similar protection against infection at 2 weeks through 2 months. Although long-term protection could not yet be assessed, evidence of waning protection against infection 3 months after bivalent booster dose receipt was observed. This study supports previous findings of protection afforded by bivalent vaccines against infection and medically attended illness during BA.4/BA.5 predominance (<i>5</i>&ndash;<i>7</i>) and provides additional evidence of enhanced protection against COVID-19&ndash;associated mortality. To date, however, bivalent booster coverage has been low (17.5% among persons aged &ge;12 years).<sup>&sect;&sect;&sect;&sect;</sup></p>
+<p>During the early BA.4/BA.5 period, waning protection against COVID-19&ndash;associated death was observed &ge;6 months after receipt of monovalent boosters, although decreases were not always statistically significant. Findings were similar to those reported in a 2021 study on waning immunity from primary COVID-19 vaccination during the Delta period (<i>4</i>). Patterns of waning protection against COVID-19&ndash;associated death after receiving a monovalent booster were less apparent during the late BA.4/BA.5 period; this might be related to smaller sample sizes and potential boosts to immunity over time resulting from recent infections or receipt of boosters that were not matched to existing vaccination records. Well-controlled VE studies conducted during the BA.4/BA.5 period have shown waning protection of monovalent doses against hospitalization starting at 4 months, with incremental benefits of bivalent boosters with increasing time since the last monovalent dose<sup>&para;&para;&para;&para;</sup> (<i>6</i>,<i>7</i>).</p>
+<p>The findings in this report are subject to at least six limitations. First, authorizations for monovalent and bivalent boosters were not concurrent; the median time after vaccination was longer for persons who received monovalent boosters than for those who received bivalent boosters, which limits direct comparability. Second, distinguishing monovalent boosters from additional primary doses administered to immunocompromised persons was not possible, which could result in reduced RRs because of lower VE in this population. Third, this ecologic study could not adjust for important confounders that might contribute to rate differences, such as possible variations in infection-derived immunity, co-morbidities, and testing or prevention behaviors by age and vaccination status (<i>1</i>). Increased at-home test use has affected trends in case incidence more than trends in mortality over time (<i>1</i>); however, increases have been noted in COVID-19&ndash;associated deaths without laboratory-confirmation,***** which were not included in data reported by vaccination status, possibly reducing recent RRs. Fourth, national variant prevalence estimates were used, but variant prevalence differs by region. Fifth, misclassification of bivalent or monovalent boosters could influence RRs (<i>10</i>). Cases in bivalent booster recipients might have been preferentially identified because accounting for bivalent doses reported as first and second doses was possible, whereas distinguishing unlinked monovalent boosters from first or second doses was not possible. Finally, these data represent approximately one half of the U.S. population, and therefore, might not be generalizable.</p>
+<p>This report presents evidence of the enhanced protection provided by bivalent COVID-19 boosters compared to monovalent vaccines against infection and death during the BA.4/BA.5 period and are consistent with other VE studies. Continued monitoring of the impact of emerging variants on VE against severe COVID-19 outcomes is needed. For the best protection against severe COVID-19, all persons should stay up to date with recommended COVID-19 vaccination, including receipt of a bivalent booster by eligible persons.</p>
+</div>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><h3><a id="Acknowledgments" class="onThisPageAnchor" title="Acknowledgments"></a>Acknowledgments</h3>
+<p>Sean Coffinger, Quratul Ain Khanani, Seth Rothbard, Terra Wiens, Washington State Department of Health; Holly Kidrowski, Sydney Kuramoto, Minnesota Department of Health.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><p>Corresponding author: Amelia G. Johnson, <a href="mailto:rwi3@cdc.gov">rwi3@cdc.gov</a>.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><hr style="border-top:1px solid"><div class="order-4 w-100"><p><a id="contribAff"></a><sup>1</sup>National Center for Immunization and Respiratory Diseases, CDC; <sup>2</sup>CDC COVID-19 Emergency Response Team; <sup>3</sup>Kentucky Department for Public Health; <sup>4</sup>CDC Foundation, Atlanta, Georgia; <sup>5</sup>West Virginia Department of Health and Human Resources; <sup>6</sup>Indiana Department of Health; <sup>7</sup>New Jersey Department of Health; <sup>8</sup>Massachusetts Department of Public Health; <sup>9</sup>Tennessee Department of Health; <sup>10</sup>Utah Department of Health and Human Services; <sup>11</sup>Arkansas Department of Health; <sup>12</sup>Nebraska Department of Health and Human Services; <sup>13</sup>New York State Department of Health; <sup>14</sup>Georgia Department of Public Health; <sup>15</sup>North Carolina Department of Health and Human Services; <sup>16</sup>Booz Allen Hamilton, McLean, Virginia; <sup>17</sup>Michigan Department of Health and Human Services; <sup>18</sup>Arizona Department of Health Services; <sup>19</sup>Washington State Department of Health; <sup>20</sup>Alabama Department of Public Health; <sup>21</sup>Center for Surveillance, Epidemiology and Laboratory Science, CDC; <sup>22</sup>Idaho Department of Health and Welfare; <sup>23</sup>Louisiana Department of Health; <sup>24</sup>Minnesota Department of Health; <sup>25</sup>District of Columbia Department of Health; <sup>26</sup>Texas Department of State Health Services; <sup>27</sup>Colorado Department of Public Health and Environment; <sup>28</sup>New Mexico Department of Health; <sup>29</sup>Kansas Department of Health and Environment.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><div class="footnote-text">
+<p class="Footnote">All authors have completed and submitted the International Committee of Medical Journal Editors form for disclosure of potential conflicts of interest. Kathryn A. Turner reports an uncompensated position as the secretary/treasurer of the Board of the Council of State and Territorial Epidemiologists. No other potential conflicts of interest were disclosed.</p>
+</div>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><br><div class="order-4 w-100"><div class="footnote-text">
+<p class="Footnote">* <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/stay-up-to-date.html">https://www.cdc.gov/coronavirus/2019-ncov/vaccines/stay-up-to-date.html</a></p>
+<p class="Footnote"><sup>&dagger;</sup> National weighted estimates of weekly proportions of infections attributed to SARS-CoV-2 variants are based on CDC analyses (<a href="https://covid.cdc.gov/covid-data-tracker/#variant-proportions">https://covid.cdc.gov/covid-data-tracker/#variant-proportions</a>). Analysis periods were categorized based on variant predominance (defined as those accounting for &gt;50% of sequenced lineages): Delta, October 3&ndash;December 18, 2021; Omicron BA.1, December 19, 2021&ndash;March 19, 2022; Omicron BA.2, March 20&ndash;June 25, 2022; early Omicron BA.4/BA.5, June 26&ndash;September 17, 2022; and late Omicron BA.4/BA.5 (only period in which bivalent boosters were recommended), September 18&ndash;December 24, 2022. A subset analysis was performed for the Omicron BA.5-, BA.4-, and BA.2-related variant period (November 6&ndash;December 24, 2022).</p>
+<p class="Footnote"><sup>&sect;</sup> <a href="https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination">https://covid.cdc.gov/covid-data-tracker/#covidnet-hospitalizations-vaccination</a></p>
+<p class="Footnote"><sup>&para;</sup> The 24 jurisdictions included in this analysis represent 52% of the U.S. population: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, North Carolina, Tennessee, Texas, Utah, Washington, and West Virginia. A subset of 23 jurisdictions (50% of the US population) was included in the time since last booster vaccination analysis; New York did not provide mortality data.</p>
+<p class="Footnote">** A COVID-19 case (confirmed or probable) was defined as the detection of SARS-CoV-2 RNA or antigen in a respiratory specimen collected per the Council of State and Territorial Epidemiologists&rsquo; update to the standardized surveillance case definition and national notification for COVID-19 (<a href="https://cdn.ymaws.com/www.cste.org/resource/resmgr/ps/ps2022/22-ID-01_COVID19.pdf" target="_blank" class="tp-link-policy" rel="noreferrer" data-domain-ext="com">https://cdn.ymaws.com/www.cste.org/resource/resmgr/ps/ps2022/22-ID-01_COVID19.pdf<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span><span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a>). Reinfections occurring after 90 days were counted as new cases, per current guidance.</p>
+<p class="Footnote"><sup>&dagger;&dagger;</sup> A COVID-19&ndash;associated death occurred in a person with a documented COVID-19 diagnosis who died and whose report local health authorities reviewed to make that determination (e.g., using vital records, public health investigation, or other data sources). Per national guidance, this group should include persons whose death certificate lists COVID-19 or SARS-CoV-2 as an underlying cause or a significant condition contributing to death (<a href="https://preparedness.cste.org/wp-content/uploads/2022/12/CSTE-Revised-Classification-of-COVID-19-associated-Deaths.Final_.11.22.22.pdf" target="_blank" class="tp-link-policy" rel="noreferrer" data-domain-ext="org">https://preparedness.cste.org/wp-content/uploads/2022/12/CSTE-Revised-Classification-of-COVID-19-associated-Deaths.Final_.11.22.22.pdf<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span><span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a>). Rates of COVID-19 deaths by vaccination status are reported based on when specimens were tested for COVID-19, not the date the patient died.</p>
+<p class="Footnote"><sup>&sect;&sect;</sup> COVID-19 cases among unvaccinated persons and persons vaccinated with a primary series with or without a monovalent or bivalent booster dose were defined as previously described (<a href="https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html">https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html</a>). COVID-19 patients who had received a primary series or a monovalent booster were combined in the &ldquo;vaccinated with monovalent vaccines only&rdquo; category. Cases were excluded among persons who received &ge;1 FDA-authorized vaccine dose but did not complete a primary series &ge;14 days before the positive specimen collection date.</p>
+<p class="Footnote"><sup>&para;&para;</sup> <a href="https://www.census.gov/programs-surveys/popest/data/tables.2019.html" class="tp-link-policy" rel="noreferrer" data-domain-ext="gov">https://www.census.gov/programs-surveys/popest/data/tables.2019.html<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></p>
+<p class="Footnote">*** A continuity correction was applied to denominators by capping the percentage of population coverage at 95%. To do this, it was assumed that &ge;5% of each age group would always be unvaccinated in each jurisdiction. Adding this correction ensures that there is always a reasonable denominator for the unvaccinated population and prevents incidence and death rates from growing unrealistically large because of potential overestimates of vaccination coverage.</p>
+<p class="Footnote"><sup>&dagger;&dagger;&dagger;</sup> Age-standardization was performed using the direct method with the year 2000 projected U.S. population, per the 1998 directive on adjusting mortality data from the Secretary of the U.S. Department of Health and Human Services (<a href="https://www.cdc.gov/nchs/data/statnt/statnt20.pdf" target="_blank">https://www.cdc.gov/nchs/data/statnt/statnt20.pdf<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span></a>).</p>
+<p class="Footnote"><sup>&sect;&sect;&sect;</sup> 95% CIs were calculated after detrending underlying linear changes in weekly rates using piecewise linear regression. Each 95% CI represents the remaining variation in observed weekly rates and resulting RRs. The number of observations leading to each 95% CI reflects the number of weeks per period: Delta (11), Omicron BA.1 (13), Omicron BA.2 (14), early Omicron BA.4/BA.5 (12), and late Omicron BA.4/BA.5 (14).</p>
+<p class="Footnote"><sup>&para;&para;&para;</sup> 45 C.F.R. part 46.102(l)(2), 21 C.F.R. part 56; 42 U.S.C. Sect. 241(d); 5 U.S.C.0 Sect.552a; 44 U.S.C. Sect. 3501 et seq.</p>
+<p class="Footnote">**** The median interval in the 2 weeks&ndash;2 months since vaccination period was longer for persons who received monovalent boosters during early (60 days) and late (70 days) BA.4/BA.5 periods than for those who received bivalent boosters (47 days). The median interval among persons who received a monovalent booster 3&ndash;5 months earlier was 131 and 144 days during early and late BA.4/BA.5 periods, respectively; among those who received bivalent boosters 3&ndash;5 months earlier, the median interval was 95 days.</p>
+<p class="Footnote"><sup>&dagger;&dagger;&dagger;&dagger;</sup> To interpret rate ratio changes, age-standardized crude vaccine effectiveness was estimated as (1 &minus; [incidence in vaccinated / incidence in unvaccinated]) x 100%.</p>
+<p class="Footnote"><sup>&sect;&sect;&sect;&sect;</sup> <a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total">https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total</a></p>
+<p class="Footnote"><sup>&para;&para;&para;&para;</sup> <a href="https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2022-09-01/04-covid-link-gelles-508.pdf" target="_blank">https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2022-09-01/04-covid-link-gelles-508.pdf<span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf x16 fill-pdf" alt="" aria-hidden="true"></span><span class="file-details"></span></a></p>
+<p class="Footnote">***** <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/data-review/hospitals.html">https://www.cdc.gov/coronavirus/2019-ncov/science/data-review/hospitals.html</a></p>
+</div>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><h2><a id="References" class="onThisPageAnchor" title="References"></a>References</h2>
+<ol>
+<li>CDC. Rates of COVID-19 cases and deaths by vaccination status. Atlanta, GA: US Department of Health and Human Services, CDC; 2022. <a href="https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status">https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status</a></li>
+<li>Scobie HM, Johnson AG, Suthar AB, et al. Monitoring incidence of COVID-19 cases, hospitalizations, and deaths, by vaccination status&mdash;13 US jurisdictions, April 4&ndash;July 17, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1284&ndash;90. <a href="http://doi.org/10.15585/mmwr.mm7037e1" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm7037e1<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/34529637" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:34529637<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Johnson AG, Amin AB, Ali AR, et al.; MSHI. COVID-19 incidence and death rates among unvaccinated and fully vaccinated adults with and without booster doses during periods of Delta and Omicron variant emergence&mdash;25 U.S. jurisdictions, April 4&ndash;December 25, 2021. MMWR Morb Mortal Wkly Rep 2022;71:132&ndash;8. <a href="http://doi.org/10.15585/mmwr.mm7104e2" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm7104e2<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/35085223" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:35085223<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Paz-Bailey G, Sternberg M, Kugeler K, et al. Covid-19 rates by time since vaccination during Delta variant predominance. NEJM Evid 2021. Epub December 20, 2021. <a href="http://doi.org/10.1056/EVIDoa2100057" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.1056/EVIDoa2100057<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Link-Gelles R, Ciesla AA, Fleming-Dutra KE, et al. Effectiveness of bivalent mRNA vaccines in preventing symptomatic SARS-CoV-2 infection&mdash;Increasing Community Access to Testing Program, United States, September&ndash;November 2022. MMWR Morb Mortal Wkly Rep 2022;71:1526&ndash;30. <a href="http://doi.org/10.15585/mmwr.mm7148e1" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm7148e1<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36454688" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:36454688<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Surie D, DeCuir J, Zhu Y, et al. Early effectiveness estimates of bivalent mRNA vaccines in preventing COVID-19&ndash;associated hospitalization among immunocompetent adults aged &ge;65 years&mdash;IVY Network, 18 states, September 8&ndash;November 30, 2022. MMWR Morb Mortal Wkly Rep 2022;71:1625&ndash;30. <a href="http://doi.org/10.15585/mmwr.mm715152e2" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm715152e2<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36580424" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:36580424<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Tenforde MW, Weber ZA, Natarajan K, et al. Early estimates of bivalent mRNA vaccine effectiveness in preventing COVID-19&ndash;associated emergency department or urgent care encounters and hospitalizations among immunocompetent adults&mdash;VISION Network, nine states, September&ndash;November 2022. MMWR Morb Mortal Wkly Rep 2022;71:1616&ndash;24. <a href="http://doi.org/10.15585/mmwr.mm715152e1" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm715152e1<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/36580430" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:36580430<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Bevington P, Robinson DK. Data reduction and error analysis for the physical sciences. 3rd ed. New York, NY: McGraw-Hill Education; 2003.</li>
+<li>Scheffer M, Carpenter SR, Dakos V, van Nes EH. Generic indicators of ecological resilience: inferring the chance of a critical transition. Annu Rev Ecol Evol Syst 2015;46:145&ndash;67. <a href="http://doi.org/10.1146/annurev-ecolsys-112414-054242" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.1146/annurev-ecolsys-112414-054242<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+<li>Fast HE, Zell E, Murthy BP, et al. Booster and additional primary dose COVID-19 vaccinations among adults aged &ge;65 years&mdash;United States, August 13, 2021&ndash;November 19, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1735&ndash;9. <a href="http://doi.org/10.15585/mmwr.mm7050e2" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">https://doi.org/10.15585/mmwr.mm7050e2<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/34914672" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="gov">PMID:34914672<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a></li>
+</ol>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><table class="table table-bordered table-responsive">
+<caption class="caption-top h4 text-black" style="text-align: left"><a id="T1_down"></a>
+<h5><strong>TABLE. Average weekly incidence,* mortality rates,<sup>&dagger;</sup> and rate ratios for unvaccinated compared with vaccinated persons, by age group, variant period,<sup>&sect;</sup> and receipt of bivalent booster doses &mdash; 24 U.S. jurisdictions,<sup>&para;</sup> October 2021&ndash;December 2022**</strong><a href="#T1_up"><img loading="lazy" decoding="async" class="float-right" title="Return to your place in the text" src="//www.cdc.gov/images/arrow_up.gif" alt="Return to your place in the text" width="58" height="34" border="0"></a></h5>
+</caption>
+<thead>
+<tr>
+<th class="row1left" rowspan="3" scope="col" align="left" valign="bottom">Dates (predominant variant)</th>
+<th class="row1" colspan="12" scope="col" align="center" valign="bottom">Age group, yrs</th>
+</tr>
+<tr>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">12&ndash;17</th>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">18&ndash;49</th>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">50&ndash;64</th>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">65&ndash;79</th>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">&ge;80</th>
+<th class="row1" colspan="2" scope="col" align="center" valign="bottom">All ages &ge;12 yrs<br>
+(age-standardized)</th>
+</tr>
+<tr>
+<th class="row1" colspan="1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+<th class="row1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+<th class="row1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+<th class="row1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+<th class="row1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+<th class="row1" scope="col" align="center" valign="bottom">No.</th>
+<th class="row1" scope="col" align="center" valign="bottom">Incidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Cases*</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Oct 3&ndash;Dec 18, 2021 (Delta)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">238,129</td>
+<td align="center" valign="top">384.9</td>
+<td align="center" valign="top">1,101,981</td>
+<td align="center" valign="top">443.9</td>
+<td align="center" valign="top">320,532</td>
+<td align="center" valign="top">473.5</td>
+<td align="center" valign="top">135,567</td>
+<td align="center" valign="top">729.8</td>
+<td align="center" valign="top">36,528</td>
+<td align="center" valign="top">457.9</td>
+<td align="center" valign="top"><b><b>1,832,737</b></b></td>
+<td align="center" valign="top"><b><b>475.8</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">43,715</td>
+<td align="center" valign="top">71.4</td>
+<td align="center" valign="top">587,110</td>
+<td align="center" valign="top">137.6</td>
+<td align="center" valign="top">270,337</td>
+<td align="center" valign="top">113.3</td>
+<td align="center" valign="top">146,740</td>
+<td align="center" valign="top">82.2</td>
+<td align="center" valign="top">48,377</td>
+<td align="center" valign="top">93.9</td>
+<td align="center" valign="top"><b><b>1,096,279</b></b></td>
+<td align="center" valign="top"><b><b>118.3</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">5.4<br>
+(2.7&ndash;10.7)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">3.2<br>
+(1.9&ndash;5.3)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.2<br>
+(3.2&ndash;5.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">8.9<br>
+(7.1&ndash;11.1)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.9<br>
+(4.0&ndash;6.0)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>4.0<br>
+(2.9&ndash;5.6)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Dec 19, 2021&ndash;Mar 19, 2022 (Omicron BA.1)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">572,012</td>
+<td align="center" valign="top">870.9</td>
+<td align="center" valign="top">3,170,926</td>
+<td align="center" valign="top">1,241.3</td>
+<td align="center" valign="top">834,743</td>
+<td align="center" valign="top">1,261.0</td>
+<td align="center" valign="top">337,174</td>
+<td align="center" valign="top">1,704.0</td>
+<td align="center" valign="top">101,276</td>
+<td align="center" valign="top">1,182.6</td>
+<td align="center" valign="top"><b><b>5,016,131</b></b></td>
+<td align="center" valign="top"><b><b>1,256.0</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">426,833</td>
+<td align="center" valign="top">507.2</td>
+<td align="center" valign="top">3,202,802</td>
+<td align="center" valign="top">572.9</td>
+<td align="center" valign="top">1,230,476</td>
+<td align="center" valign="top">405.0</td>
+<td align="center" valign="top">581,903</td>
+<td align="center" valign="top">258.2</td>
+<td align="center" valign="top">168,564</td>
+<td align="center" valign="top">259.6</td>
+<td align="center" valign="top"><b><b>5,610,578</b></b></td>
+<td align="center" valign="top"><b><b>487.7</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">1.7<br>
+(1.0&ndash;2.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.2<br>
+(1.1&ndash;4.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">3.1<br>
+(1.5&ndash;6.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">6.6<br>
+(3.6&ndash;12.1)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.6<br>
+(2.7&ndash;7.7)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>2.6<br>
+(1.6&ndash;4.1)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Mar 20&ndash;Jun 25, 2022 (Omicron BA.2)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">65,272</td>
+<td align="center" valign="top">98.7</td>
+<td align="center" valign="top">546,933</td>
+<td align="center" valign="top">212.5</td>
+<td align="center" valign="top">170,798</td>
+<td align="center" valign="top">252.4</td>
+<td align="center" valign="top">90,598</td>
+<td align="center" valign="top">442.0</td>
+<td align="center" valign="top">33,135</td>
+<td align="center" valign="top">375.6</td>
+<td align="center" valign="top"><b><b>906,736</b></b></td>
+<td align="center" valign="top"><b><b>240.2</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">78,139</td>
+<td align="center" valign="top">80.6</td>
+<td align="center" valign="top">904,179</td>
+<td align="center" valign="top">144.8</td>
+<td align="center" valign="top">427,853</td>
+<td align="center" valign="top">127.8</td>
+<td align="center" valign="top">275,413</td>
+<td align="center" valign="top">111.1</td>
+<td align="center" valign="top">95,296</td>
+<td align="center" valign="top">133.3</td>
+<td align="center" valign="top"><b><b>1,780,880</b></b></td>
+<td align="center" valign="top"><b><b>130.8</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">1.2<br>
+(0.9&ndash;1.6)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">1.5<br>
+(1.3&ndash;1.6)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.0<br>
+(1.8&ndash;2.2)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.0<br>
+(3.6&ndash;4.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.8<br>
+(2.5&ndash;3.1)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>1.8<br>
+(1.7&ndash;2.0)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Jun 26&ndash;Sep 17, 2022 (early Omicron BA.4/BA.5)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">106,120</td>
+<td align="center" valign="top">193.5</td>
+<td align="center" valign="top">761,559</td>
+<td align="center" valign="top">356.7</td>
+<td align="center" valign="top">241,386</td>
+<td align="center" valign="top">429.1</td>
+<td align="center" valign="top">138,059</td>
+<td align="center" valign="top">812.4</td>
+<td align="center" valign="top">49,447</td>
+<td align="center" valign="top">685.1</td>
+<td align="center" valign="top"><b><b>1,296,571</b></b></td>
+<td align="center" valign="top"><b><b>417.3</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">69,144</td>
+<td align="center" valign="top">81.7</td>
+<td align="center" valign="top">863,788</td>
+<td align="center" valign="top">160.0</td>
+<td align="center" valign="top">471,681</td>
+<td align="center" valign="top">162.9</td>
+<td align="center" valign="top">350,412</td>
+<td align="center" valign="top">162.8</td>
+<td align="center" valign="top">128,081</td>
+<td align="center" valign="top">205.9</td>
+<td align="center" valign="top"><b><b>1,883,106</b></b></td>
+<td align="center" valign="top"><b><b>154.5</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.4<br>
+(1.2&ndash;4.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.2<br>
+(2.1&ndash;2.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.6<br>
+(2.5&ndash;2.8)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">5.0<br>
+(4.7&ndash;5.3)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">3.3<br>
+(3.2&ndash;3.5)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>2.7<br>
+(2.6&ndash;2.8)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Sep 18&ndash;Dec 24, 2022 (late Omicron BA.4/BA.5)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">46,384</td>
+<td align="center" valign="top">74.0</td>
+<td align="center" valign="top">377,142</td>
+<td align="center" valign="top">155.3</td>
+<td align="center" valign="top">146,444</td>
+<td align="center" valign="top">228.4</td>
+<td align="center" valign="top">100,317</td>
+<td align="center" valign="top">511.1</td>
+<td align="center" valign="top">46,026</td>
+<td align="center" valign="top">554.4</td>
+<td align="center" valign="top"><b><b>716,313</b></b></td>
+<td align="center" valign="top"><b><b>216.1</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Monovalent vaccine only</td>
+<td align="center" valign="top">39,360</td>
+<td align="center" valign="top">41.2</td>
+<td align="center" valign="top">481,552</td>
+<td align="center" valign="top">80.2</td>
+<td align="center" valign="top">298,532</td>
+<td align="center" valign="top">97.5</td>
+<td align="center" valign="top">230,382</td>
+<td align="center" valign="top">110.4</td>
+<td align="center" valign="top">107,169</td>
+<td align="center" valign="top">174.4</td>
+<td align="center" valign="top"><b><b>1,156,995</b></b></td>
+<td align="center" valign="top"><b><b>86.4</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">1.8<br>
+(1.2&ndash;2.8)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">1.9<br>
+(1.5&ndash;2.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.3<br>
+(1.9&ndash;2.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.6<br>
+(3.8&ndash;5.6)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">3.2<br>
+(2.6&ndash;4.0)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>2.5<br>
+(2.2&ndash;2.9)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Bivalent booster</td>
+<td align="center" valign="top">1,112</td>
+<td align="center" valign="top">25.9</td>
+<td align="center" valign="top">30,424</td>
+<td align="center" valign="top">79.6</td>
+<td align="center" valign="top">29,589</td>
+<td align="center" valign="top">85.2</td>
+<td align="center" valign="top">45,139</td>
+<td align="center" valign="top">88.4</td>
+<td align="center" valign="top">21,253</td>
+<td align="center" valign="top">139.6</td>
+<td align="center" valign="top"><b><b>127,517</b></b></td>
+<td align="center" valign="top"><b><b>78.5</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Bivalent booster RR</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.9<br>
+(1.8&ndash;4.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.0<br>
+(1.5&ndash;2.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">2.7<br>
+(2.2&ndash;3.3)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">5.8<br>
+(4.8&ndash;6.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.0<br>
+(3.2&ndash;5.0)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>2.8<br>
+(2.4&ndash;3.1)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Deaths<sup>&dagger;</sup></b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Oct 3&ndash;Dec 18, 2021 (Delta)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">23</td>
+<td align="center" valign="top">0.04</td>
+<td align="center" valign="top">3,072</td>
+<td align="center" valign="top">1.3</td>
+<td align="center" valign="top">7,202</td>
+<td align="center" valign="top">11.7</td>
+<td align="center" valign="top">9,470</td>
+<td align="center" valign="top">55.0</td>
+<td align="center" valign="top">5,533</td>
+<td align="center" valign="top">77.6</td>
+<td align="center" valign="top"><b><b>25,300</b></b></td>
+<td align="center" valign="top"><b><b>12.2</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">2</td>
+<td align="center" valign="top">0.004</td>
+<td align="center" valign="top">232</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">1,111</td>
+<td align="center" valign="top">0.5</td>
+<td align="center" valign="top">3,279</td>
+<td align="center" valign="top">2.1</td>
+<td align="center" valign="top">4,041</td>
+<td align="center" valign="top">9.3</td>
+<td align="center" valign="top"><b><b>8,665</b></b></td>
+<td align="center" valign="top"><b><b>0.7</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">10.8<br>
+(0.2&ndash;578.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">20.9<br>
+(13.0&ndash;33.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">21.4<br>
+(16.0&ndash;28.6)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">25.8<br>
+(20.6&ndash;32.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">8.3<br>
+(6.4&ndash;10.9)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>16.2<br>
+(14.1&ndash;18.7)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Dec 19, 2021&ndash;Mar 19, 2022 (Omicron BA.1)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">25</td>
+<td align="center" valign="top">0.04</td>
+<td align="center" valign="top">2,495</td>
+<td align="center" valign="top">1.0</td>
+<td align="center" valign="top">6,917</td>
+<td align="center" valign="top">11.3</td>
+<td align="center" valign="top">12,836</td>
+<td align="center" valign="top">70.5</td>
+<td align="center" valign="top">10,220</td>
+<td align="center" valign="top">131.0</td>
+<td align="center" valign="top"><b><b>32,493</b></b></td>
+<td align="center" valign="top"><b><b>15.8</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">7</td>
+<td align="center" valign="top">0.01</td>
+<td align="center" valign="top">635</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">2,828</td>
+<td align="center" valign="top">1.1</td>
+<td align="center" valign="top">7,748</td>
+<td align="center" valign="top">4.0</td>
+<td align="center" valign="top">8,994</td>
+<td align="center" valign="top">16.3</td>
+<td align="center" valign="top"><b><b>20,212</b></b></td>
+<td align="center" valign="top"><b><b>1.4</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.3<br>
+(0.5&ndash;41.2)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">7.8<br>
+(5.0&ndash;12.1)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">10.5<br>
+(7.6&ndash;14.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">17.8<br>
+(13.2&ndash;24.0)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">8.0<br>
+(5.5&ndash;11.7)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>11.5<br>
+(9.4&ndash;14.1)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Mar 20&ndash;Jun 25, 2022 (Omicron BA.2)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">9</td>
+<td align="center" valign="top">0.01</td>
+<td align="center" valign="top">245</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">514</td>
+<td align="center" valign="top">0.8</td>
+<td align="center" valign="top">1,144</td>
+<td align="center" valign="top">6.1</td>
+<td align="center" valign="top">1,418</td>
+<td align="center" valign="top">17.5</td>
+<td align="center" valign="top"><b><b>3,330</b></b></td>
+<td align="center" valign="top"><b><b>1.6</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">2</td>
+<td align="center" valign="top">0.002</td>
+<td align="center" valign="top">133</td>
+<td align="center" valign="top">0.02</td>
+<td align="center" valign="top">501</td>
+<td align="center" valign="top">0.2</td>
+<td align="center" valign="top">1,503</td>
+<td align="center" valign="top">0.7</td>
+<td align="center" valign="top">2,700</td>
+<td align="center" valign="top">4.4</td>
+<td align="center" valign="top"><b><b>4,839</b></b></td>
+<td align="center" valign="top"><b><b>0.3</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">6.2<br>
+(0.04&ndash;935.3)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.0<br>
+(1.6&ndash;10.0)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.7<br>
+(3.5&ndash;6.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">8.7<br>
+(6.6&ndash;11.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.0<br>
+(3.4&ndash;4.6)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>5.3<br>
+(4.6&ndash;6.0)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Jun 26&ndash;Sep 17, 2022 (early Omicron BA.4/BA.5)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">12</td>
+<td align="center" valign="top">0.02</td>
+<td align="center" valign="top">332</td>
+<td align="center" valign="top">0.2</td>
+<td align="center" valign="top">790</td>
+<td align="center" valign="top">1.5</td>
+<td align="center" valign="top">1,725</td>
+<td align="center" valign="top">11.1</td>
+<td align="center" valign="top">2,154</td>
+<td align="center" valign="top">32.4</td>
+<td align="center" valign="top"><b><b>5,013</b></b></td>
+<td align="center" valign="top"><b><b>2.9</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Vaccinated</td>
+<td align="center" valign="top">1</td>
+<td align="center" valign="top">0.001</td>
+<td align="center" valign="top">223</td>
+<td align="center" valign="top">0.05</td>
+<td align="center" valign="top">760</td>
+<td align="center" valign="top">0.3</td>
+<td align="center" valign="top">2,665</td>
+<td align="center" valign="top">1.4</td>
+<td align="center" valign="top">4,039</td>
+<td align="center" valign="top">7.6</td>
+<td align="center" valign="top"><b><b>7,688</b></b></td>
+<td align="center" valign="top"><b><b>0.5</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">17.4<br>
+(0.03&ndash;9,462.7)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">3.4<br>
+(1.9&ndash;5.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">5.0<br>
+(3.7&ndash;6.6)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">7.8<br>
+(6.9&ndash;8.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.3<br>
+(3.6&ndash;5.0)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>5.3<br>
+(4.8&ndash;5.9)</b></b></td>
+</tr>
+<tr>
+<td colspan="13" align="left" valign="top"><b><b>Sep 18&ndash;Dec 3, 2022 (late Omicron BA.4/BA.5)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Unvaccinated</td>
+<td align="center" valign="top">3</td>
+<td align="center" valign="top">0.01</td>
+<td align="center" valign="top">165</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">387</td>
+<td align="center" valign="top">0.8</td>
+<td align="center" valign="top">1,076</td>
+<td align="center" valign="top">7.6</td>
+<td align="center" valign="top">1,410</td>
+<td align="center" valign="top">23.4</td>
+<td align="center" valign="top"><b><b>3,041</b></b></td>
+<td align="center" valign="top"><b><b>2.0</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Monovalent vaccine only</td>
+<td align="center" valign="top">0</td>
+<td align="center" valign="top">0</td>
+<td align="center" valign="top">81</td>
+<td align="center" valign="top">0.02</td>
+<td align="center" valign="top">397</td>
+<td align="center" valign="top">0.2</td>
+<td align="center" valign="top">1,369</td>
+<td align="center" valign="top">0.9</td>
+<td align="center" valign="top">2,358</td>
+<td align="center" valign="top">5.5</td>
+<td align="center" valign="top"><b><b>4,205</b></b></td>
+<td align="center" valign="top"><b><b>0.4</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.5<br>
+(2.3&ndash;9.1)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.4<br>
+(2.6&ndash;7.4)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">8.3<br>
+(6.4&ndash;10.7)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">4.2<br>
+(3.7&ndash;4.9)</td>
+<td align="center" valign="top"><b><b>&mdash;</b></b></td>
+<td align="center" valign="top"><b><b>5.4<br>
+(4.8&ndash;6.1)</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Bivalent booster</td>
+<td align="center" valign="top">0</td>
+<td align="center" valign="top">0</td>
+<td align="center" valign="top">1</td>
+<td align="center" valign="top">0.005</td>
+<td align="center" valign="top">12</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">91</td>
+<td align="center" valign="top">0.3</td>
+<td align="center" valign="top">188</td>
+<td align="center" valign="top">2.3</td>
+<td align="center" valign="top"><b><b>292</b></b></td>
+<td align="center" valign="top"><b><b>0.1</b></b></td>
+</tr>
+<tr>
+<td align="left" valign="top">Bivalent booster RR (95% CI)&dagger;&dagger;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">18.8<br>
+(0.8&ndash;467.9)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">12.8<br>
+(2.7&ndash;61.5)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">23.7<br>
+(12.6&ndash;44.7)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top">10.3<br>
+(7.0&ndash;15.2)</td>
+<td align="center" valign="top">&mdash;</td>
+<td align="center" valign="top"><b><b>14.1<br>
+(10.1&ndash;19.6)</b></b></td>
+</tr>
+</tbody>
+</table>
+<p class="caption"><b><b>Abbreviation</b></b>: RR&nbsp;=&nbsp;rate ratio.<br>
+* Cases per 100,000 persons aged &ge;12 years. COVID-19 cases among unvaccinated persons and persons vaccinated with a primary series with or without a monovalent or bivalent booster dose were defined as previously described (<a href="https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html">https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html</a>). Cases with primary series or a monovalent booster were combined in the &ldquo;vaccinated only with monovalent vaccines&rdquo; category. Cases were excluded among persons who received &ge;1 Food and Drug Administration&ndash;authorized vaccine dose but did not complete a primary series &ge;14 days before the positive specimen collection date.<br>
+<sup>&dagger;</sup> Deaths per 100,000 persons aged &ge;12 years. A COVID-19&ndash;associated death occurred in a person with a documented COVID-19 diagnosis who died, and whose report local health authorities reviewed to make that determination (e.g., using vital records, public health investigation, or other data sources). Per national guidance, this group includes persons whose death certificate lists COVID-19 or SARS-CoV-2 as an underlying cause of death or a significant condition contributing to death. COVID-19 mortality by vaccination status is reported based on COVID-19 test date, not the date the patient died.<br>
+<sup>&sect;</sup> Analysis periods were categorized based on variant predominance (defined as accounting for &gt;50% of sequenced isolates): Delta, October 3&ndash;December 18, 2021; Omicron BA.1, December 19, 2021&ndash;March 19, 2022; Omicron BA.2, March 20&ndash;June 25, 2022; early Omicron BA.4/BA.5, June 26&ndash;September 17, 2022; and late Omicron BA.4/BA.5 (only period in which bivalent boosters were recommended), September 18&ndash;December 24, 2022.<br>
+<sup>&para;</sup> These 24 jurisdictions represent 52% of the overall U.S. population and were included in this analysis: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, North Carolina, Tennessee, Texas, Utah, Washington, and West Virginia; New York did not provide mortality data.<br>
+** Date range for average weekly incidence is October 3, 2021&ndash;December 24, 2022; date range for mortality rates is October 3, 2021&ndash;December 3, 2022.<br>
+<sup>&dagger;&dagger;</sup> 95% CIs were calculated after detrending underlying linear changes in weekly rates using piecewise linear regression. Each 95% CI represents the remaining variation in observed weekly rates and resulting RRs. The number of observations informing each 95% CI reflects the number of weeks per period: Delta (11), Omicron BA.1 (13), Omicron BA.2 (14), early Omicron BA.4/BA.5 (12), and late Omicron BA.4/BA.5 (14).</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><div class="col-12"></div>
+<h5 class="h5"><a id="F1_down"></a><a href="#F1_up"><img loading="lazy" decoding="async" class="float-right" title="Return to your place in the text" src="//www.cdc.gov/images/arrow_up.gif" alt="Return to your place in the text" width="58" height="34" border="0"></a><b>FIGURE 1</b>. <strong>Age-standardized weekly COVID-19 incidence* and COVID-19&ndash;associated mortality rates,<sup>&dagger;</sup> by vaccination status and receipt of a bivalent booster dose<sup>&sect;</sup> &mdash; 24 U.S. jurisdictions,<sup>&para;</sup> October 2021&ndash;December 2022**</strong></h5>
+<div class="mb-3"><img decoding="async" class="img-fluid" alt="The figure is a bar chart showing age-standardized weekly COVID-19 incidence and COVID-19&ndash;associated mortality, by vaccination status and receipt of a bivalent booster, in 24 U.S. jurisdictions during October&ndash;December 2022." title="COVID-19 Incidence and Death Rates Among Unvaccinated and Vaccinated Persons Ages &ge;12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination &mdash; 24 U.S. Jurisdictions, October 3, 2021&ndash;December 24, 2022" src="/mmwr/volumes/72/wr/figures/mm7206a3-F1-large.gif?_=71109"></div>
+<p>* Cases per 100,000 persons aged &ge;12 years. COVID-19 cases among unvaccinated persons and persons vaccinated with a primary series with or without a monovalent or bivalent booster dose were defined as previously described (<a href="https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html">https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html</a>). Cases with primary series or a monovalent booster were combined in the &ldquo;vaccinated only with monovalent vaccines&rdquo; category. Cases were excluded among persons who received &ge;1 Food and Drug Administration&ndash;authorized vaccine dose but did not complete a primary series &ge;14 days before the positive specimen collection date.</p>
+<p><sup>&dagger;</sup> Deaths per 100,000 persons aged &ge;12 years. A COVID-19&ndash;associated death occurred in a person with a documented COVID-19 diagnosis who died, and whose report local health authorities reviewed to make that determination (e.g., using vital records, public health investigation, or other data sources). Per national guidance, this group should include persons whose death certificate lists COVID-19 or SARS-CoV-2 as an underlying cause or a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date the patient died.</p>
+<p><sup>&sect;</sup> Bivalent boosters were recommended during September 1&ndash;December 24, 2022. Based on case definitions, a case after vaccination occurred in a person &ge;14 days postvaccination.</p>
+<p><sup>&para;</sup> These 24 jurisdictions represent 52% of the overall U.S. population and were included in this analysis: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, North Carolina, Tennessee, Texas, Utah, Washington, and West Virginia; New York did not provide mortality data.</p>
+<p>** Date range for age-standardized weekly COVID-19 incidence is October 3, 2021&ndash;December 24, 2022; date range for COVID-19&ndash;associated mortality rates is October 3, 2021&ndash;December 3, 2022.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><div class="order-4 w-100"><div class="col-12"></div>
+<h5 class="h5"><a id="F2_down"></a><a href="#F2_up"><img loading="lazy" decoding="async" class="float-right" title="Return to your place in the text" src="//www.cdc.gov/images/arrow_up.gif" alt="Return to your place in the text" width="58" height="34" border="0"></a><b>FIGURE 2</b>. <strong>Age-standardized average weekly case* and mortality<sup>&dagger;</sup> rate ratios with 95%CIs<sup>&sect;</sup> in unvaccinated persons compared with booster dose recipients, by variant period<sup>&para;</sup> and time since receipt of last booster dose** &mdash; 23 U.S. jurisdictions,<sup>&dagger;&dagger;</sup> October 2021&ndash;December 2022<sup>&sect;&sect;</sup></strong></h5>
+<div class="mb-3"><img decoding="async" class="img-fluid" alt="The figure is a bar chart showing age-standardized average weekly case and mortality rate ratios with 95% CIs in unvaccinated persons compared with booster dose recipients, by variant period and time since receipt of last booster dose, in 23 U.S. jurisdictions during October 2021&ndash;December 2022." title="COVID-19 Incidence and Death Rates Among Unvaccinated and Vaccinated Persons Ages &ge;12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination &mdash; 24 U.S. Jurisdictions, October 3, 2021&ndash;December 24, 2022" src="/mmwr/volumes/72/wr/figures/mm7206a3-F2-large.gif?_=71167"></div>
+<p>* Cases per 100,000 persons aged &ge;12 years. COVID-19 cases among unvaccinated persons and persons vaccinated with a primary series with or without a monovalent or bivalent booster dose were defined as previously described (<a href="https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html">https://www.cdc.gov/coronavirus/2019-ncov/php/hd-breakthrough.html</a>). Cases were excluded in persons who only completed a primary series or who received &ge;1 Food and Drug Administration&ndash;authorized vaccine dose but did not complete a primary series &ge;14 days prior to the positive specimen collection date.</p>
+<p><sup>&dagger;</sup> A COVID-19&ndash;associated death occurred in a person with a documented COVID-19 diagnosis who died, and whose report local health authorities reviewed to make that determination (e.g., using vital records, public health investigation, or other data sources). Per national guidance, this group should include persons whose death certificate lists COVID-19 or SARS-CoV-2 as an underlying cause or a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date the patient died.</p>
+<p><sup>&sect;</sup> 95% CIs were calculated after detrending underlying linear changes in weekly rates using piecewise linear regression. Each 95% CI represents the remaining variation in observed weekly rates and resulting rate ratios. The number of observations leading to each 95% CI reflects the number of weeks per period: Delta (11), Omicron BA.1 (13), Omicron BA.2 (14), early Omicron BA.4/BA.5 (12), and late Omicron BA.4/BA.5 (14).</p>
+<p><sup>&para;</sup> Analysis periods were categorized based on variant predominance (defined as accounting for &gt;50% of sequenced lineages): Delta, October 3&ndash;December 18, 2021; Omicron BA.1, December 19, 2021&ndash;March 19, 2022; Omicron BA.2, March 20&ndash;June 25, 2022; early Omicron BA.4/BA.5, June 26&ndash;September 17, 2022; and late Omicron BA.4/BA.5 (only period where bivalent boosters were recommended), September 18&ndash;December 24, 2022.</p>
+<p>** Time since last monovalent booster categories was restricted to outcomes occurring during eligible weeks based on the timing of the first booster recommendation for adults aged &ge;65 years and adults aged &ge;18 years in high-risk groups on September 24, 2021: 2 weeks&ndash;2 months (starting October 3, 2021); 3&ndash;5 months (starting November 13, 2021); 6&ndash;8 months (starting February 13, 2022); 9&ndash;11 months (starting May 15, 2022); &ge;12 months (starting August 14, 2022). For persons aged 12&ndash;17 years, boosters were recommended on January 5, 2022; data are included the week starting January 16, 2022. Bivalent boosters were included for the period starting September 18, 2022, and for categories of 2 weeks&ndash;2 months and 3 months after receipt of a booster for cases and 2 weeks&ndash;2 months after receipt of a booster for deaths. Unvaccinated persons are compared to vaccinated persons for the same time frame in each category. The median interval in the 2 weeks&ndash;2 months since vaccination period was longer for persons with monovalent boosters during early (60 days) and late (70 days) BA.4/BA.5 periods than for those who received bivalent boosters (47 days). The median interval among persons who received a monovalent booster 3&ndash;5 months earlier was 131 and 191 days, respectively, during early and late BA.4/BA.5 periods; among those who received bivalent boosters 3 months earlier, the median interval was 95 days.</p>
+<p><sup>&dagger;&dagger;</sup> These 23 jurisdictions represent 50% of the overall U.S. population and were included in this analysis: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, North Carolina, Tennessee, Texas, Utah, Washington, and West Virginia; New York did not provide mortality data.</p>
+<p><sup>&sect;&sect; </sup>Date range for age-standardized average weekly case rate ratio is October 3, 2021&ndash;December 24, 2022; date range for mortality rate ratio is October 3, 2021&ndash;December 3, 2022.</p>
+</div><div class="order-4"><p class="text-right"><a href="#">Top</a></p></div><br><div class="theme-indigo card bg-tertiary w-100 order-4"><div class="card-body"><p id="suggestedcitation" class="smallgrey"><strong>Suggested citation for this article:</strong> Johnson AG, Linde L, Ali AR, et al. COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged &ge;12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination &mdash; 24 U.S. Jurisdictions, October 3, 2021&ndash;December 24, 2022. MMWR Morb Mortal Wkly Rep 2023;72:145&ndash;152. DOI: <a href="http://dx.doi.org/10.15585/mmwr.mm7206a3" target="_blank" rel="noreferrer" class="tp-link-policy" data-domain-ext="org">http://dx.doi.org/10.15585/mmwr.mm7206a3<span aria-label="external icon" class="sr-only" role="img"></span><span class="fi cdc-icon-external x16 fill-external" alt="" aria-hidden="true"></span></a>.</p>
+</div></div><div class="pull-left order-4 w-100"><p><small>
+<i>MMWR</i> and <i>Morbidity and Mortality Weekly Report</i> are service marks of the U.S. Department of Health and Human Services.<br />
+Use of trade names and commercial sources is for identification only and does not imply endorsement by the U.S. Department of 
+Health and Human Services. <br />References to non-CDC sites on the Internet are 
+provided as a service to <i>MMWR</i> readers and do not constitute or imply 
+endorsement of these organizations or their programs by CDC or the U.S. 
+Department of Health and Human Services. CDC is not responsible for the content 
+of pages found at these sites. URL addresses listed in <i>MMWR</i> were current as of 
+the date of publication.</small></p>
+<p><small>All HTML versions of <i>MMWR</i> articles are generated from final proofs through an automated process. 
+This conversion might result in character translation or format errors in the HTML version. 
+Users are referred to the electronic PDF version (<a href="https://www.cdc.gov/mmwr">https://www.cdc.gov/mmwr</a>) 
+and/or the original <i>MMWR</i> paper copy for printable versions of official text, figures, and tables. 
+</small></p> 
+<p><small>Questions or messages regarding errors in formatting should be addressed to 
+<a href="https://www.cdc.gov/mmwr/form/index.html">mmwrq@cdc.gov</a>.</small></div></div>				</div>
+
+													</div>
+		</div>
+					<div class="row"><div class="col page-format">View Page In:<a href="/mmwr/volumes/72/wr/pdfs/mm7206a3-H.pdf" target="_blank" rel="noopener noreferrer"><span class="icon x24"><span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf  fill-pdf" alt="" aria-hidden="true"></span></span> Article PDF</a><a href="/mmwr/volumes/72/wr/pdfs/mm7206-H.pdf" target="_blank" rel="noopener noreferrer"><span class="icon x24"><span aria-label="pdf icon" class="sr-only" role="img"></span><span class="fi cdc-icon-pdf  fill-pdf" alt="" aria-hidden="true"></span></span> Full Issue PDF</a></div></div>		
+					<div class="row d-none d-lg-block">
+				<div class="col pca">
+														</div>
+			</div>
+							<div class="row share-row last-reviewed-row">
+					<div class="col-md last-reviewed">
+						Last Reviewed:  <span id="last-reviewed-date">March 25, 2023</span>						<div class="d-none d-lg-block content-source">Source: 	<a href="//www.cdc.gov/" class="td-none">Centers for Disease Control and Prevention</a>
+</div>
+					</div>
+					<div class="col-md page-share ml-auto">
+						<nav id="share-nav" class="page-share-wrapper" role="navigation" aria-label="Social Media">
+    <ul>
+        <li><a target="_blank" title="Share to Facebook" rel="noreferrer noopener" class="page-share-facebook metrics-share-facebook" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">Facebook</span><span class="fi cdc-icon-fb-round"></span></a></li>
+        <li><a target="_blank" title="Share to Twitter" rel="noreferrer noopener" class="page-share-twitter metrics-share-twitter" href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">Twitter</span><span class="fi cdc-icon-twitter-round"></span></a></li>
+        <li><a target="_blank" title="Share to LinkedIn" rel="noreferrer noopener" class="page-share-linkedin metrics-share-linkedin" href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png"><span class="sr-only">LinkedIn</span><span class="fi cdc-icon-linkedin-round"></span></a></li>
+        <li><a target="_blank" title="Embed this Page" rel="noreferrer noopener" class="page-share-syndication metrics-share-syndicate" href="https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm"><span class="sr-only">Syndicate</span><span class="fi cdc-icon-syndication-round"></span></a></li>
+    </ul>
+</nav>
+					</div>
+				</div>
+						</main>
+
+				<div class="col-12 d-lg-none leftnav-wrapper">
+			<nav role="navigation" aria-label="Left Navigation Menu">
+				<div id="cdc-left-nav-menu" data-menu-id="455"><ul class="list-group tp-nav-main"><li class="list-group-item nav-lvl1"><a href="/mmwr/index.html">MMWR</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/mmwr_additional_resources.html">Reports by Topic</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/publications/index.html">Publications</a><a href="#nav-group-e2099" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-e2099"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-e2099" class="collapse"><li class="list-group-item nav-lvl2"><a href="/mmwr/index2025.html">Weekly Report</a><a href="#nav-group-51546" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-51546"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-51546" class="collapse"><li class="list-group-item nav-lvl3"><a href="/mmwr/mmwr_wk/wk_pvol.html">Past Volumes (1982-2024)</a></li></ul></li><li class="list-group-item nav-lvl2"><a href="/mmwr/indrr_2025.html">Recommendations and Reports</a><a href="#nav-group-dfe78" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-dfe78"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-dfe78" class="collapse"><li class="list-group-item nav-lvl3"><a href="/mmwr/mmwr_rr/rr_pvol.html">Past Volumes (1990-2024)</a></li></ul></li><li class="list-group-item nav-lvl2"><a href="/mmwr/indss_2025.html">Surveillance Summaries</a><a href="#nav-group-a7b23" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-a7b23"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-a7b23" class="collapse"><li class="list-group-item nav-lvl3"><a href="/mmwr/mmwr_ss/ss_pvol.html">Past Volumes (1983-2024)</a></li></ul></li><li class="list-group-item nav-lvl2"><a href="/mmwr/ind2024_su.html">Supplements</a><a href="#nav-group-4094d" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-4094d"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-4094d" class="collapse"><li class="list-group-item nav-lvl3"><a href="/mmwr/mmwr_su/index.html">Past Volumes (1985-2023)</a></li></ul></li><li class="list-group-item nav-lvl2"><a href="https://stacks.cdc.gov/cbrowse/?parentId=cdc:101&amp;pid=cdc:101">Archive (1952-1981)</a></li><li class="list-group-item nav-lvl2"><a href="/mmwr/mmwr_nd/index.html">Notifiable Infectious Diseases</a></li><li class="list-group-item nav-lvl2"><a href="/mmwr/mmwr_nnc/index.html">Notifiable Noninfectious Conditions</a></li></ul></li><li class="list-group-item nav-lvl1"><a href="https://www.cdc.gov/vitalsigns/index.html">Vital Signs</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/va-search/visualAbstract.htm?Sort=Date%3A%3Adesc">Infographics</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/mmwrpodcasts.html">Podcasts</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/cme/medscape_cme.html">Continuing Education</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/newsletter/cmo/index2024.html">MMWR Clinical Pearls</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/contributors/index.html">For Authors</a></li><li class="list-group-item nav-lvl1"><a href="/mmwr/about.html">About &nbsp;</a><a href="#nav-group-43a01" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-43a01"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-43a01" class="collapse"><li class="list-group-item nav-lvl2"><a href="/mmwr/staff/staff.html">Staff</a></li><li class="list-group-item nav-lvl2"><a href="/mmwr/editorial_board.html">Editorial Board</a></li></ul></li><li class="list-group-item nav-lvl1"><a href="/mmwr/mmwrsubscribe.html">Subscribe</a><a href="#nav-group-bcc53" class="nav-plus nav-expandcollapse" data-toggle="collapse" aria-controls="nav-group-bcc53"><span class="sr-only">plus icon</span><span class="fi cdc-icon-plus" aria-hidden="true"></span></a><ul id="nav-group-bcc53" class="collapse"><li class="list-group-item nav-lvl2"><a href="https://tools.cdc.gov/api/v2/resources/media/342778.rss">RSS Feed</a></li></ul></li></ul></div>			</nav>
+			<div class="col-12 mt-5">
+							</div>
+		</div>
+				</div>
+
+		
+
+				<footer class="" role="contentinfo" aria-label="Footer">
+								<div class="container-fluid footer-wrapper">
+						<div class="container">
+
+							 <div class="footer-2022">
+	<div class="footer-desktop">
+		<div class="row">
+			<div class="col-6 about">
+				<ul class="d-flex">
+					<li><a href="https://www.cdc.gov/about/">About CDC</a></li>
+					<li><a href="https://www.cdc.gov/cdc-info/index.html">Contact Us</a></li>
+					<li><a href="tel:8002324636">800-232-4636</a></li>
+				</ul>
+			</div>
+			<div class="col-6 social">
+				<div class="d-flex flex-nowrap">
+					<a href="https://www.facebook.com/CDC" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-facebook-inverse"></span><span class="sr-only">Facebook</span></a>
+					<a href="https://twitter.com/CDCgov" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-twitter-inverse"></span><span class="sr-only">Twitter</span></a>
+					<a href="https://www.instagram.com/CDCgov/" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-instagram-inverse"></span><span class="sr-only">Instagram</span></a>
+					<a href="https://www.linkedin.com/company/centers-for-disease-control-and-prevention" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-linkedin-inverse"></span><span class="sr-only">LinkedIn</span></a>
+					<a href="https://www.youtube.com/c/cdc/" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-youtube-inverse"></span><span class="sr-only">Youtube</span></a>
+					<a href="https://www.pinterest.com/cdcgov/" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-pinterest-inverse"></span><span class="sr-only">Pinterest</span></a>
+					<a href="https://www.snapchat.com/add/cdcgov" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-snapchat-inverse"></span><span class="sr-only">Snapchat</span></a>
+					<a href="https://tools.cdc.gov/medialibrary/index.aspx" target="_blank" rel="noreferrer noopener"><span class="cdc-icon-rss-inverse" aria-hidden="true"></span><span class="sr-only">RSS</span></a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-mobile" aria-label="Footer" role="contentinfo">
+		<ul class="accordion indicator-arrow mb-3" role="tablist" aria-busy="true">
+			<li class="card footer-mobile_contact" role="presentation">
+				<button role="tab" class="card-header tab collapsed" data-target="#footer-mobile-collapse-1" data-toggle="collapse"  aria-expanded="false" id="footer-mobile-card-1" >CONTACT CDC</button>
+				<div class="collapse" id="footer-mobile-collapse-1" role="tabpanel" aria-hidden="true">
+					<div class="card-body">
+						<address itemscope="itemscope" itemtype="https://schema.org/Organization">
+							<div class="row mt-2">
+								<div class="col-1">
+									<span aria-hidden="true" class="fi cdc-icon-desktop x24"></span>
+								</div>
+								<div class="col">
+									<span class="pl-1"><a href="https://www.cdc.gov/cdc-info/index.html">Contact Us</a></span>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-1">
+									<span class="fi cdc-icon-phone x24"></span>
+								</div>
+								<div class="col">
+									<span class="pl-1" itemprop="telephone">Call 800-232-4636</span>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-1">
+									<span class="fi cdc-icon-email x24"></span>
+								</div>
+								<div class="col">
+									<span class="pl-1" itemprop="url"><a href="https://www.cdc.gov/cdc-info/index.html">Email Us</a></span>
+								</div>
+							</div>
+						</address>
+					</div>
+				</div>
+			</li>
+			<li class="card footer-mobile_about" role="presentation">
+				<button role="tab" class="card-header tab collapsed " data-target="#footer-mobile-collapse-2" data-toggle="collapse"  aria-expanded="false" id="footer-mobile-card-2" >ABOUT CDC</button>
+				<div class="collapse" id="footer-mobile-collapse-2" role="tabpanel"  aria-hidden="true">
+					<div class="card-body">
+						<ul>
+							<li><a href="https://www.cdc.gov/about/">About CDC</a></li>
+							<li><a href="https://jobs.cdc.gov">Jobs</a></li>
+							<li><a href="https://www.cdc.gov/funding">Funding</a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li class="card footer-mobile_policies" role="presentation">
+				<button role="tab" class="card-header tab collapsed " data-target="#footer-mobile-collapse-3" data-toggle="collapse"  aria-expanded="false" id="footer-mobile-card-3">POLICIES</button>
+				<div class="collapse" id="footer-mobile-collapse-3" role="tabpanel"  aria-hidden="true">
+					<div class="card-body">
+						<ul>
+							<li><a href="https://www.cdc.gov/other/accessibility.html">Accessibility</a></li>
+							<li><a href="https://www.cdc.gov/Other/disclaimer.html">External Links</a></li>
+							<li><a href="https://www.cdc.gov/other/privacy.html">Privacy</a></li>
+							<li><a href="https://www.cdc.gov/Other/policies.html">Web Policies</a></li>
+							<li><a href="https://www.cdc.gov/od/foia">FOIA</a></li>
+							<li><a href="https://oig.hhs.gov">OIG</a></li>
+							<li><a href="https://www.cdc.gov/oeeowe/no-fear-act/">No Fear Act</a></li>
+							<li><a href="https://www.cdc.gov/other/nondiscrimination.html">Nondiscrimination</a></li>
+							<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure Policy</a></li>
+							<li><a href="https://archive.cdc.gov/">CDC Archive</a></li>
+							<li><a href="https://stacks.cdc.gov/ ">Public Health Publications</a></li>
+							<li><a href="https://hhs.gov/">HHS.gov</a></li>
+							<li><a href="https://www.usa.gov/">USA.gov</a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li class="card footer-mobile_connect" role="presentation">
+				<button role="tab" class="card-header tab collapsed " data-target="#footer-mobile-collapse-4" data-toggle="collapse"  aria-expanded="false" id="footer-mobile-card-4">CONNECT WITH US</button>
+				<div class="collapse" id="footer-mobile-collapse-4" role="tabpanel" aria-hidden="true">
+					<div class="card-body">
+						<ul class="bullet-list cc-4 lsp-out row">
+							<div class="col-12">
+								<li><a href="https://www.facebook.com/CDC" target="_blank" rel="noreferrer noopener"><span class="sr-only">Facebook</span><span class="fi cdc-icon-fb-white x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://twitter.com/CDCgov" target="_blank" rel="noreferrer noopener"><span class="sr-only">Twitter</span><span class="fi cdc-icon-twitter-white x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://www.instagram.com/CDCgov/" target="_blank" rel="noreferrer noopener"><span class="sr-only">Instagram</span><span class="fi cdc-icon-ig-white x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/centers-for-disease-control-and-prevention" target="_blank" rel="noreferrer noopener"><span class="sr-only">LinkedIn</span><span class="fi cdc-icon-linkedin-white x24" aria-hidden="true"></span></a></li>
+							</div>
+							<div class="col-12">
+								<li><a href="https://www.youtube.com/c/cdc/" target="_blank" rel="noreferrer noopener"><span class="sr-only">Youtube</span><span class="fi cdc-icon-youtube-white x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://www.pinterest.com/cdcgov/" target="_blank" rel="noreferrer noopener"><span class="sr-only">Pinterest</span><span class="fi cdc-icon-pinterest-white x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://www.snapchat.com/add/cdcgov" target="_blank" rel="noreferrer noopener"><span class="sr-only">Snapchat</span><span class="fi cdc-icon-snapchat x24" aria-hidden="true"></span></a></li>
+								<li><a href="https://wwwn.cdc.gov/dcs/RequestForm.aspx"><span class="sr-only">Email</span><span class="fi cdc-icon-email x24" aria-hidden="true"></span></a></li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li class="card footer-mobile_language" role="presentation">
+				<button role="tab" class="card-header tab collapsed " data-target="#footer-mobile-collapse-5" data-toggle="collapse"  aria-expanded="false" id="footer-mobile-card-5">LANGUAGES</button>
+				<div class="collapse" id="footer-mobile-collapse-5" role="tabpanel" aria-hidden="true">
+					<div class="card-body">
+						<ul class="bullet-list cc-2 lsp-out">
+							<li lang="es"><a href="https://www.cdc.gov/other/language-assistance.html#Spanish" title="Spanish">Español</a></li>
+							<li lang="zh"><a href="https://www.cdc.gov/other/language-assistance.html#Chinese" title="Chinese">繁體中文</a></li>
+							<li lang="vi"><a href="https://www.cdc.gov/other/language-assistance.html#Vietnamese" title="Vietnamese">Tiếng Việt</a></li>
+							<li lang="ko"><a href="https://www.cdc.gov/other/language-assistance.html#Korean" title="Korean">한국어</a></li>
+							<li lang="tl"><a href="https://www.cdc.gov/other/language-assistance.html#Tagalog" title="Tagalog">Tagalog</a></li>
+							<li lang="ru"><a href="https://www.cdc.gov/other/language-assistance.html#Russian" title="Russian">Русский</a></li>
+							<li lang="ar"><a href="https://www.cdc.gov/other/language-assistance.html#Arabic" title="Arabic">العربية</a></li>
+							<li lang="ht"><a href="https://www.cdc.gov/other/language-assistance.html#Haitian" title="Haitian">Kreyòl Ayisyen</a></li>
+							<li lang="fr"><a href="https://www.cdc.gov/other/language-assistance.html#French" title="French">Français</a></li>
+							<li lang="pl"><a href="https://www.cdc.gov/other/language-assistance.html#Polish" title="Polish">Polski</a></li>
+							<li lang="pt"><a href="https://www.cdc.gov/other/language-assistance.html#Portuguese" title="Portuguese">Português</a></li>
+							<li lang="it"><a href="https://www.cdc.gov/other/language-assistance.html#Italian" title="Italian">Italiano</a></li>
+							<li lang="de"><a href="https://www.cdc.gov/other/language-assistance.html#German" title="German">Deutsch</a></li>
+							<li lang="ja"><a href="https://www.cdc.gov/other/language-assistance.html#Japanese" title="Japanese">日本語</a></li>
+							<li lang="fa"><a href="https://www.cdc.gov/other/language-assistance.html#Farsi" title="Farsi">فارسی</a></li>
+							<li lang="en"><a href="https://www.cdc.gov/other/language-assistance.html#English" title="English">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+						</div>
+					</div>
+											<div class="container-fluid agency-footer">
+							<div class="container">
+								<div class="footer-2022 footer-agency row">
+	<div class="col">
+		<ul>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/other/accessibility.html">Accessibility</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/Other/disclaimer.html">External Links</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/other/privacy.html">Privacy</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/Other/policies.html">Web Policies</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/od/foia">FOIA</a></li>
+			<li class="d-none d-md-block"><a href="https://oig.hhs.gov">OIG</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/oeeowe/no-fear-act/">No Fear Act</a></li>
+			<li class="d-none d-md-block"><a href="https://www.cdc.gov/other/nondiscrimination.html">Nondiscrimination</a></li>
+			<li class="d-none d-md-block"><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure Policy</a></li>
+			<li class="d-none d-md-block"><a href="https://archive.cdc.gov/">CDC Archive</a></li>
+			<li class="d-none d-md-block"><a href="https://stacks.cdc.gov/ ">Public Health Publications</a></li>
+			<li><a href="https://hhs.gov/">HHS.gov</a></li>
+			<li><a href="https://www.usa.gov/">USA.gov</a></li>
+		</ul>
+	</div>
+</div>
+
+							</div>
+						</div>
+								</footer>
+		<!-- social media footer removed -->
+<script src="/config/cdc_config.js"></script>
+<script>var CDC_POST={"id":"826_102581","type":"cdc_mmwr","tax":{"cdc_topics":["88f3e122-1304-415c-adff-4a35740d79c0"],"cdc_categories":["2b55e648-eaa5-4e53-9b50-833393d2da21"]}};</script>
+<script src="/TemplatePackage/contrib/libs/jquery/latest/jquery.min.js?_=36179"></script>
+<script src="/TemplatePackage/contrib/libs/bootstrap/latest/js/bootstrap.bundle.min.js?_=36179"></script>
+<!-- @axejs@ -->
+<!-- @prismjs@ -->
+<!-- @typeaheadjs@ -->
+<script src="/TemplatePackage/contrib/libs/cdc/ab/4.0.0/ab.js"></script>
+<script src="/TemplatePackage/4.0/assets/js/app.min.js?_=36179"></script>
+<script src="/TemplatePackage/contrib/libs/cdc/c2r/c2r.js" type="module"></script>
+
+<svg viewBox="0 0 40 40" class="d-none">
+	<radialGradient id="svg_ig_1" cx="-3.0686" cy="30.0001" r="39.8188" gradientTransform="matrix(0.9138 -0.3831 0.3831 0.9138 -6.346 8.975)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFDD55"/>
+		<stop  offset="0.1" style="stop-color:#FFDD55"/>
+		<stop  offset="0.5" style="stop-color:#FF543E"/>
+		<stop  offset="1" style="stop-color:#C837AB"/>
+	</radialGradient>
+	<circle style="fill:url(#svg_ig_1);" cx="20" cy="20" r="20"/>
+	<radialGradient id="svg_ig_2" cx="9.873329e-02" cy="-0.6373" r="22.6462" gradientTransform="matrix(0.9909 0 0 0.9909 -0.2262 -0.2261)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#3771C8"/>
+		<stop  offset="0.128" style="stop-color:#3771C8"/>
+		<stop  offset="1" style="stop-color:#6600FF;stop-opacity:0"/>
+	</radialGradient>
+	<circle style="fill:url(#svg_ig_2);" cx="20" cy="20" r="20"/>
+	<path class="fill-w" d="M20,5.5c-4,0-4.5,0-6.1,0.1c-1.6,0.1-2.6,0.3-3.6,0.7C9.4,6.7,8.5,7.2,7.7,8C6.9,8.8,6.4,9.7,6,10.6c-0.4,0.9-0.6,2-0.7,3.6c-0.1,1.6-0.1,2.1-0.1,6.1s0,4.5,0.1,6.1C5.4,28,5.6,29,6,30c0.4,1,0.9,1.8,1.7,2.6c0.8,0.8,1.6,1.3,2.6,1.7c0.9,0.4,2,0.6,3.6,0.7c1.6,0.1,2.1,0.1,6.1,0.1c4,0,4.5,0,6.1-0.1c1.6-0.1,2.6-0.3,3.6-0.7c1-0.4,1.8-0.9,2.6-1.7c0.8-0.8,1.3-1.6,1.7-2.6c0.4-0.9,0.6-2,0.7-3.6c0.1-1.6,0.1-2.1,0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.6-0.7-3.6c-0.4-1-0.9-1.8-1.7-2.6c-0.8-0.8-1.6-1.3-2.6-1.7c-0.9-0.4-2-0.6-3.6-0.7C24.5,5.6,24,5.5,20,5.5L20,5.5z M18.7,8.2c0.4,0,0.8,0,1.3,0c3.9,0,4.4,0,6,0.1c1.4,0.1,2.2,0.3,2.7,0.5c0.7,0.3,1.2,0.6,1.7,1.1c0.5,0.5,0.8,1,1.1,1.7c0.2,0.5,0.4,1.3,0.5,2.7c0.1,1.6,0.1,2,0.1,6s0,4.4-0.1,6c-0.1,1.4-0.3,2.2-0.5,2.7c-0.3,0.7-0.6,1.2-1.1,1.7c-0.5,0.5-1,0.8-1.7,1.1c-0.5,0.2-1.3,0.4-2.7,0.5c-1.6,0.1-2,0.1-6,0.1c-3.9,0-4.4,0-6-0.1c-1.4-0.1-2.2-0.3-2.7-0.5c-0.7-0.3-1.2-0.6-1.7-1.1c-0.5-0.5-0.8-1-1.1-1.7C8.3,28.5,8,27.7,8,26.3c-0.1-1.6-0.1-2-0.1-6s0-4.4,0.1-6c0.1-1.4,0.3-2.2,0.5-2.7c0.3-0.7,0.6-1.2,1.1-1.7c0.5-0.5,1-0.8,1.7-1.1c0.5-0.2,1.3-0.4,2.7-0.5C15.4,8.2,15.9,8.2,18.7,8.2L18.7,8.2z M27.9,10.7c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8S28.9,10.7,27.9,10.7L27.9,10.7z M20,12.7c-4.2,0-7.6,3.4-7.6,7.6s3.4,7.6,7.6,7.6c4.2,0,7.6-3.4,7.6-7.6S24.2,12.7,20,12.7L20,12.7z M20,15.4c2.7,0,4.9,2.2,4.9,4.9c0,2.7-2.2,4.9-4.9,4.9c-2.7,0-4.9-2.2-4.9-4.9C15.1,17.6,17.3,15.4,20,15.4z"/>
+</svg>
+<svg id="multicolor_icons" style="display:none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- file types -->
+	<symbol id="powerpoint" viewBox="0 0 40 40">
+		<path class="fill-ppt-1" d="M21,1.5h2.45V5.39c4.61,0,9.23,0,13.84,0A1.5,1.5,0,0,1,39,7.08c.07,8.06,0,16.13,0,24.2a5.07,5.07,0,0,1-.41,2.61,3.88,3.88,0,0,1-2.19.43c-4.32,0-8.63,0-13,0v4.32H20.76C14.18,37.43,7.59,36.33,1,35.17Q1,20.07,1,5C7.66,3.81,14.32,2.64,21,1.5Z"></path>
+		<path class="fill-ppt-2" d="M23.44,6.68H37.69V33H23.44V29.56H33.8V27.83H23.44V25.68H33.8V23.95H23.45c0-.85,0-1.69,0-2.54a6.06,6.06,0,0,0,5.18-.51,5.91,5.91,0,0,0,2.66-4.71c-1.9,0-3.79,0-5.68,0,0-1.88,0-3.76,0-5.63L23.44,11Z"></path>
+		<path class="fill-ppt-1" d="M26.47,9.65a6.07,6.07,0,0,1,5.68,5.66c-1.9,0-3.79,0-5.69,0C26.46,13.42,26.46,11.53,26.47,9.65Z"></path>
+		<path class="fill-ppt-2" d="M7.93,12.91c2.34.11,5.18-.93,7.13.83,1.86,2.26,1.37,6.41-1.39,7.76a6.37,6.37,0,0,1-3.17.4q0,2.53,0,5.06l-2.57-.22C7.88,22.13,7.87,17.52,7.93,12.91Z"></path>
+		<path class="fill-ppt-1" d="M10.49,15.24c.85,0,1.9-.19,2.48.6A3.13,3.13,0,0,1,13,18.68c-.49.89-1.61.8-2.47.91C10.47,18.14,10.48,16.69,10.49,15.24Z"></path>
+	</symbol>
+	<symbol id="pdf" viewBox="0 0 40 40">
+		<path class="fill-pdf-1" d="M32.52,1H1.45V38.68h38V7.42Z"></path>
+		<polygon class="fill-op-2" points="39.38 7.49 32.96 7.49 32.52 1.06 39.38 7.49"></polygon>
+		<path class="fill-pdf-2" d="M16.28,23C17,21.57,17.84,20,18.5,18.33h0l.26-.64c-.86-3.3-1.38-6-.92-7.67h0A1.19,1.19,0,0,1,19,9.31h.4c.75,0,1.11.95,1.15,1.33h0a6,6,0,0,1-.22,1.68h0a4.1,4.1,0,0,0-.25-1.71h0c-.32-.69-.62-1.1-.88-1.17h0a.85.85,0,0,0-.32.64h0a9.59,9.59,0,0,0-.12,1.47h0a16.43,16.43,0,0,0,.68,4.28h0c.08-.24.16-.48.22-.7h0l.68-2.65h0s-.15,3.07-.36,4h0c0,.2-.09.39-.14.59h0a13.5,13.5,0,0,0,3.36,5.25h0a10.46,10.46,0,0,0,1.94,1.34h0a26.93,26.93,0,0,1,3.95-.3h0a5,5,0,0,1,3,.68h0a1.2,1.2,0,0,1,.33.76h0a2.6,2.6,0,0,1-.06.44h0c0-.08,0-.47-1.19-.86h0a14,14,0,0,0-4.84-.06h0c2.46,1.2,4.85,1.79,5.61,1.44h0a1.69,1.69,0,0,0,.41-.4h0a3.92,3.92,0,0,1-.23.76h0a1.2,1.2,0,0,1-.59.4h0c-1.2.32-4.31-.42-7-2h0a57.18,57.18,0,0,0-9,2.15h0c-2.63,4.6-4.6,6.71-6.21,5.91h0l-.59-.3a.69.69,0,0,1-.22-.74h0c.19-.92,1.34-2.3,3.65-3.67h0c.24-.16,1.35-.74,1.35-.74h0s-.82.79-1,1h0c-1.84,1.51-3.2,3.41-3.17,4.14h0v.07c1.56-.23,3.91-3.41,6.93-9.31m.95.49c-.5,1-1,1.83-1.45,2.63h0a38.68,38.68,0,0,1,7.8-2.2h0c-.35-.24-.68-.5-1-.76h0a13.42,13.42,0,0,1-3.29-4.28h0a35.21,35.21,0,0,1-2.06,4.61"></path>
+	</symbol>
+	<symbol id="zip" viewBox="0 0 40 40">
+		<path class="fill-zip-1" d="M32.17,1.09H1V38.77H39V7.44Z"></path>
+		<polygon class="fill-zip-2" points="39 7.47 32.6 7.47 32.17 1.09 39 7.47"></polygon>
+		<rect class="fill-zip-3" height="13.48" width="0.56" x="17.75" y="1.09"></rect>
+		<rect class="fill-zip-3" height="13.48" width="0.56" x="21.69" y="1.09"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="18.22" y="1.09"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="20" y="2.77"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="18.22" y="4.46"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="20" y="6.15"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="18.22" y="7.83"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="20" y="9.52"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="18.22" y="11.19"></rect>
+		<rect class="fill-zip-3" height="1.69" width="1.78" x="20" y="12.87"></rect>
+		<path class="fill-zip-3" d="M22.53,14.56H17.47a1,1,0,0,0-1,1V18.4a1,1,0,0,0,1,1h.84V16.51h3.38v2.85h.84a1,1,0,0,0,1-1V15.53A1,1,0,0,0,22.53,14.56Z"></path>
+		<rect class="fill-zip-3" height="7.2" width="1.97" x="19.02" y="17.56"></rect>
+		<path class="fill-zip-3" d="M22.32,22.67h-.63v4.19H18.31V22.67h-.63a1.14,1.14,0,0,0-1.13,1.14V35a1.13,1.13,0,0,0,1.13,1.13h4.64A1.13,1.13,0,0,0,23.45,35V23.81A1.14,1.14,0,0,0,22.32,22.67Zm-.63,11.38H18.31V31h3.38Z"></path>
+	</symbol>
+	<symbol id="word" viewBox="0 0 40 40">
+		<path class="word-fill-1" d="M20.86,1.5h2.58V5c4.62,0,9.23,0,13.85,0A1.49,1.49,0,0,1,39,6.63c.07,8.5,0,17,0,25.52a5,5,0,0,1-.42,2.61,3.93,3.93,0,0,1-2.18.43c-4.32,0-8.64,0-13,0v3.45h-2.7C14.17,37.43,7.59,36.32,1,35.17Q1,20.07,1,5C7.62,3.81,14.24,2.68,20.86,1.5Z"></path>
+		<path class="word-fill-2" d="M23.44,6.25H37.69V33.88H23.44V30.42H34.67V28.7H23.44V26.54H34.67V24.81H23.44V22.65H34.67V20.93H23.44V18.77H34.67V17H23.44V14.88H34.67V13.16H23.44V11H34.67V9.27H23.44Z"></path>
+		<path class="word-fill-2" d="M9.92,13.88l2.46-.13c.57,2.91,1.16,5.82,1.78,8.72.49-3,1-6,1.55-9,.86,0,1.73-.08,2.59-.13-1,4.18-1.83,8.4-2.9,12.56-.72.38-1.8,0-2.65,0-.57-2.86-1.24-5.7-1.76-8.57-.5,2.79-1.16,5.55-1.74,8.32l-2.5-.15C6,21.78,5.2,18,4.53,14.2l2.22-.09c.44,2.75.95,5.49,1.34,8.24C8.69,19.52,9.32,16.7,9.92,13.88Z"></path>
+	</symbol>
+	<symbol id="txt" viewBox="0 0 40 40">
+		<path class="fill-txt-1" d="M32.1,1.09H.67v38H39V7.5Z"></path>
+		<polygon class="fill-txt-2" points="39 7.47 32.6 7.47 32.1 1.09 39 7.47"></polygon>
+		<path class="fill-txt-3" d="M33.78,30.22h.92a2.13,2.13,0,0,0,2.13-2.13V17.27a2.13,2.13,0,0,0-2.13-2.13H5.3a2.13,2.13,0,0,0-2.13,2.13V28.09A2.13,2.13,0,0,0,5.3,30.22H33.78Z"></path>
+		<polygon class="fill-txt-4" points="9.47 19.4 9.47 17.74 15.96 17.74 15.96 19.4 13.54 19.4 13.54 27.53 11.9 27.53 11.9 19.4 9.47 19.4"></polygon>
+		<polygon class="fill-txt-4" points="16.45 17.74 18.38 17.74 20.02 20.89 21.62 17.74 23.53 17.74 20.99 22.5 23.78 27.53 21.79 27.53 19.98 24.15 18.17 27.53 16.19 27.53 18.98 22.43 16.45 17.74"></polygon>
+		<polygon class="fill-txt-4" points="24.04 19.4 24.04 17.74 30.53 17.74 30.53 19.4 28.11 19.4 28.11 27.53 26.46 27.53 26.46 19.4 24.04 19.4"></polygon>
+	</symbol>
+	<symbol id="media" viewBox="0 0 40 40">
+		<circle class="media-fill-1" cx="20" cy="20" r="19"></circle>
+		<circle class="media-fill-2" cx="20" cy="20" r="15"></circle>
+		<polygon class="media-fill-3" points="28.96 20 15.04 12.5 15.04 27.5 28.96 20"></polygon>
+	</symbol>
+
+	<symbol id="info-circle" viewBox="0 0 40 40">
+		<path d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0Zm3.14,27.36c-1.51,2.27-3,4-5.63,4-1.76-.29-2.49-1.55-2.1-2.84l3.32-11a.52.52,0,0,0-.3-.64c-.25-.08-.73.23-1.14.69l-2,2.42a10.92,10.92,0,0,1,0-1.35c1.51-2.27,4-4.05,5.67-4.05A2.26,2.26,0,0,1,23,17.48L19.67,28.54a.52.52,0,0,0,.31.58c.25.08.76-.23,1.18-.69l2-2.42A10.84,10.84,0,0,1,23.14,27.41ZM22.69,13a2.23,2.23,0,0,1-2.3-2.29,2.3,2.3,0,0,1,4.6,0A2.23,2.23,0,0,1,22.69,13Z" class="fr-evenodd"></path>
+	</symbol>
+
+	<symbol id="alert_06">
+		<path d="M15,0C6.8,0,0,6.8,0,15s6.8,15,15,15s15-6.8,15-15S23.3,0,15,0z M15,22.5c-0.8,0-1.5-0.7-1.5-1.5
+			s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S15.8,22.5,15,22.5z M16.5,16c0,0.8-0.7,1.5-1.5,1.5s-1.5-0.7-1.5-1.5V9c0-0.8,0.7-1.5,1.5-1.5
+			s1.5,0.7,1.5,1.5V16z"/>
+	</symbol>
+
+	<!-- timeline -->
+	<symbol id="timelineicon">
+		<path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M3.05,13H1V11H3.05C3.5,6.83 6.83,3.5 11,3.05V1H13V3.05C17.17,3.5 20.5,6.83 20.95,11H23V13H20.95C20.5,17.17 17.17,20.5 13,20.95V23H11V20.95C6.83,20.5 3.5,17.17 3.05,13M12,5A7,7 0 0,0 5,12A7,7 0 0,0 12,19A7,7 0 0,0 19,12A7,7 0 0,0 12,5Z" />
+	</symbol>
+
+	<!-- Alerts -->
+	<symbol id="alert-circle" viewBox="0 0 24.00 24.00">
+		<path d="M 12.9994,12.998L 10.9994,12.998L 10.9994,6.99805L 12.9994,6.99805M 12.9994,16.998L 10.9994,16.998L 10.9994,14.998L 12.9994,14.998M 11.9994,1.99805C 6.47639,1.99805 1.99939,6.47504 1.99939,11.998C 1.99939,17.5211 6.47639,21.998 11.9994,21.998C 17.5224,21.998 21.9994,17.5211 21.9994,11.998C 21.9994,6.47504 17.5224,1.99805 11.9994,1.99805 Z "/>
+	</symbol>
+
+	<!-- external link icon -->
+	<symbol id="ext" viewBox="0 0 40 40">
+		<polygon points="36 17.97 36 36 4 36 4 4 22.03 4 22.03 1 1 1 1 39 39 39 39 17.97 36 17.97" />
+		<polygon points="39 1 26.27 1 31 5.73 17.52 19.21 20.8 22.48 34.27 9 39 13.73 39 1" />
+	</symbol>
+
+	<symbol id="presentation_01" viewBox="0 0 40 40">
+		<path d="M35,5.21H5A1.29,1.29,0,1,1,5,2.63h13.7V1.34a1.3,1.3,0,0,1,2.6,0V2.63H35a1.29,1.29,0,1,1,0,2.58Zm0,20.64H5V6.5H35ZM9,15.57a5.2,5.2,0,0,0,10.4,0h-5.2V10.4A5.19,5.19,0,0,0,9,15.57Zm14.33-5.2H22v1.29h1.3Zm0,2.58H22v1.29h1.3Zm0,2.58H22v1.29h1.3Zm0,2.58H22V19.4h1.3Zm0,2.58H22V22h1.3Zm7.78-10.32H24.58v1.29h6.48Zm0,2.58H24.58v1.29h6.48Zm0,2.58H24.58v1.29h6.48Zm0,2.58H24.58V19.4h6.48Zm0,2.58H24.58V22h6.48ZM16.46,32.31h2.93V25.85h1.3v6.45h2.88l-2.88-6.45h2.6l5.18,11.61H25.88L24.15,33.6H20.69V40h-1.3V33.6H15.88l-1.76,3.87H11.53L16.8,25.85h2.59Zm4.22-6.45Zm-1.3,0Z" class="fill-a"></path>
+	</symbol>
+
+	<symbol id="excel" viewBox="0 0 40 40">
+		<path class="fill-excel-1" d="M20.87,1.5h2.56V5c4.32,0,8.64,0,13,0a4,4,0,0,1,2.17.41A4,4,0,0,1,39,7.54Q39,18.78,39,30a19.69,19.69,0,0,1-.15,3.78c-.17.9-1.25.92-2,.95-4.47,0-8.95,0-13.43,0v3.89H20.76C14.18,37.43,7.59,36.32,1,35.17V5C7.63,3.81,14.25,2.67,20.87,1.5Z"></path>
+		<path class="fill-excel-2" d="M23.44,6.25H37.68v27.2H23.44V30.85h3.45v-3H23.44V26.11h3.45v-3H23.44V21.36h3.45v-3H23.44V16.61h3.45v-3H23.44V11.86h3.45v-3H23.44Z"></path>
+		<path class="fill-excel-1" d="M28.62,8.84h6v3h-6Z"></path>
+		<path class="fill-excel-2" d="M13.79,12.88q1.46-.1,2.94-.18Q15,16.25,13.24,19.78c1.19,2.42,2.4,4.82,3.59,7.23l-3.12-.2a51,51,0,0,1-2.15-5.42c-.59,1.75-1.42,3.41-2.1,5.12-.95,0-1.89-.05-2.84-.09,1.11-2.17,2.18-4.36,3.32-6.52-1-2.22-2-4.4-3-6.61l2.85-.16c.64,1.69,1.35,3.35,1.88,5.08C12.21,16.38,13.06,14.66,13.79,12.88Z"></path>
+		<path class="fill-excel-1" d="M28.62,13.59h6v3h-6Z"></path>
+		<path class="fill-excel-1" d="M28.62,18.34h6v3h-6Z"></path>
+		<path class="fill-excel-1" d="M28.62,23.08h6v3h-6Z"></path>
+		<path class="fill-excel-1" d="M28.62,27.83h6v3h-6Z"></path>
+	</symbol>
+	<symbol id="epub" viewBox="0 0 40 40">
+		<path class="fill-epub-1" d="M32.64,1H1.45V38.68h38V7.36Z"></path>
+		<polygon class="fill-epub-2" points="39.47 7.39 33.07 7.39 32.64 1 39.47 7.39"></polygon>
+		<path class="fill-epub-3" d="M20,27.23,12.77,20,20,12.77l2.41,2.41L17.59,20,20,22.41l7.23-7.23-6.3-6.29a1.3,1.3,0,0,0-1.86,0L8.89,19.07a1.3,1.3,0,0,0,0,1.86L19.07,31.11a1.3,1.3,0,0,0,1.86,0L31.11,20.93a1.3,1.3,0,0,0,0-1.86l-1.47-1.48Z"></path>
+	</symbol>
+	<symbol id="imgft" viewBox="0 0 40 40">
+		<path class="fill-svgimgfile" d="M32.58,1H1.39V38.68h38V7.36Z"></path>
+		<polygon class="fill-op-2" points="39.41 7.39 33.01 7.39 32.58 1 39.41 7.39"></polygon>
+		<path class="fill-w" d="M8.52,15.32a4,4,0,1,1,4,4A4,4,0,0,1,8.52,15.32ZM33.27,33.25H7.73V29.18l4.79-4.07,3.19,2.71,9.58-8.14,8,6.78Z"></path>
+	</symbol>
+	<symbol id="sas" viewBox="0 0 40 40">
+		<title>SAS</title>
+		<path class="fill-sas" d="M32.58,1H1.39V38.68h38V7.36Zm-15,6.32A10.77,10.77,0,0,1,20.38,7a8.72,8.72,0,0,1,8.22,5.71C26.85,9.84,21.74,9.22,19,11c-3.16,2-4.2,5.47-1.87,8.3,0,0,1.32,1.61,2.48,3,.24.29.29.33.52.61h0l.36.44a1.74,1.74,0,0,1-2.66,2.22l-.9-1.1-3.2-3.87C8.31,14.06,13.22,8.42,17.61,7.32Zm4.78,25.36c-5.06,1.27-9.63-1.37-11-5.39C13.15,30.16,18.26,30.78,21,29c3.16-2,4.2-5.46,1.87-8.29l-3.23-3.9c-.13-.15-.2-.25-.2-.25a1.61,1.61,0,0,1,.34-2.32A1.84,1.84,0,0,1,21,13.83a1.51,1.51,0,0,1,1.11.55l.43.54,3.75,4.53C31.69,26,26.78,31.58,22.39,32.68Z"></path>
+		<polygon style="opacity: 0.2;" points="39.41 7.39 33.01 7.39 32.58 1 39.41 7.39"></polygon>
+	</symbol>
+	<symbol id="stats" viewBox="0 0 40 40">
+		<title>stats</title>
+		<path class="fill-txt-3" d="M32.58,1H1.39V38.68h38V7.36ZM27.22,14.61h4V29.12h-4Zm-6,3.46h4V29.12h-4Zm-6-11h4v22.1h-4Zm-6,4.58h4V29.12h-4Zm25,21.61H6.2a1,1,0,0,1,0-2h28a1,1,0,0,1,0,2Z"></path>
+		<polygon style="opacity: 0.3;" points="39.41 7.39 33.01 7.39 32.58 1 39.41 7.39"></polygon>
+	</symbol>
+
+	<symbol id="cdc-tv" viewBox="0 0 40 40">
+		<defs>
+			<linearGradient id="linear-gradient" x1="-1374.15" y1="10.03" x2="-1354.09" y2="25.47" gradientTransform="matrix(-1, 0, 0, 1, -1343.57, 0)" gradientUnits="userSpaceOnUse">
+				<stop offset="0" stop-color="#b8bab9"></stop>
+				<stop offset="1" stop-color="#414042"></stop>
+			</linearGradient>
+		</defs>
+		<path d="M38.61,6.5H1.3A.29.29,0,0,0,1,6.78v23a.29.29,0,0,0,.29.29H18.48v.64a1.51,1.51,0,0,1-.15.67H11.08L8.77,32.81v.33H31.15v-.33l-2.3-1.41H21.62a1.72,1.72,0,0,1-.15-.72v-.59H38.61a.29.29,0,0,0,.29-.29v-23A.29.29,0,0,0,38.61,6.5Z"></path>
+		<polygon style="fill:url(#linear-gradient);" points="37.78 7.61 2.13 7.61 2.13 28.92 37.78 28.8 37.78 7.61"></polygon>
+		<rect class="fill-w" x="2.16" y="7.64" width="35.6" height="21.31"></rect>
+		<rect class="fill-cdc-tv" x="2.12" y="7.51" width="35.8" height="21.57"></rect>
+		<polygon class="fill-w" points="16.82 29.08 37.92 7.71 37.92 7.5 37.81 7.5 16.51 29.08 16.82 29.08"></polygon>
+		<polygon class="fill-w" points="3.52 29.08 4.95 7.5 4.73 7.5 3.3 29.08 3.52 29.08"></polygon>
+		<polygon class="fill-w" points="4.66 29.08 7.74 7.5 7.52 7.5 4.44 29.08 4.66 29.08"></polygon>
+		<polygon class="fill-w" points="5.88 29.08 10.7 7.5 10.47 7.5 5.65 29.08 5.88 29.08"></polygon>
+		<polygon class="fill-w" points="7.22 29.08 14.1 7.5 13.87 7.5 6.99 29.08 7.22 29.08"></polygon>
+		<polygon class="fill-w" points="8.49 29.08 17.32 7.5 17.08 7.5 8.25 29.08 8.49 29.08"></polygon>
+		<polygon class="fill-w" points="9.94 29.08 20.99 7.5 20.74 7.5 9.69 29.08 9.94 29.08"></polygon>
+		<polygon class="fill-w" points="26.51 7.5 26.25 7.5 11.94 29.08 12.21 29.08 26.51 7.5"></polygon>
+		<polygon class="fill-w" points="31.61 7.5 31.33 7.5 13.94 29.08 14.23 29.08 31.61 7.5"></polygon>
+		<polygon class="fill-w" points="37.92 15.67 37.92 15.38 20.67 29.08 21.03 29.08 37.92 15.67"></polygon>
+		<polygon class="fill-w" points="37.92 21.61 37.92 21.34 25.53 29.08 25.95 29.08 37.92 21.61"></polygon>
+		<polygon class="fill-w" points="37.92 27.2 37.92 26.96 33.36 29.08 33.89 29.08 37.92 27.2"></polygon>
+		<path class="fill-w" d="M10.14,22.51c-3.72,0-6.25-2.3-6.25-6a6,6,0,0,1,6.28-6.17,7,7,0,0,1,2.8.56v1.78a3.3,3.3,0,0,0-2.77-1.46c-2.24,0-3.51,2.06-3.51,5,0,3.13,1.19,5.35,3.75,5.35A4.3,4.3,0,0,0,13,20.66l.43.93A5.05,5.05,0,0,1,10.14,22.51Z"></path>
+		<path class="fill-w" d="M22.31,16.43c0,4.6-2.83,4.92-5,4.92V11.44C19.53,11.44,22.31,11.71,22.31,16.43Zm-2.95,5.86a5.54,5.54,0,0,0,5.7-5.91c0-4.77-3.41-5.84-6-5.84H14.79V22.29Z"></path>
+		<path class="fill-w" d="M32.69,22.51c-3.72,0-6.25-2.3-6.25-6a6,6,0,0,1,6.28-6.17,7,7,0,0,1,2.8.56v1.78a3.3,3.3,0,0,0-2.76-1.46c-2.25,0-3.52,2.06-3.52,5,0,3.13,1.19,5.35,3.75,5.35a4.3,4.3,0,0,0,2.53-.93l.43.93A5,5,0,0,1,32.69,22.51Z"></path>
+	</symbol>
+
+	<symbol id="flickr" viewBox="0 0 40 40">
+		<rect class="fill-flickr flr-bg" x="1" y="1" width="38" height="38" rx="6.23"></rect>
+		<path class="fill-flickr flr-dot-1" d="M32.89,20a5.62,5.62,0,1,1-5.62-5.62A5.62,5.62,0,0,1,32.89,20Z"></path>
+		<path class="fill-flickr flr-dot-2" d="M18.35,20a5.62,5.62,0,1,1-5.62-5.62A5.62,5.62,0,0,1,18.35,20Z"></path>
+	</symbol>
+
+	<!-- FILL FIX ICONS
+	     These are most likely font icons now but there were issues with some because a fill class was embedded in these and the svgs are on some older pages -->
+
+	<symbol id="pinterest" viewBox="0 0 40 40">
+		<circle class="fill-w" cx="20" cy="20" r="19"></circle>
+		<path class="fill-pinterest" d="M20,1a19,19,0,0,0-6.92,36.69,18.15,18.15,0,0,1,.06-5.45l2.23-9.44A6.85,6.85,0,0,1,14.8,20c0-2.64,1.53-4.62,3.44-4.62A2.39,2.39,0,0,1,20.64,18c0,1.63-1,4.07-1.57,6.33a2.76,2.76,0,0,0,2.81,3.43c3.38,0,6-3.56,6-8.7,0-4.55-3.27-7.73-7.94-7.73a8.22,8.22,0,0,0-8.58,8.24A7.41,7.41,0,0,0,12.75,24a.57.57,0,0,1,.14.54c-.15.6-.47,1.9-.53,2.16s-.28.42-.64.25c-2.37-1.1-3.85-4.57-3.85-7.36,0-6,4.35-11.49,12.55-11.49,6.59,0,11.71,4.69,11.71,11,0,6.55-4.13,11.82-9.86,11.82a5.09,5.09,0,0,1-4.35-2.18s-1,3.62-1.18,4.51a21,21,0,0,1-2.37,5A19,19,0,1,0,20,1Z"></path>
+	</symbol>
+	<symbol id="social_govd" viewBox="0 0 40 40" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<path d="M9.42,27.77h-3a5.23,5.23,0,0,1-2.6-.63A5.16,5.16,0,0,1,1,22.45C1,17.06,1,11.67,1,6.28A5.32,5.32,0,0,1,6.27,1c9.08,0,18.17,0,27.25,0A5.42,5.42,0,0,1,39,6.41q0,8,0,15.93a5.38,5.38,0,0,1-5.48,5.43H24.31a1.55,1.55,0,0,0-.93.28L6.93,39.19a1.2,1.2,0,0,1-2-.78,2,2,0,0,1,.22-.92q2-4.64,4.09-9.28Zm6.1-14,3.62,2.68a1.26,1.26,0,0,0,1.7,0l3.08-2.29.52-.38.16.17,4.31,5.19,4.14,5a.8.8,0,1,0,1.21-1l-6.73-8.11L25.74,12.8l.24-.19,8.62-6.4a1.28,1.28,0,1,0-1.53-2q-6.36,4.72-12.72,9.45a.5.5,0,0,1-.72,0q-5-3.77-10.11-7.51c-.91-.68-1.82-1.36-2.74-2a1.23,1.23,0,0,0-1.61.06,1.22,1.22,0,0,0-.3,1.51,2.1,2.1,0,0,0,.57.61l8.37,6.22.4.31-.21.28L6.26,22.4c-.22.27-.46.53-.66.81a.79.79,0,0,0,1.2,1A3,3,0,0,0,7,24l6.16-7.42Z" class="fill-govd"></path>
+	</symbol>
+
+	<!-- ROUND ICONS
+	     Could be moved to font icons -->
+	<symbol id="social_round_bookmark" viewBox="0 0 40 40">
+		<path class="fill-bookmark" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM29.8,29.8a1.67,1.67,0,0,1-1.09,1.56,1.53,1.53,0,0,1-.67.12A1.84,1.84,0,0,1,26.78,31l-6.71-6.45L13.37,31a1.86,1.86,0,0,1-1.26.5,1.55,1.55,0,0,1-.67-.14,1.67,1.67,0,0,1-1.09-1.56V10.2a1.68,1.68,0,0,1,1.09-1.56,1.71,1.71,0,0,1,.67-.14H28a1.71,1.71,0,0,1,.67.14A1.68,1.68,0,0,1,29.8,10.2Z"></path>
+	</symbol>
+	<symbol id="social_round_cdc-tv" viewBox="0 0 40 40">
+		<path class="fill-cdc-tv" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1Zm14.3,28H21.12v1.39a1.21,1.21,0,0,0,.12.55h5.55L28.55,32v.24H11.36V32l1.78-1.09H18.7a1,1,0,0,0,.12-.51V29H5.63a.27.27,0,0,1-.27-.27V11.05a.27.27,0,0,1,.27-.27H34.29a.27.27,0,0,1,.26.27V28.73A.27.27,0,0,1,34.29,29Z"></path>
+		<path class="fill-cdc-tv" d="M17.9,15.6v7.62c1.69,0,3.87-.25,3.87-3.79S19.63,15.6,17.9,15.6Z"></path>
+		<path class="fill-cdc-tv" d="M6.79,12V27.77H33.12V12ZM12.41,24.1c-2.85,0-4.8-1.76-4.8-4.61a4.64,4.64,0,0,1,4.83-4.74,5.26,5.26,0,0,1,2.15.43v1.37a2.53,2.53,0,0,0-2.12-1.12c-1.73,0-2.7,1.58-2.7,3.86s.91,4.11,2.88,4.11a3.24,3.24,0,0,0,1.94-.72l.33.72A3.84,3.84,0,0,1,12.41,24.1Zm7.09-.17H16v-9h3.28c2,0,4.61.82,4.61,4.48A4.26,4.26,0,0,1,19.5,23.93Zm10.24.17c-2.86,0-4.8-1.76-4.8-4.61a4.63,4.63,0,0,1,4.82-4.74,5.26,5.26,0,0,1,2.15.43v1.37a2.53,2.53,0,0,0-2.12-1.12c-1.72,0-2.7,1.58-2.7,3.86S28,23.4,30,23.4a3.24,3.24,0,0,0,1.94-.72l.33.72A3.83,3.83,0,0,1,29.74,24.1Z"></path>
+	</symbol>
+	<symbol id="social_round_email" viewBox="0 0 40 40">
+		<path class="fill-email" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM32,11,20,20.71,8,11ZM8,13.56l6.58,5.33L8,26.06ZM8,29l8.11-8.85L20,23.29l3.87-3.14L32,29Zm24-2.94-6.58-7.17L32,13.56Z"></path>
+	</symbol>
+	<symbol id="social_round_fb" viewBox="0 0 40 40">
+		<circle class="fill-fb" cx="19.99" cy="20" r="19"></circle>
+		<path class="fill-w" d="M30.9,24.42l.68-5.28H26.36V15.77c0-1.53.42-2.57,2.61-2.57h2.8V8.48a35.84,35.84,0,0,0-4.08-.21c-4,0-6.79,2.46-6.79,7v3.89H16.34v5.28H20.9V39a18.64,18.64,0,0,0,5.46-1.07V24.42Z"></path>
+	</symbol>
+	<symbol id="social_round_facebook" viewBox="0 0 40 40">
+		<circle class="fill-fb" cx="19.99" cy="20" r="19"></circle>
+		<path class="fill-w" d="M30.9,24.42l.68-5.28H26.36V15.77c0-1.53.42-2.57,2.61-2.57h2.8V8.48a35.84,35.84,0,0,0-4.08-.21c-4,0-6.79,2.46-6.79,7v3.89H16.34v5.28H20.9V39a18.64,18.64,0,0,0,5.46-1.07V24.42Z"></path>
+	</symbol>
+	<symbol id="social_round_flickr" viewBox="0 0 40 40">
+		<circle class="fill-flickr flr-bg" cx="19.99" cy="20" r="19"></circle>
+		<path class="fill-flickr flr-dot-1" d="M32.89,20a5.62,5.62,0,1,1-5.62-5.62A5.62,5.62,0,0,1,32.89,20Z"></path>
+		<path class="fill-flickr flr-dot-2" d="M18.35,20a5.62,5.62,0,1,1-5.62-5.62A5.62,5.62,0,0,1,18.35,20Z"></path>
+	</symbol>
+	<svg id="social_round_googleplus" viewBox="0 0 40 40">
+		<path class="fill-googleplus" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM14.55,29.5A9.5,9.5,0,1,1,20.94,13c-2,1.88-1.92,2-2.71,2.77a5.39,5.39,0,0,0-3.68-1.38,5.64,5.64,0,0,0,0,11.28c3.08,0,4.33-1.32,5.13-3.76H14.55V18.12h9.12C24.3,22.67,22.39,29.5,14.55,29.5Zm17.11-8.84V24H29.31V20.66H25.93V18.31h3.38V15h2.35v3.3H35v2.35Z"></path>
+	</svg>
+	<symbol id="social_round_govd" viewBox="0 0 40 40">
+		<path class="fill-govd" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1Zm8.43,25.94H22.69a.93.93,0,0,0-.58.18l-10.27,7a.75.75,0,0,1-1.24-.49,1.2,1.2,0,0,1,.14-.57c.84-1.93,1.7-3.86,2.55-5.79,0-.08.06-.16.11-.27H11.56a3.28,3.28,0,0,1-1.63-.4,3.24,3.24,0,0,1-1.78-2.93c0-3.36,0-6.72,0-10.08a3.32,3.32,0,0,1,3.28-3.29c5.67,0,11.34,0,17,0a3.37,3.37,0,0,1,3.4,3.38q0,5,0,9.94A3.36,3.36,0,0,1,28.42,26.94Z"></path>
+		<path class="fill-govd" d="M28.16,12.21l-7.94,5.9a.32.32,0,0,1-.45,0l-6.31-4.69c-.56-.42-1.13-.85-1.7-1.26a.79.79,0,0,0-1,0,.76.76,0,0,0-.18.94,1.44,1.44,0,0,0,.35.39l5.23,3.88.24.19-.13.17-4.83,5.82c-.14.17-.29.33-.42.51a.48.48,0,0,0,.1.67.47.47,0,0,0,.65,0,1.14,1.14,0,0,0,.15-.16c1.28-1.54,2.56-3.09,3.85-4.63.47-.58,1-1.15,1.45-1.74.77.56,1.51,1.12,2.25,1.67a.81.81,0,0,0,1.07,0l1.92-1.43.32-.24a.47.47,0,0,1,.1.11c.9,1.07,1.79,2.15,2.69,3.23l2.58,3.11a.5.5,0,1,0,.75-.65c-1.39-1.69-2.8-3.37-4.2-5.06l-1.11-1.34.15-.12,5.38-4a.8.8,0,1,0-.95-1.27Z"></path>
+	</symbol>
+	<symbol id="social_round_instagram" viewBox="0 0 40 40">
+		<circle style="fill:url(#svg_ig_1);" cx="20" cy="20" r="20"></circle>
+		<circle style="fill:url(#svg_ig_2);" cx="20" cy="20" r="20"></circle>
+		<path class="fill-w" d="M20,5.5c-4,0-4.5,0-6.1,0.1c-1.6,0.1-2.6,0.3-3.6,0.7C9.4,6.7,8.5,7.2,7.7,8C6.9,8.8,6.4,9.7,6,10.6c-0.4,0.9-0.6,2-0.7,3.6c-0.1,1.6-0.1,2.1-0.1,6.1s0,4.5,0.1,6.1C5.4,28,5.6,29,6,30c0.4,1,0.9,1.8,1.7,2.6c0.8,0.8,1.6,1.3,2.6,1.7c0.9,0.4,2,0.6,3.6,0.7c1.6,0.1,2.1,0.1,6.1,0.1c4,0,4.5,0,6.1-0.1c1.6-0.1,2.6-0.3,3.6-0.7c1-0.4,1.8-0.9,2.6-1.7c0.8-0.8,1.3-1.6,1.7-2.6c0.4-0.9,0.6-2,0.7-3.6c0.1-1.6,0.1-2.1,0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.6-0.7-3.6c-0.4-1-0.9-1.8-1.7-2.6c-0.8-0.8-1.6-1.3-2.6-1.7c-0.9-0.4-2-0.6-3.6-0.7C24.5,5.6,24,5.5,20,5.5L20,5.5z M18.7,8.2c0.4,0,0.8,0,1.3,0c3.9,0,4.4,0,6,0.1c1.4,0.1,2.2,0.3,2.7,0.5c0.7,0.3,1.2,0.6,1.7,1.1c0.5,0.5,0.8,1,1.1,1.7c0.2,0.5,0.4,1.3,0.5,2.7c0.1,1.6,0.1,2,0.1,6s0,4.4-0.1,6c-0.1,1.4-0.3,2.2-0.5,2.7c-0.3,0.7-0.6,1.2-1.1,1.7c-0.5,0.5-1,0.8-1.7,1.1c-0.5,0.2-1.3,0.4-2.7,0.5c-1.6,0.1-2,0.1-6,0.1c-3.9,0-4.4,0-6-0.1c-1.4-0.1-2.2-0.3-2.7-0.5c-0.7-0.3-1.2-0.6-1.7-1.1c-0.5-0.5-0.8-1-1.1-1.7C8.3,28.5,8,27.7,8,26.3c-0.1-1.6-0.1-2-0.1-6s0-4.4,0.1-6c0.1-1.4,0.3-2.2,0.5-2.7c0.3-0.7,0.6-1.2,1.1-1.7c0.5-0.5,1-0.8,1.7-1.1c0.5-0.2,1.3-0.4,2.7-0.5C15.4,8.2,15.9,8.2,18.7,8.2L18.7,8.2z M27.9,10.7c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8S28.9,10.7,27.9,10.7L27.9,10.7z M20,12.7c-4.2,0-7.6,3.4-7.6,7.6s3.4,7.6,7.6,7.6c4.2,0,7.6-3.4,7.6-7.6S24.2,12.7,20,12.7L20,12.7z M20,15.4c2.7,0,4.9,2.2,4.9,4.9c0,2.7-2.2,4.9-4.9,4.9c-2.7,0-4.9-2.2-4.9-4.9C15.1,17.6,17.3,15.4,20,15.4z"></path>
+	</symbol>
+	<symbol id="social_round_ig" viewBox="0 0 40 40">
+		<circle style="fill:url(#svg_ig_1);" cx="20" cy="20" r="20"></circle>
+		<circle style="fill:url(#svg_ig_2);" cx="20" cy="20" r="20"></circle>
+		<path class="fill-w" d="M20,5.5c-4,0-4.5,0-6.1,0.1c-1.6,0.1-2.6,0.3-3.6,0.7C9.4,6.7,8.5,7.2,7.7,8C6.9,8.8,6.4,9.7,6,10.6c-0.4,0.9-0.6,2-0.7,3.6c-0.1,1.6-0.1,2.1-0.1,6.1s0,4.5,0.1,6.1C5.4,28,5.6,29,6,30c0.4,1,0.9,1.8,1.7,2.6c0.8,0.8,1.6,1.3,2.6,1.7c0.9,0.4,2,0.6,3.6,0.7c1.6,0.1,2.1,0.1,6.1,0.1c4,0,4.5,0,6.1-0.1c1.6-0.1,2.6-0.3,3.6-0.7c1-0.4,1.8-0.9,2.6-1.7c0.8-0.8,1.3-1.6,1.7-2.6c0.4-0.9,0.6-2,0.7-3.6c0.1-1.6,0.1-2.1,0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.6-0.7-3.6c-0.4-1-0.9-1.8-1.7-2.6c-0.8-0.8-1.6-1.3-2.6-1.7c-0.9-0.4-2-0.6-3.6-0.7C24.5,5.6,24,5.5,20,5.5L20,5.5z M18.7,8.2c0.4,0,0.8,0,1.3,0c3.9,0,4.4,0,6,0.1c1.4,0.1,2.2,0.3,2.7,0.5c0.7,0.3,1.2,0.6,1.7,1.1c0.5,0.5,0.8,1,1.1,1.7c0.2,0.5,0.4,1.3,0.5,2.7c0.1,1.6,0.1,2,0.1,6s0,4.4-0.1,6c-0.1,1.4-0.3,2.2-0.5,2.7c-0.3,0.7-0.6,1.2-1.1,1.7c-0.5,0.5-1,0.8-1.7,1.1c-0.5,0.2-1.3,0.4-2.7,0.5c-1.6,0.1-2,0.1-6,0.1c-3.9,0-4.4,0-6-0.1c-1.4-0.1-2.2-0.3-2.7-0.5c-0.7-0.3-1.2-0.6-1.7-1.1c-0.5-0.5-0.8-1-1.1-1.7C8.3,28.5,8,27.7,8,26.3c-0.1-1.6-0.1-2-0.1-6s0-4.4,0.1-6c0.1-1.4,0.3-2.2,0.5-2.7c0.3-0.7,0.6-1.2,1.1-1.7c0.5-0.5,1-0.8,1.7-1.1c0.5-0.2,1.3-0.4,2.7-0.5C15.4,8.2,15.9,8.2,18.7,8.2L18.7,8.2z M27.9,10.7c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8S28.9,10.7,27.9,10.7L27.9,10.7z M20,12.7c-4.2,0-7.6,3.4-7.6,7.6s3.4,7.6,7.6,7.6c4.2,0,7.6-3.4,7.6-7.6S24.2,12.7,20,12.7L20,12.7z M20,15.4c2.7,0,4.9,2.2,4.9,4.9c0,2.7-2.2,4.9-4.9,4.9c-2.7,0-4.9-2.2-4.9-4.9C15.1,17.6,17.3,15.4,20,15.4z"></path>
+	</symbol>
+	<symbol id="social_round_linkedin" viewBox="0 0 40 40">
+		<path class="fill-linkin" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM13.58,31H8.92V16h4.66ZM11.25,14a2.7,2.7,0,1,1,2.7-2.7A2.7,2.7,0,0,1,11.25,14ZM31,31H26.36V23.73c0-1.73,0-4-2.42-4s-2.79,1.9-2.79,3.85V31H16.5V16H21v2.05H21a4.88,4.88,0,0,1,4.4-2.42c4.72,0,5.59,3.1,5.59,7.13Z"></path>
+	</symbol>
+	<symbol id="social_round_pinterest" viewBox="0 0 40 40">
+		<circle class="fill-w" cx="20" cy="20" r="19"></circle>
+		<path class="fill-pinterest" d="M20,1a19,19,0,0,0-6.92,36.69,18.15,18.15,0,0,1,.06-5.45l2.23-9.44A6.85,6.85,0,0,1,14.8,20c0-2.64,1.53-4.62,3.44-4.62A2.39,2.39,0,0,1,20.64,18c0,1.63-1,4.07-1.57,6.33a2.76,2.76,0,0,0,2.81,3.43c3.38,0,6-3.56,6-8.7,0-4.55-3.27-7.73-7.94-7.73a8.22,8.22,0,0,0-8.58,8.24A7.41,7.41,0,0,0,12.75,24a.57.57,0,0,1,.14.54c-.15.6-.47,1.9-.53,2.16s-.28.42-.64.25c-2.37-1.1-3.85-4.57-3.85-7.36,0-6,4.35-11.49,12.55-11.49,6.59,0,11.71,4.69,11.71,11,0,6.55-4.13,11.82-9.86,11.82a5.09,5.09,0,0,1-4.35-2.18s-1,3.62-1.18,4.51a21,21,0,0,1-2.37,5A19,19,0,1,0,20,1Z"></path>
+	</symbol>
+	<symbol id="social_round_podcast" viewBox="0 0 40 40">
+		<path class="fill-podcast" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1Zm2.8,33.33a.67.67,0,0,1-.67.67H17.84a.67.67,0,0,1-.67-.67V23.2a.67.67,0,0,1,.67-.67h4.28a.67.67,0,0,1,.67.67ZM17.27,19.16A2.73,2.73,0,1,1,20,21.89,2.73,2.73,0,0,1,17.27,19.16Zm8,4.37a6.89,6.89,0,1,0-10.59-.16l-.44,2a8.61,8.61,0,1,1,11.54.05Zm1.56,5.72-.49-1.74-.08-.28a10.19,10.19,0,1,0-12.42,0l-.12.58-.35,1.5a12.16,12.16,0,1,1,13.46-.08Z"></path>
+	</symbol>
+	<symbol id="social_round_rss" viewBox="0 0 40 40">
+		<path class="fill-rss" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM12.08,31.06a3.14,3.14,0,1,1,3.13-3.14A3.14,3.14,0,0,1,12.08,31.06Zm11.22-.34a1,1,0,0,1-.77.34h-2.2a1,1,0,0,1-1-.95A10.46,10.46,0,0,0,9.89,20.7a1,1,0,0,1-1-1v-2.2a1,1,0,0,1,.34-.77,1,1,0,0,1,.71-.28h.08A14.79,14.79,0,0,1,23.58,29.93,1.1,1.1,0,0,1,23.3,30.72Zm8.35,0a1,1,0,0,1-.76.33H28.56a1.05,1.05,0,0,1-1-1A18.7,18.7,0,0,0,9.92,12.47a1,1,0,0,1-1-1V9.1a1,1,0,0,1,.33-.75A1,1,0,0,1,10,8.06h0A23.2,23.2,0,0,1,31.94,30,1,1,0,0,1,31.65,30.73Z"></path>
+	</symbol>
+	<symbol id="social_round_syndication" viewBox="0 0 40 40">
+		<path class="fill-synd" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1Zm1.33,9.94a1,1,0,0,1,1.27-.71,10.47,10.47,0,0,1,2.37,1,10.11,10.11,0,0,1,4.83,6.42A1,1,0,0,1,29,18.89a1,1,0,0,1-1.24-.75A8.17,8.17,0,0,0,22,12.21,1,1,0,0,1,21.32,10.94Zm8,12.86a9,9,0,0,1-.66,1.36,10.13,10.13,0,0,1-7.55,5H21a1,1,0,0,1-1-.89,1,1,0,0,1,.89-1.15,8.1,8.1,0,0,0,6-4A7.31,7.31,0,0,0,27.45,23a1,1,0,0,1,1.91.76Zm-9-8.72a1,1,0,0,1,1.3-.66,5.91,5.91,0,0,1,3.85,3.94,1,1,0,0,1-.68,1.27,1,1,0,0,1-1.29-.69,3.86,3.86,0,0,0-2.52-2.57A1,1,0,0,1,20.39,15.08Zm-1.76.12a1,1,0,0,1-.48,1.37,4,4,0,0,0-2.1,2.67,1,1,0,0,1-1,.81.83.83,0,0,1-.22,0A1,1,0,0,1,14,18.8a6,6,0,0,1,3.22-4.07A1,1,0,0,1,18.63,15.2Zm-.8-4.15a1,1,0,0,1-.64,1.31A8.14,8.14,0,0,0,12.78,16a8,8,0,0,0-1,2.72,1,1,0,0,1-1,.85h-.18a1,1,0,0,1-.84-1.18A10,10,0,0,1,11,15a10.2,10.2,0,0,1,5.53-4.54A1,1,0,0,1,17.83,11.05ZM6.93,19H6.77a1,1,0,0,1-.86-1.17A14.11,14.11,0,0,1,14.84,6.9a1,1,0,0,1,1.33.6,1,1,0,0,1-.6,1.32,12.14,12.14,0,0,0-6.16,5.23A11.7,11.7,0,0,0,8,18.16,1,1,0,0,1,6.93,19Zm7.37,6.31-6-.84L19.8,19.85,15.2,31.23Zm6.12-1.44a3.89,3.89,0,0,0,2.94-2.17,1,1,0,0,1,1.38-.49,1,1,0,0,1,.49,1.37,5.93,5.93,0,0,1-4.51,3.32h-.15a1,1,0,0,1-.15-2Zm12.51,1.46a14.92,14.92,0,0,1-.86,1.75,14.11,14.11,0,0,1-11.24,7h-.07a1,1,0,0,1-.07-2.05A12,12,0,0,0,31,24.58a1,1,0,0,1,1.91.77ZM32.8,18a1,1,0,0,1-.24,0,1,1,0,0,1-1-.78,11.93,11.93,0,0,0-5.68-7.55,12.09,12.09,0,0,0-3-1.22,1,1,0,0,1-.73-1.26,1,1,0,0,1,1.26-.73,14.12,14.12,0,0,1,3.46,1.43,14,14,0,0,1,6.65,8.84A1,1,0,0,1,32.8,18Z"></path>
+	</symbol>
+	<symbol id="social_round_tumblr" viewBox="0 0 40 40">
+		<path class="fill-tumblr" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1Zm7.59,29.88a7.34,7.34,0,0,1-4.74,1.6h-.2c-6.14,0-7.47-4.5-7.47-7.14V18H12.75a.5.5,0,0,1-.5-.51V14.07a.86.86,0,0,1,.57-.81A6.46,6.46,0,0,0,17.1,7.31c0-.55.33-.83.82-.83h3.6A.51.51,0,0,1,22,7v5.85h4.21a.51.51,0,0,1,.51.51V17.5a.5.5,0,0,1-.51.5H22v6.77a1.89,1.89,0,0,0,1.81,2.16,5,5,0,0,0,1.64-.35,1.13,1.13,0,0,1,.65-.11c.18,0,.29.17.37.4l1.12,3.26C27.69,30.39,27.77,30.68,27.58,30.88Z"></path>
+	</symbol>
+	<symbol id="social_round_twitter" viewBox="0 0 40 40">
+		<circle class="fill-tw" cx="19.99" cy="20" r="19"></circle>
+		<path class="fill-w" d="M15.59,29.65A13.77,13.77,0,0,0,29.46,15.79c0-.21,0-.42,0-.63a10,10,0,0,0,2.44-2.53,9.85,9.85,0,0,1-2.8.77,4.9,4.9,0,0,0,2.14-2.69,10,10,0,0,1-3.09,1.18,4.87,4.87,0,0,0-8.43,3.33,5,5,0,0,0,.12,1.11,13.8,13.8,0,0,1-10-5.09,4.88,4.88,0,0,0,1.51,6.51,5,5,0,0,1-2.21-.61v.06A4.88,4.88,0,0,0,13,22a5,5,0,0,1-1.29.17,4.53,4.53,0,0,1-.91-.09,4.87,4.87,0,0,0,4.55,3.38,9.77,9.77,0,0,1-6.05,2.09,8.82,8.82,0,0,1-1.16-.07,13.77,13.77,0,0,0,7.46,2.19"></path>
+	</symbol>
+	<symbol id="social_round_youtube" viewBox="0 0 40 40">
+		<path class="fill-youtube" d="M20,1A19,19,0,1,0,39,20,19,19,0,0,0,20,1ZM13.85,27V13l12.3,7Z"></path>
+	</symbol>
+	<symbol id="intranet-connects-cdc">
+		<style type="text/css">
+			.st0 {
+				fill: #FFFFFF;
+			}
+
+			.st1 {
+				fill: none;
+				stroke: #FFFFFF;
+				stroke-width: 2.1206;
+			}
+
+			.st2 {
+				fill: #005DA9;
+			}
+
+			.st3 {
+				fill: none;
+				stroke: #FFFFFF;
+				stroke-width: 1.8943;
+			}
+
+			.st4 {
+				fill: #607171;
+			}
+		</style>
+		<g>
+			<rect x="1.3" y="9.6" class="st0" width="157.9" height="96.4"/>
+			<rect x="1.3" y="9.6" class="st1" width="157.9" height="96.4"/>
+			<rect x="2.8" y="11" class="st2" width="155" height="93.4"/>
+			<polygon class="st0" points="66.5,104.5 157.8,11.9 157.8,11 157.3,11 65.1,104.5 	"/>
+			<polygon class="st0" points="8.8,104.5 15,11 14.1,11 7.9,104.5 	"/>
+			<polygon class="st0" points="13.8,104.5 27.1,11 26.1,11 12.8,104.5 	"/>
+			<polygon class="st0" points="19.1,104.5 39.9,11 39,11 18.1,104.5 	"/>
+			<polygon class="st0" points="24.9,104.5 54.7,11 53.7,11 23.9,104.5 	"/>
+			<polygon class="st0" points="30.4,104.5 68.6,11 67.6,11 29.3,104.5 	"/>
+			<polygon class="st0" points="36.7,104.5 84.5,11 83.4,11 35.6,104.5 	"/>
+			<polygon class="st0" points="108.4,11 107.3,11 45.3,104.5 46.5,104.5 	"/>
+			<polygon class="st0" points="130.5,11 129.3,11 54,104.5 55.2,104.5 	"/>
+			<polygon class="st0" points="157.8,46.4 157.8,45.2 83.1,104.5 84.7,104.5 	"/>
+			<polygon class="st0" points="157.8,72.1 157.8,71 104.2,104.5 106,104.5 	"/>
+			<polygon class="st0" points="157.8,96.4 157.8,95.3 138.1,104.5 140.3,104.5 	"/>
+			<g>
+				<path class="st0" d="M37.5,76C21.4,76,10.4,66.1,10.4,50c0-15.7,11.7-26.7,27.2-26.7c4.1,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C49.5,73.7,45.6,76,37.5,76"/>
+				<path class="st3" d="M37.5,76C21.4,76,10.4,66.1,10.4,50c0-15.7,11.7-26.7,27.2-26.7c4.1,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C49.5,73.7,45.6,76,37.5,76z"/>
+				<path class="st0" d="M77.4,75.1c9.8,0,24.7-6.1,24.7-25.6c0-20.7-14.8-25.3-26-25.3H57.6v50.9H77.4z M90.2,49.7
+								C90.2,69.6,78,71,68.4,71V28C78.2,28,90.2,29.2,90.2,49.7"/>
+				<path class="st3" d="M77.4,75.1c9.8,0,24.7-6.1,24.7-25.6c0-20.7-14.8-25.3-26-25.3H57.6v50.9H77.4z M90.2,49.7
+								C90.2,69.6,78,71,68.4,71V28C78.2,28,90.2,29.2,90.2,49.7z"/>
+				<path class="st0" d="M135.2,76c-16.1,0-27.1-9.9-27.1-26.1c0-15.7,11.7-26.7,27.2-26.7c4.2,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C147.2,73.7,143.2,76,135.2,76"/>
+				<path class="st3" d="M135.2,76c-16.1,0-27.1-9.9-27.1-26.1c0-15.7,11.7-26.7,27.2-26.7c4.2,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C147.2,73.7,143.2,76,135.2,76z"/>
+			</g>
+		</g>
+		<circle fill="transparent" cx="291.9" cy="61.5" r="30.6"/>
+		<path class="st4" d="M267.9,97.4c-8.5,8-20,12.9-32.6,12.9c-26.3,0-47.8-21.4-47.8-47.8c0-26.3,21.4-47.8,47.8-47.8
+						c12.6,0,24,4.9,32.6,12.9c3.7-2.6,7.9-4.7,12.4-6C269.1,9.4,253.1,1.7,235.3,1.7c-33.5,0-60.8,27.3-60.8,60.8s27.3,60.8,60.8,60.8
+						c17.8,0,33.8-7.7,44.9-19.9C275.8,102,271.6,100,267.9,97.4z"/>
+		<g>
+			<path class="st4" d="M255.5,62.4c0-20.4,16.5-36.9,37-36.9c20.4,0,37,16.5,37,36.9c0,20.5-16.5,37-37,37
+							C272,99.5,255.5,83,255.5,62.4z M316.4,62.5c0-13.6-10.7-24.6-24-24.6c-13.2,0-24,11-24,24.6c0,13.7,10.7,24.7,24,24.7
+							C305.7,87.2,316.4,76.1,316.4,62.5z"/>
+			<path class="st4" d="M404.9,57.2V98h-13V60.3c0-12.4-9.7-22.5-21.8-22.5c-12,0-21.8,10.1-21.8,22.5V98h-13V27h13v10.5
+							c5.8-7.3,14.8-12,24.8-12C390.7,25.5,404.9,39.7,404.9,57.2z"/>
+			<path class="st4" d="M482.9,57.2V98h-13V60.3c0-12.4-9.7-22.5-21.8-22.5c-12,0-21.8,10.1-21.8,22.5V98h-13V27h13v10.5
+							c5.8-7.3,14.8-12,24.8-12C468.7,25.5,482.9,39.7,482.9,57.2z"/>
+			<path class="st4" d="M526.7,87.2c8.3,0,18.1-2.9,25.7-7.3l5.6,10.9c-9.4,5.4-20.9,8.7-31.3,8.7c-22.3,0-37.4-14.3-37.5-37
+							c0-20.4,15.9-37,35.5-37c19.6,0,35.5,16.5,35.5,36.9c0,2.4-0.3,4.8-0.7,7.1H503C505.5,80.9,514.3,87.2,526.7,87.2z M546.8,57.5
+							c-2.1-11.2-11.2-19.7-22.1-19.7c-10.9,0-20,8.5-22.1,19.7H546.8z"/>
+			<path class="st4" d="M622.7,77.1l8.9,8.2c-6.7,8.5-17.2,14-29,14c-20.4,0-37-16.5-37-36.9c0-20.4,16.5-36.9,37-36.9
+							c11.8,0,22.2,5.5,29,14l-8.9,8.2c-4.5-5.6-12-9.9-20-9.9c-13.1,0-24,11-24,24.6c0,13.6,10.9,24.6,24,24.6
+							C610.8,87.1,618.2,82.8,622.7,77.1z"/>
+			<path class="st4" d="M689,95.8c-10.7,4.7-22.8,5.3-31.4,0c-6.2-3.8-10-10.4-10-19.6V39.3H634V27h13.6V7.1h13V27h22.7v12.3h-22.7
+							v35.5c0,4.9,1.4,8.4,4.5,10.4c4.9,3,12.9,1.9,20.1-0.9L689,95.8z"/>
+			<path class="st4" d="M690.5,89.6l5.7-10.3c4.6,2.9,13.8,7.6,24.9,7.5c8.3-0.1,16.2-2.9,16.1-8.5c-0.1-6.5-8-8-15.5-9.3
+							c-13.2-2.4-27.8-6.8-27.9-22.4c-0.1-14.9,15.6-21.3,28.4-21.4c9.7-0.1,21.6,4.3,29.5,9.7L746,45.1c-5.1-3.6-15.1-7.6-23.6-7.5
+							c-8.8,0.1-14.5,3.5-14.4,8.6c0.1,6.8,7.5,8.5,13.8,9.8c15.7,3.1,29.5,6.8,29.6,21.6c0.1,15.8-18,21.6-29.9,21.6
+							C711.1,99.3,698.6,94.9,690.5,89.6z"/>
+		</g>
+	</symbol>
+	<symbol id="intranet-connects-text">
+		<style type="text/css">
+			.st0 {
+				fill: #FFFFFF;
+			}
+
+			.st1 {
+				fill: none;
+				stroke: #FFFFFF;
+				stroke-width: 2.1206;
+			}
+
+			.st2 {
+				fill: #005DA9;
+			}
+
+			.st3 {
+				fill: none;
+				stroke: #FFFFFF;
+				stroke-width: 1.8943;
+			}
+
+			.st4 {
+				fill: #607171;
+			}
+		</style>
+		<g>
+			<rect x="1.3" y="9.6" class="st0" width="157.9" height="96.4"/>
+			<rect x="1.3" y="9.6" class="st1" width="157.9" height="96.4"/>
+			<rect x="2.8" y="11" class="st2" width="155" height="93.4"/>
+			<polygon class="st0" points="66.5,104.5 157.8,11.9 157.8,11 157.3,11 65.1,104.5 	"/>
+			<polygon class="st0" points="8.8,104.5 15,11 14.1,11 7.9,104.5 	"/>
+			<polygon class="st0" points="13.8,104.5 27.1,11 26.1,11 12.8,104.5 	"/>
+			<polygon class="st0" points="19.1,104.5 39.9,11 39,11 18.1,104.5 	"/>
+			<polygon class="st0" points="24.9,104.5 54.7,11 53.7,11 23.9,104.5 	"/>
+			<polygon class="st0" points="30.4,104.5 68.6,11 67.6,11 29.3,104.5 	"/>
+			<polygon class="st0" points="36.7,104.5 84.5,11 83.4,11 35.6,104.5 	"/>
+			<polygon class="st0" points="108.4,11 107.3,11 45.3,104.5 46.5,104.5 	"/>
+			<polygon class="st0" points="130.5,11 129.3,11 54,104.5 55.2,104.5 	"/>
+			<polygon class="st0" points="157.8,46.4 157.8,45.2 83.1,104.5 84.7,104.5 	"/>
+			<polygon class="st0" points="157.8,72.1 157.8,71 104.2,104.5 106,104.5 	"/>
+			<polygon class="st0" points="157.8,96.4 157.8,95.3 138.1,104.5 140.3,104.5 	"/>
+			<g>
+				<path class="st0" d="M37.5,76C21.4,76,10.4,66.1,10.4,50c0-15.7,11.7-26.7,27.2-26.7c4.1,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C49.5,73.7,45.6,76,37.5,76"/>
+				<path class="st3" d="M37.5,76C21.4,76,10.4,66.1,10.4,50c0-15.7,11.7-26.7,27.2-26.7c4.1,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C49.5,73.7,45.6,76,37.5,76z"/>
+				<path class="st0" d="M77.4,75.1c9.8,0,24.7-6.1,24.7-25.6c0-20.7-14.8-25.3-26-25.3H57.6v50.9H77.4z M90.2,49.7
+								C90.2,69.6,78,71,68.4,71V28C78.2,28,90.2,29.2,90.2,49.7"/>
+				<path class="st3" d="M77.4,75.1c9.8,0,24.7-6.1,24.7-25.6c0-20.7-14.8-25.3-26-25.3H57.6v50.9H77.4z M90.2,49.7
+								C90.2,69.6,78,71,68.4,71V28C78.2,28,90.2,29.2,90.2,49.7z"/>
+				<path class="st0" d="M135.2,76c-16.1,0-27.1-9.9-27.1-26.1c0-15.7,11.7-26.7,27.2-26.7c4.2,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C147.2,73.7,143.2,76,135.2,76"/>
+				<path class="st3" d="M135.2,76c-16.1,0-27.1-9.9-27.1-26.1c0-15.7,11.7-26.7,27.2-26.7c4.2,0,8.7,0.8,12.2,2.4v7.7
+								c-1.7-2.3-5.2-6.3-12-6.3c-9.7,0-15.2,8.9-15.2,21.8c0,13.5,5.1,23.2,16.2,23.2c3.9,0,8.8-2,11-4.1l1.8,4.1
+								C147.2,73.7,143.2,76,135.2,76z"/>
+			</g>
+		</g>
+		<circle fill="transparent" cx="291.9" cy="61.5" r="30.6"/>
+		<path class="st4" d="M267.9,97.4c-8.5,8-20,12.9-32.6,12.9c-26.3,0-47.8-21.4-47.8-47.8c0-26.3,21.4-47.8,47.8-47.8
+						c12.6,0,24,4.9,32.6,12.9c3.7-2.6,7.9-4.7,12.4-6C269.1,9.4,253.1,1.7,235.3,1.7c-33.5,0-60.8,27.3-60.8,60.8s27.3,60.8,60.8,60.8
+						c17.8,0,33.8-7.7,44.9-19.9C275.8,102,271.6,100,267.9,97.4z"/>
+		<g>
+			<path class="st4" d="M255.5,62.4c0-20.4,16.5-36.9,37-36.9c20.4,0,37,16.5,37,36.9c0,20.5-16.5,37-37,37
+							C272,99.5,255.5,83,255.5,62.4z M316.4,62.5c0-13.6-10.7-24.6-24-24.6c-13.2,0-24,11-24,24.6c0,13.7,10.7,24.7,24,24.7
+							C305.7,87.2,316.4,76.1,316.4,62.5z"/>
+			<path class="st4" d="M404.9,57.2V98h-13V60.3c0-12.4-9.7-22.5-21.8-22.5c-12,0-21.8,10.1-21.8,22.5V98h-13V27h13v10.5
+							c5.8-7.3,14.8-12,24.8-12C390.7,25.5,404.9,39.7,404.9,57.2z"/>
+			<path class="st4" d="M482.9,57.2V98h-13V60.3c0-12.4-9.7-22.5-21.8-22.5c-12,0-21.8,10.1-21.8,22.5V98h-13V27h13v10.5
+							c5.8-7.3,14.8-12,24.8-12C468.7,25.5,482.9,39.7,482.9,57.2z"/>
+			<path class="st4" d="M526.7,87.2c8.3,0,18.1-2.9,25.7-7.3l5.6,10.9c-9.4,5.4-20.9,8.7-31.3,8.7c-22.3,0-37.4-14.3-37.5-37
+							c0-20.4,15.9-37,35.5-37c19.6,0,35.5,16.5,35.5,36.9c0,2.4-0.3,4.8-0.7,7.1H503C505.5,80.9,514.3,87.2,526.7,87.2z M546.8,57.5
+							c-2.1-11.2-11.2-19.7-22.1-19.7c-10.9,0-20,8.5-22.1,19.7H546.8z"/>
+			<path class="st4" d="M622.7,77.1l8.9,8.2c-6.7,8.5-17.2,14-29,14c-20.4,0-37-16.5-37-36.9c0-20.4,16.5-36.9,37-36.9
+							c11.8,0,22.2,5.5,29,14l-8.9,8.2c-4.5-5.6-12-9.9-20-9.9c-13.1,0-24,11-24,24.6c0,13.6,10.9,24.6,24,24.6
+							C610.8,87.1,618.2,82.8,622.7,77.1z"/>
+			<path class="st4" d="M689,95.8c-10.7,4.7-22.8,5.3-31.4,0c-6.2-3.8-10-10.4-10-19.6V39.3H634V27h13.6V7.1h13V27h22.7v12.3h-22.7
+							v35.5c0,4.9,1.4,8.4,4.5,10.4c4.9,3,12.9,1.9,20.1-0.9L689,95.8z"/>
+			<path class="st4" d="M690.5,89.6l5.7-10.3c4.6,2.9,13.8,7.6,24.9,7.5c8.3-0.1,16.2-2.9,16.1-8.5c-0.1-6.5-8-8-15.5-9.3
+							c-13.2-2.4-27.8-6.8-27.9-22.4c-0.1-14.9,15.6-21.3,28.4-21.4c9.7-0.1,21.6,4.3,29.5,9.7L746,45.1c-5.1-3.6-15.1-7.6-23.6-7.5
+							c-8.8,0.1-14.5,3.5-14.4,8.6c0.1,6.8,7.5,8.5,13.8,9.8c15.7,3.1,29.5,6.8,29.6,21.6c0.1,15.8-18,21.6-29.9,21.6
+							C711.1,99.3,698.6,94.9,690.5,89.6z"/>
+		</g>
+	</symbol>
+</svg>
+
+
+<!-- JS Added Dynamically Here -->
+<script>var MP = {
+<!--mp_trans_disable_start -->
+	Version: '3.1.1.1',
+	SrcLang: 'en',
+<!--mp_trans_disable_end -->
+	UrlLang: 'mp_js_current_lang',
+	SrcUrl: decodeURIComponent('mp_js_orgin_url'),
+	oSite: decodeURIComponent('mp_js_origin_baseUrl'),
+	tSite: decodeURIComponent('mp_js_translated_baseUrl'),
+<!--mp_trans_disable_start -->
+	init: function() {
+		if (MP.oSite.indexOf('p_js_') == 1) {
+			MP.SrcUrl = window.top.document.location.href;
+			MP.oSite = MP.tSite = window.top.document.location.host;
+			MP.UrlLang = MP.SrcLang;
+		}
+	},
+	switchLanguage: function(url,pref,sync) {
+		var sync = sync;
+		var oSite=MP.oSite.replace('http://','').replace('https://','').replace(/\/?$/, '');
+		var tSite=MP.tSite.replace('http://','').replace('https://','').replace(/\/?$/, '');
+		url=url.replace('http://','').replace('https://','').replace(/\/?$/, '');
+		if(sync && (typeof MpStorage !== 'undefined')&&(typeof MpStorage.updatePref !== 'undefined')){
+			if(pref){
+			var lang = pref.substring(0, 2);
+			pref = lang == MP.UrlLang ? MP.SrcLang+pref.substring(2):pref;
+			}
+			MpStorage.updatePref(url,pref);
+		}
+		setTimeout(function() {
+			var script = document.createElement('SCRIPT');
+			if (url == oSite) {
+				tSite = tSite.split(/[/?#]/)[0];
+				script.src = location.protocol + '//' + tSite +'?1023749634;' + encodeURIComponent(location.href);
+			} else {
+				url = url.split(/[/?#]/)[0];
+				script.src = location.protocol + '//' + url +'?1023749632;' + encodeURIComponent(MP.SrcUrl);
+			}
+			var target = document.getElementsByTagName('script')[0];
+			target.parentNode.insertBefore(script, target);
+		}, 500);
+		return false;
+	},
+	switchToLang: function(url) {
+		if(window.top.location.href == url){
+			if((typeof MpStorage !== 'undefined')&&(typeof MpStorage.updatePref !== 'undefined'))
+			MpStorage.updatePref(MP.oSite,MP.SrcLang);
+		}else{
+			window.top.location.href = url;
+		}
+	}
+	<!-- mp_trans_disable_end -->   
+};</script><script>function switchLanguage(lang) {
+MP.UrlLang='mp_js_current_lang';
+MP.SrcUrl=decodeURIComponent('mp_js_orgin_url');
+MP.oSite=decodeURIComponent('mp_js_origin_baseUrl');
+MP.tSite=decodeURIComponent('mp_js_translated_baseUrl');
+MP.init();
+}
+</script><script src="/TemplatePackage/contrib/libs/d3/d3.min.js"></script>
+<script src="/TemplatePackage/contrib/libs/c3/c3.js"></script>
+<script src="/TemplatePackage/contrib/libs/mmwr/mmwr_metrics.min.js"></script>
+<script>window.CDC.Policy.External.init();</script>
+<script>
+	
+	siteCatalyst.setChannel("MMWR");
+siteCatalyst.setLevel1("OS");
+siteCatalyst.setLevel2("OSD");	
+	</script>
+<script>
+	window.shortTitle = "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged &ge;12 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination &mdash; 24 U.S. Jurisdictions, October 3, 2021&ndash;December 24, 2022";
+	window.pageOptions = window.pageOptions || {};
+	window.pageOptions.navigation = window.pageOptions.navigation || { fourthLevelCollapsed: false, showFourthLevel: true	}; 	</script>
+<script>
+	window.pageOptions.navigation.breadcrumbs = { mode: 'auto', showCurrentPage: false , prefix: [{"text":"CDC","href":"https:\/\/www.cdc.gov\/"}] }; </script>
+<script>
+	window.CDC.tp4.public.appInit( window.pageOptions );
+</script>
+
+
+
+</body>
+</html>
+
