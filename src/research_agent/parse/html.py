@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from html.parser import HTMLParser
 
+from loguru import logger
+
 
 class _TextExtractor(HTMLParser):
     def __init__(self) -> None:
@@ -21,4 +23,6 @@ def extract_text(html: str) -> str:
     # TODO: Replace with readability and anchored selector extraction.
     parser = _TextExtractor()
     parser.feed(html)
-    return parser.get_text()
+    result = parser.get_text()
+    logger.debug(f"Extracted {len(result)} chars from HTML")
+    return result

@@ -4,6 +4,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Protocol
 
+from loguru import logger
+
 from research_agent.config import SearchConfig
 from research_agent.types import SearchQuery, SearchResult
 from research_agent.search.providers import brave, google_pse, serper, tavily
@@ -34,16 +36,23 @@ class SearchBroker:
                 providers.append(serper.SerperProvider())
             else:
                 continue
+        logger.debug(f"Initialized search providers: {[p.name for p in providers]}")
         return cls(providers=providers)
 
     def search(self, query: SearchQuery) -> list[SearchResult]:
         results: list[SearchResult] = []
         for provider in self.providers:
             try:
-                results.extend(provider.search(query))
-            except Exception:
+                logger.debug(f"Searching {provider.name}...")
+                provider_results = provider.search(query)
+                logger.debug(f"{provider.name} returned {len(provider_results)} results")
+                results.extend(provider_results)
+            except Exception as e:
+                logger.warning(f"Provider {provider.name} failed: {e}")
                 continue
-        return rrf_rank(results)
+        ranked = rrf_rank(results)
+        logger.info(f"Search returned {len(ranked)} total results")
+        return ranked
 
 
 def rrf_rank(results: list[SearchResult], k: int = 60) -> list[SearchResult]:

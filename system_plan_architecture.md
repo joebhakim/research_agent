@@ -1,10 +1,52 @@
-Below is a **complete, implementation‑grade architecture and spec** for a research agent optimized for **claim‑level synthesis** and **evidence reduction** (map→reduce→adjudicate), with **heavy web search** and a **tunable thinking extent** compatible with both **FlashResearch‑4B‑Thinking (local)** and **Tongyi‑DeepResearch‑30B‑A3B (OpenRouter)**.
+This document has two parts:
+1) **Current scaffold (implemented)** - what exists in this repo today.
+2) **Target architecture (planned)** - the longer-term design goals.
 
-I anchor design choices to the Tongyi DeepResearch rollout modes (Native ReAct vs Heavy) and training/stability claims, and to the realities of search APIs in late‑2025 (Bing API retirement; practical DDG, Brave, Google PSE/JSON, Tavily/Serp APIs). Citations appear inline where a choice depends on external facts.
+The diagram below reflects the current scaffold. The rest of the document is the target plan and includes aspirational components.
+
+Current scaffold summary (implemented):
+* CLI-only runner with offline ingestion (`--sources` or `--input-dir`) plus basic Google PSE search.
+* SQLite evidence store with runs, sources, propositions, annotations, and claim groups.
+* Evidence reduce pipeline: extract -> canonicalize -> group -> adjudicate (LLM-assisted).
+* HTML parsing via a simple text extractor; PDF parsing via `pypdf`.
+* OpenAI-compatible LLM client (local vLLM or OpenRouter).
+* Probabilistic eval harness with threshold scoring and raw call capture.
 
 ---
 
-## 0) One‑screen summary
+## Current scaffold (implemented) - system diagram
+
+```mermaid
+flowchart LR
+    CLI[CLI] --> Runner[Runner]
+    CLI --> Eval[Eval Harness]
+
+    subgraph Ingestion
+        Offline[Offline Sources<br/>--sources/--input-dir]
+        Search[Search Broker<br/>(google_pse)]
+        Fetcher[Fetcher]
+        Parser[HTML/PDF Parser]
+    end
+
+    Runner --> Offline
+    Runner --> Search
+    Search --> Fetcher --> Parser
+    Offline --> Docs[DocumentText]
+    Parser --> Docs
+
+    Docs --> Reduce[Evidence Reduce<br/>(extract->canonicalize->adjudicate)]
+    Reduce --> Report[Report Renderer]
+    Reduce --> DB[(SQLite Evidence Store)]
+    Runner --> Prov[Provenance JSON]
+
+    Reduce --> LLMRouter[LLM Router]
+    Eval --> LLMRouter
+    LLMRouter --> LLM[OpenAI-compat LLM]
+```
+
+---
+
+## Target architecture (planned) - one-screen summary
 
 * **Agent loop:** ReAct‑style **Native** mode for fast tasks; **Heavy (IterResearch)** for long‑horizon queries with round‑by‑round workspace reconstruction, synthesis before expansion, and compute budgeting. ([Tongyi DeepResearch][1])
 * **Thinking knob:** `thinking.extent ∈ {low, medium, high, heavy}` controls step budget, parallel beams, self‑critique depth, and when to escalate from 4B (local) to 30B (remote). OpenRouter’s **Tongyi‑DeepResearch‑30B‑A3B:free** exposes a **131,072‑token** context for escalations. ([OpenRouter][2])
@@ -17,7 +59,7 @@ I anchor design choices to the Tongyi DeepResearch rollout modes (Native ReAct v
 
 ---
 
-## 1) System architecture (high‑level)
+## Target architecture (planned) - system architecture (high‑level)
 
 ```mermaid
 flowchart LR

@@ -3,11 +3,14 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable
 
+from loguru import logger
+
 from research_agent.evidence.adjudicate import label_evidence
 from research_agent.evidence.canonicalize import canonicalize_propositions
 from research_agent.evidence.extract import extract_propositions
 from research_agent.evidence.policy import EvidencePolicy, policy_for_extent
 from research_agent.llm.client import OpenAICompatClient
+from research_agent.logging import trace
 from research_agent.types import ClaimGroup, DocumentText, Proposition
 
 
@@ -22,11 +25,21 @@ def reduce_evidence(
     thinking_extent: str,
 ) -> ReduceResult:
     policy = policy_for_extent(thinking_extent)
+
+    logger.info("Extracting propositions...")
     propositions = map_to_propositions(docs, llm_client, policy)
+    logger.info(f"Extracted {len(propositions)} propositions")
+
     canonical = canonicalize_propositions(propositions)
+    logger.info(f"Canonicalized to {len(canonical)} propositions")
+
     groups = group_claims(canonical, policy)
+    logger.info(f"Grouped into {len(groups)} claim groups")
+
     merged = merge_claims(groups, docs, policy)
     adjudicated = adjudicate(merged, llm_client, policy)
+    logger.info(f"Adjudicated {len(adjudicated)} claims")
+
     return ReduceResult(propositions=canonical, claim_groups=adjudicated)
 
 
@@ -37,7 +50,9 @@ def map_to_propositions(
 ) -> list[Proposition]:
     propositions: list[Proposition] = []
     for doc in docs:
-        propositions.extend(extract_propositions(doc, llm_client, policy))
+        doc_props = extract_propositions(doc, llm_client, policy)
+        logger.debug(f"Extracted {len(doc_props)} propositions from {doc.doc_id}")
+        propositions.extend(doc_props)
     return propositions
 
 
@@ -72,7 +87,14 @@ def group_claims(propositions: Iterable[Proposition], policy: EvidencePolicy) ->
         for sig, props in grouped.items()
     ]
     summaries.sort(key=lambda item: len(item.propositions), reverse=True)
-    return summaries[: policy.max_claims]
+    result = summaries[: policy.max_claims]
+
+    # Trace claim groups for detailed analysis
+    trace(
+        "claims_grouped",
+        claims=[{"sig": g.signature, "text": g.claim_text[:100]} for g in result],
+    )
+    return result
 
 
 def merge_claims(
@@ -126,6 +148,7 @@ def adjudicate(
 ) -> list[ClaimGroup]:
     adjudicated: list[ClaimGroup] = []
     for group in groups:
+        logger.debug(f"Adjudicating claim: {group.claim_text[:50]}...")
         labels = label_evidence(group.claim_text, group.evidence, llm_client, policy)
         counts = {"support": 0, "refute": 0, "neutral": 0}
         labeled_evidence: list[dict[str, object]] = []
@@ -137,6 +160,15 @@ def adjudicate(
             labeled_evidence.append(entry_with_label)
 
         stance = derive_stance(counts)
+
+        # Trace adjudication result
+        trace(
+            "claim_adjudicated",
+            signature=group.signature,
+            claim_text=group.claim_text,
+            stance=stance,
+            counts=counts,
+        )
         rationale = (
             f"support={counts['support']}, refute={counts['refute']}, neutral={counts['neutral']} "
             f"across {len(labeled_evidence)} evidence items."

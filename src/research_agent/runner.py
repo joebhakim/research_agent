@@ -8,7 +8,10 @@ import json
 import uuid
 from urllib.parse import urlparse, unquote
 
+from loguru import logger
+
 from research_agent.config import AppConfig, SearchConfig
+from research_agent.logging import setup_logging
 from research_agent.evidence.reduce import reduce_evidence
 from research_agent.evidence.store import EvidenceStore
 from research_agent.fetch.fetcher import fetch_url
@@ -47,10 +50,16 @@ def run(
     model_override: str | None = None,
     sources_path: Path | None = None,
     input_dir: Path | None = None,
+    log_level: str = "INFO",
 ) -> RunOutput:
     run_id = _make_run_id()
     run_dir = Path(config.storage.runs_dir) / run_id
     run_dir.mkdir(parents=True, exist_ok=True)
+
+    # Set up file logging now that we have run_dir
+    setup_logging(level=log_level, run_dir=run_dir)
+    logger.info(f"Starting run {run_id}")
+    logger.debug(f"Run dir: {run_dir}")
 
     store = EvidenceStore(Path(config.storage.sqlite_path))
     store.init()
@@ -60,6 +69,7 @@ def run(
         thinking_extent=config.agent.thinking.extent,
         override=model_override,
     )
+    logger.info(f"Using model: {routed.name}")
 
     created_at = datetime.utcnow()
     run_meta = {
@@ -81,6 +91,7 @@ def run(
 
     try:
         if sources_path or input_dir:
+            logger.info("Running in offline mode")
             pipeline = _run_offline(
                 question,
                 config,
@@ -92,8 +103,10 @@ def run(
                 input_dir,
             )
         elif config.agent.mode == "heavy":
+            logger.info("Running in heavy mode")
             pipeline = _run_heavy(question, config, store, routed.client, run_id, run_dir)
         else:
+            logger.info("Running in native mode")
             pipeline = _run_native(question, config, store, routed.client, run_id, run_dir)
 
         for proposition in pipeline.propositions:
@@ -128,6 +141,7 @@ def run(
             meta={**run_meta, "provenance_path": str(provenance_path)},
         )
     except Exception:
+        logger.exception("Run failed")
         store.record_run(
             run_id=run_id,
             question=question,
@@ -161,15 +175,20 @@ def _run_native(
     seen_urls: set[str] = set()
     documents: list[DocumentText] = []
     for query in queries:
+        logger.debug(f"Query: {query.q}")
         results = broker.search(query)
+        logger.info(f"Search returned {len(results)} results")
         for result in results:
             if result.url in seen_urls:
                 continue
             seen_urls.add(result.url)
+            logger.debug(f"Fetching {result.url}")
             doc = _fetch_and_parse(result, query.q, run_id, sources_dir, store)
             if doc and doc.text:
+                logger.debug(f"Parsed doc {doc.doc_id}")
                 documents.append(doc)
 
+    logger.info(f"Reducing evidence from {len(documents)} documents")
     reduce_result = reduce_evidence(documents, llm_client, config.agent.thinking.extent)
     return PipelineResult(
         documents=documents,
@@ -206,17 +225,21 @@ def _run_offline(
     if not files:
         raise ValueError("No offline sources found. Provide --sources or --input-dir with files.")
 
+    logger.info(f"Found {len(files)} offline sources")
     documents: list[DocumentText] = []
     seen_doc_ids: set[str] = set()
     for rank, path in enumerate(files, start=1):
+        logger.debug(f"Ingesting {path}")
         doc = _ingest_local_source(path, run_id, sources_dir, store, rank)
         if not doc or not doc.text:
             continue
         if doc.doc_id in seen_doc_ids:
             continue
         seen_doc_ids.add(doc.doc_id)
+        logger.debug(f"Ingested {doc.doc_id}")
         documents.append(doc)
 
+    logger.info(f"Reducing evidence from {len(documents)} documents")
     reduce_result = reduce_evidence(documents, llm_client, config.agent.thinking.extent)
     return PipelineResult(
         documents=documents,
@@ -245,7 +268,8 @@ def _fetch_and_parse(
 ) -> DocumentText | None:
     try:
         fetched = fetch_url(result.url)
-    except Exception:
+    except Exception as e:
+        logger.warning(f"Failed to fetch {result.url}: {e}")
         return None
 
     content_type = fetched.headers.get("content-type", "text/html")
@@ -371,7 +395,8 @@ def _ingest_local_source(
 ) -> DocumentText | None:
     try:
         raw = path.read_bytes()
-    except OSError:
+    except OSError as e:
+        logger.warning(f"Failed to read {path}: {e}")
         return None
 
     content_type = _guess_content_type(path)

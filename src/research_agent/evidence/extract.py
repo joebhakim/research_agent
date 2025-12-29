@@ -7,8 +7,11 @@ import json
 import re
 from typing import Any
 
+from loguru import logger
+
 from research_agent.evidence.policy import EvidencePolicy
 from research_agent.llm.client import OpenAICompatClient
+from research_agent.logging import trace
 from research_agent.types import Annotation, AnnotationSelector, DocumentText, Proposition
 
 
@@ -27,9 +30,11 @@ def extract_propositions(
 
     propositions: list[Proposition] = []
     chunks = chunk_text(document.text, policy.chunk_chars, policy.chunk_overlap)
-    for chunk in chunks[: policy.max_chunks_per_doc]:
+    total_chunks = min(len(chunks), policy.max_chunks_per_doc)
+    for i, chunk in enumerate(chunks[: policy.max_chunks_per_doc], start=1):
         if len(propositions) >= policy.max_props_per_doc:
             break
+        logger.debug(f"Processing chunk {i}/{total_chunks} for {document.doc_id}")
         items = _extract_from_chunk(document, chunk, llm_client, policy.max_props_per_chunk)
         for item in items:
             if len(propositions) >= policy.max_props_per_doc:
@@ -37,6 +42,13 @@ def extract_propositions(
             prop = _build_proposition(document, item, llm_client)
             if prop:
                 propositions.append(prop)
+
+    # Trace extracted propositions
+    trace(
+        "propositions_extracted",
+        doc_id=document.doc_id,
+        propositions=[p.payload for p in propositions],
+    )
     return propositions
 
 
@@ -169,10 +181,12 @@ def _parse_json_list(text: str) -> list[Any]:
 
     match = re.search(r"\[[\s\S]*\]", text)
     if not match:
+        logger.warning("Failed to parse LLM response as JSON: no array found")
         return []
     try:
         parsed = json.loads(match.group(0))
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
+        logger.warning(f"Failed to parse LLM response as JSON: {e}")
         return []
     if isinstance(parsed, list):
         return parsed

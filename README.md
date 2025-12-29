@@ -21,6 +21,7 @@ Usage
 
 - Run offline with local sources:
   research-agent run --config agent.yaml --input-dir offline_sources "Your question here"
+  research-agent run --config agent.yaml --sources offline_sources/sources.txt "Your question here"
 
 - Test model connectivity:
   research-agent llm-test --config agent.yaml --model local
