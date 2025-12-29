@@ -23,7 +23,7 @@ models:
   default: local
   local:
     api_base: "http://localhost:8000/v1"
-    model_name: "flashresearch-4b-thinking"
+    model_name: "mistral-7b-instruct-v0.3"
     timeout_s: 60
   openrouter:
     api_base: "https://openrouter.ai/api/v1"

@@ -1,0 +1,62 @@
+Diabetes Statistics - NIDDK window.dataLayer = window.dataLayer || [];
+        dataLayer.push({"pageID":"4ce6b994-7ed8-46fd-88ed-959fff1fde7f","topicID":"0046","topicName":"Diabetes Statistics","pagePath":"/health-information/health-statistics/diabetes-statistics","pageTitle":"Diabetes Statistics","pageDiseaseArea":"Diabetes","pageLanguage":"English","pageCondition":"diabetes","lastReviewedDate":"2024-01-01"}); {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Diabetes Statistics",
+      "description": "Learn facts and statistics about type 1 diabetes, type 2 diabetes, gestational diabetes, and prediabetes among adults and youth in the United States.",
+      "url": "https://www.niddk.nih.gov/health-information/health-statistics/diabetes-statistics",
+      "datePublished": "2025-04-22 18:22:17 -04:00",
+      "dateModified": "2025-04-22 18:22:17 -04:00",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NIDDK - National Institute of Diabetes and Digestive and Kidney Diseases",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.niddk.nih.gov/-/media/Images/Components/common/site-logo-full.svg"
+        }
+      }
+    } (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBRL4D'); Skip to main content The information provided on niddk.nih.gov is not being updated. Please refer to nih.gov . An official website of the United States government Here’s how you know Here’s how you know Official government website icon Official websites use .gov A .gov website belongs to an official government organization in the United States. icon-https Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Search Menu Search for Information from NIDDK Entire Site Research & Funding Health Information News About NIDDK Search Home Research & Funding Expand Research & Funding Current Funding Opportunities Research Programs & Contacts Human Subjects Research Funding Process Research Training & Career Development Funded Grants & Grant History Research Resources Research at NIDDK Technology Advancement & Transfer Meetings & Workshops Health Information Expand Health Information Health Topics Diabetes Digestive Diseases Kidney Disease Weight Management Liver Disease Urologic Diseases Endocrine Diseases Diet & Nutrition Blood Diseases Diagnostic Tests La información de la salud en español Health Statistics Clinical Trials For Health Professionals Diabetes Discoveries & Practice Blog Community Health & Outreach News Expand News News Archive Meetings & Workshops Media Library Follow Us About NIDDK Expand About NIDDK Meet the Director Offices & Divisions Staff Directory Budget & Legislative Information Advisory & Coordinating Committees Strategic Plans & Reports Research Areas FAQs Jobs at NIDDK Visit Us Contact Us NIDDK 75th Anniversary {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement" : [
+               
+               {
+                    "@type": "ListItem",
+                   "position": 1,
+                   "name": "Home",
+
+                   "item": "https://www.niddk.nih.gov"
+               },
+              
+               
+               {
+                    "@type": "ListItem",
+                   "position": 2,
+                   "name": "Health Information",
+
+                   "item": "https://www.niddk.nih.gov/health-information"
+               },
+              
+               
+               {
+                    "@type": "ListItem",
+                   "position": 3,
+                   "name": "Health Statistics",
+
+                   "item": "https://www.niddk.nih.gov/health-information/health-statistics"
+               },
+              
+               
+                   {
+                   "@type": "ListItem",
+                   "position": 4,
+                   "name": "Diabetes Statistics"
+
+                   }
+               
+      ]
+    } Home Health Information Health Statistics Diabetes Statistics Related Topics Health Statistics Diabetes Statistics Hide child pages National Diabetes Survey Digestive Diseases Statistics for the United States Endocrine & Metabolic Diseases Statistics Hematologic Diseases Statistics Kidney Disease Statistics for the United States Overweight & Obesity Statistics Diabetes Statistics On this page: Diabetes Facts and Statistics Prediabetes Facts and Statistics Gestational Diabetes Facts and Statistics Additional Reports on Diabetes This content describes the prevalence of diabetes, prediabetes, and gestational diabetes in the United States. Diabetes Facts and Statistics Diabetes is a disease that occurs when your blood glucose , also called blood sugar, is too high. High blood glucose can cause other health problems over time, such as heart disease, nerve damage, eye problems, and kidney disease. The most common types of diabetes are type 1 , type 2 , and gestational . Estimated prevalence of diabetes in the United States Total: 38.4 million people of all ages had diabetes (11.6% of the population) in 2021. 38.1 million were adults ages 18 years or older. Diagnosed: 29.7 million people of all ages had been diagnosed with diabetes (8.9% of the population). 29.4 million were adults ages 18 years or older. 352,000 were children and adolescents younger than age 20, including 304,000 with type 1 diabetes. Age-adjusted data from 2019 to 2021 showed that, for both men and women ages 18 years or older, the prevalence of diagnosed diabetes was highest among American Indian and Alaska Native adults (13.6%), followed by non-Hispanic Black adults (12.1%), adults of Hispanic origin (11.7%), non-Hispanic Asian adults (9.1%), and non-Hispanic White adults (6.9%). Undiagnosed: 8.7 million adults ages 18 years or older had diabetes but were undiagnosed (22.8% of adults with diabetes were undiagnosed). Read about the estimates of diabetes in the United States and the prevalence of both diagnosed and undiagnosed diabetes in the National Diabetes Statistics Report from the Centers for Disease Control and Prevention (CDC). According to the American Diabetes Association’s Economic Costs of Diabetes in the U.S. , the total estimated cost of diagnosed diabetes in 2022 was $412.9 billion, including $306.6 billion in direct medical costs and $106.3 billion in reduced productivity. Prediabetes Facts and Statistics Prediabetes is a condition in which blood glucose levels are higher than normal but not high enough for a diagnosis of diabetes. Prediabetes usually occurs when a person’s body cannot effectively use the insulin it makes or when the pancreas does not produce enough insulin to keep the body’s blood glucose levels in the normal range. People with prediabetes have a higher risk of developing type 2 diabetes. Estimated prevalence of prediabetes in the United States Among U.S. adults ages 18 years or older, 97.6 million—more than 1 in 3—had prediabetes in 2021. 32.8 million adults ages 18 to 44 years old 37.5 million adults ages 45 to 64 years old 27.2 million adults ages 65 or older A higher percentage of men (41%) than women (32%) had prediabetes in 2017–2020, when data were adjusted by age. The prevalence of prediabetes in adults was similar across racial and ethnic groups and education levels in 2017–2020, when data were adjusted by age. Among adolescents ages 12 to 18 years old, about 1 of 5 (18% of adolescents) had prediabetes in 2005–2016. 1 Read about the prevalence of prediabetes among adults in the National Diabetes Statistics Report from CDC. Gestational Diabetes Facts and Statistics Gestational diabetes is a type of diabetes that pregnant women may develop if they don’t already have diabetes. High blood glucose levels during pregnancy can cause problems for pregnant women and their babies, and can also increase the chance of having a miscarriage. Every year, 2% to 10% of pregnancies in the United States are affected by gestational diabetes. About 50% of women who develop gestational diabetes go on to develop type 2 diabetes. 2 Additional Reports on Diabetes National Diabetes Statistics Report from CDC provides scientific data and statistics on diabetes in the United States. Diabetes in America from NIDDK provides new and updated data on diabetes and its complications in the United States. Diabetes in America, 3rd Edition from NIDDK in 2018 provides comprehensive data on diabetes and its complications in the United States. National Diabetes Survey 2016 from NIDDK presents findings from a 2016 survey that measured trends in diabetes awareness, knowledge, and behavior. Diabetes and Obesity Maps from CDC show the age-adjusted prevalence of obesity and diagnosed diabetes among adults in the United States by county in 2004, 2009, 2014, and 2019. Diabetes and African Americans from the U.S. Department of Health and Human Services (HHS) Office of Minority Health provides prevalence data on diabetes among African Americans, including death rates, risk factors, and links to more information. Diabetes and American Indians/Alaska Natives from the HHS Office of Minority Health provides prevalence data on diabetes among American Indians and Alaska Natives, including death rates, risk factors, and links to more information. Diabetes and Asian Americans from the HHS Office of Minority Health provides prevalence data on diabetes among Asian Americans, including death rates, risk factors, and links to more information. Diabetes and Hispanic Americans from the HHS Office of Minority Health provides prevalence data on diabetes among Hispanic Americans, including death rates, risk factors, and links to more information. World Health Organization provides information on the global burden of diabetes, prevention, management, and capacity for prevention and control, as well as a fact sheet on diabetes . References [1] Andes LJ, Cheng YJ, Rolka DB, Gregg EW, Imperatore G. Prevalence of prediabetes among adolescents and young adults in the United States, 2005–2016. JAMA Pediatrics . 2020;174(2):e194498. doi:10.1001/jamapediatrics.2019.4498 [2] Centers for Disease Control and Prevention. Gestational diabetes. Updated December 30, 2022. Accessed December 5, 2023. www.cdc.gov/diabetes/about/gestational-diabetes.html Last Reviewed January 2024 Share this page Print Facebook X Email More Options WhatsApp LinkedIn Reddit Pinterest Copy Link This content is provided as a service of the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), part of the National Institutes of Health. NIDDK translates and disseminates research findings to increase knowledge and understanding about health and disease among patients, health professionals, and the public. Content produced by NIDDK is carefully reviewed by NIDDK scientists and other experts. NIH… Turning Discovery Into Health ® Privacy Policy Freedom of Information Act Accessibility Disclaimers Copyright Vulnerability Disclosure Policy Site Map For Staff Only Get Email Updates U.S. Department of Health and Human Services National Institutes of Health
