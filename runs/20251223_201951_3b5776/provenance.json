@@ -1,0 +1,12 @@
+{
+  "run_id": "20251223_201951_3b5776",
+  "question": "water boils at what temperature",
+  "generated_at": "2025-12-23T20:19:51.212423Z",
+  "model": {
+    "choice": "local",
+    "api_base": "http://localhost:8000/v1",
+    "model_name": "flashresearch-4b-thinking"
+  },
+  "documents": [],
+  "claims": []
+}

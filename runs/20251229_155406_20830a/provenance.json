@@ -1,0 +1,91 @@
+{
+  "run_id": "20251229_155406_20830a",
+  "question": "what is the approximate global burden of diabetes?",
+  "generated_at": "2025-12-29T15:57:34.131488Z",
+  "model": {
+    "choice": "local",
+    "api_base": "http://localhost:8000/v1",
+    "model_name": "flashresearch-4b-thinking"
+  },
+  "documents": [
+    {
+      "doc_id": "src_e7183eba7872",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/COVID-19%20Incidence%20and%20Mortality%20Among%20Unvaccinated%20and%20Vaccinated%20Persons%20Aged%20%E2%89%A512%20Years%20by%20Receipt%20of%20Bivalent%20Booster%20Doses%20and%20Time%20Since%20Vaccination%20%E2%80%94%2024%20U.S.%20Jurisdictions%2C%20October%203%2C%202021%E2%80%93December%2024%2C%202022%20_%20MMWR.html",
+      "title": "COVID-19 Incidence and Mortality Among Unvaccinated and Vaccinated Persons Aged \u226512 Years by Receipt of Bivalent Booster Doses and Time Since Vaccination \u2014 24 U.S. Jurisdictions, October 3, 2021\u2013December 24, 2022 _ MMWR.html",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:06.103240",
+      "content_hash": "e7183eba7872e08d3507cbbe5d8b1809a1f4e9e418959fd7d25bbbbf6963bae3",
+      "content_type": "text/html",
+      "engine": "local",
+      "rank": 1,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_e7183eba7872.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_e7183eba7872.text.txt"
+    },
+    {
+      "doc_id": "src_9aa467baca4a",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/Diabetes%20Statistics%20-%20NIDDK.html",
+      "title": "Diabetes Statistics - NIDDK.html",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:06.120367",
+      "content_hash": "9aa467baca4aed4061fd994f2a61aca867173334282426e9956632e4a4171f22",
+      "content_type": "text/html",
+      "engine": "local",
+      "rank": 2,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_9aa467baca4a.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_9aa467baca4a.text.txt"
+    },
+    {
+      "doc_id": "src_11bdea78a858",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/IPCC_AR6_WGI_SPM_final.pdf",
+      "title": "IPCC_AR6_WGI_SPM_final.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:09.805505",
+      "content_hash": "11bdea78a8589072d10dba518839f8d5c3d42c90fbeab859bd23cc915266f7b9",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 3,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_11bdea78a858.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_11bdea78a858.text.txt"
+    },
+    {
+      "doc_id": "src_190665b7dbe1",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/PMC7158298.pdf",
+      "title": "PMC7158298.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:11.309949",
+      "content_hash": "190665b7dbe11920f8405bc63db9806279650baf76257336fb6d1f4c476e57f7",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 4,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_190665b7dbe1.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_190665b7dbe1.text.txt"
+    },
+    {
+      "doc_id": "src_eff04f41f27f",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/comirnaty-epar-product-information_en.pdf",
+      "title": "comirnaty-epar-product-information_en.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:18.559097",
+      "content_hash": "eff04f41f27f2e94a643169652df4a564415a819cc13c98d62b6e85f26703f61",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 5,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_eff04f41f27f.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_eff04f41f27f.text.txt"
+    },
+    {
+      "doc_id": "src_6870f638c3c9",
+      "url": "file:///home/joe/skunks/research_agent/offline_sources/db472.pdf",
+      "title": "db472.pdf",
+      "snippet": "",
+      "retrieved_at": "2025-12-29T15:54:18.671028",
+      "content_hash": "6870f638c3c949136830f3cb2444ae84ea4eec3a53aaff47ea9b6ac4602be0cc",
+      "content_type": "application/pdf",
+      "engine": "local",
+      "rank": 6,
+      "raw_path": "runs/20251229_155406_20830a/sources/src_6870f638c3c9.bin",
+      "text_path": "runs/20251229_155406_20830a/sources/src_6870f638c3c9.text.txt"
+    }
+  ],
+  "claims": []
+}
